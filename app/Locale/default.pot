@@ -1,0 +1,6934 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2017-01-04 14:30+0530\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: /Config/elfinder.php:4
+msgid "File Manager"
+msgstr ""
+
+#: /Controller/AgenciesController.php:31;48
+#: /Controller/AgentsController.php:35;54
+#: /Controller/PropertiesController.php:198;366
+#: /Plugin/Admin/Controller/AgentsController.php:38
+#: /Plugin/Admin/Controller/CalendarsController.php:63
+#: /Plugin/Admin/Controller/CategoriesController.php:35
+#: /Plugin/Admin/Controller/ContactsController.php:113;119;170;176;231;237
+#: /Plugin/Admin/Controller/ContractsController.php:35
+#: /Plugin/Admin/Controller/DealsPaymentsController.php:11;157
+#: /Plugin/Admin/Controller/EmailtemplatesController.php:35
+#: /Plugin/Admin/Controller/ExpenseCategoriesController.php:35
+#: /Plugin/Admin/Controller/ExpensesController.php:47
+#: /Plugin/Admin/Controller/ExpensesPaymentsController.php:10;19;48
+#: /Plugin/Admin/Controller/FeaturesController.php:35
+#: /Plugin/Admin/Controller/InventoriesBalancesController.php:10;19;46
+#: /Plugin/Admin/Controller/InventoriesController.php:48
+#: /Plugin/Admin/Controller/LocationsController.php:35
+#: /Plugin/Admin/Controller/PaymenttypesController.php:35
+#: /Plugin/Admin/Controller/PlansController.php:66
+#: /Plugin/Admin/Controller/PlansPaymentsController.php:68
+#: /Plugin/Admin/Controller/PropertiesController.php:186;192;257;283;289
+#: /Plugin/Admin/Controller/PropertiesDocumentsController.php:9;16;21;27;39;46;51;57;108;113;119
+#: /Plugin/Admin/Controller/PropertiesFloorplansController.php:9;16;21;27;39;46;51;57;108;113;119
+#: /Plugin/Admin/Controller/PropertiesPhotosController.php:9;16;21;27;57;108;113;119
+#: /Plugin/Admin/Controller/PurchasesController.php:44
+#: /Plugin/Admin/Controller/PurchasesPaymentsController.php:10;17;46
+#: /Plugin/Admin/Controller/SlidesController.php:126;132;145;151
+#: /Plugin/Admin/Controller/SmstemplatesController.php:35
+#: /Plugin/Admin/Controller/TaxesController.php:35;100
+#: /Plugin/Admin/Controller/TemplatesController.php:42
+#: /Plugin/Admin/Controller/TypesController.php:36;122;128
+#: /Plugin/Admin/Controller/UnitsController.php:35
+#: /Plugin/Admin/Controller/UsersController.php:30;34;38;136;198;241
+#: /Plugin/Admin/Controller/VendorsController.php:38
+msgid "Invalid Post"
+msgstr ""
+
+#: /Controller/AgenciesController.php:51 /Controller/AgentsController.php:57
+#: /Controller/ContactsController.php:18
+#: /Plugin/Admin/View/Agencies/view.ctp:13
+#: /Plugin/Admin/View/Agents/add.ctp:7;9
+#: /Plugin/Admin/View/Agents/edit.ctp:19;21
+#: /Plugin/Admin/View/Agents/index.ctp:38 /Plugin/Admin/View/Agents/view.ctp:13
+#: /Plugin/Admin/View/Agents/wallet.ctp:17
+#: /Plugin/Admin/View/AwalletHistories/index.ctp:36
+#: /Plugin/Admin/View/Calendars/view.ctp:8
+#: /Plugin/Admin/View/Categories/add.ctp:7;9
+#: /Plugin/Admin/View/Categories/edit.ctp:11
+#: /Plugin/Admin/View/Categories/index.ctp:36
+#: /Plugin/Admin/View/Contacts/add.ctp:24;26
+#: /Plugin/Admin/View/Contacts/edit.ctp:25;27
+#: /Plugin/Admin/View/Contacts/index.ctp:25;51
+#: /Plugin/Admin/View/Contacts/printclient.ctp:24
+#: /Plugin/Admin/View/Contacts/view.ctp:11
+#: /Plugin/Admin/View/Contracts/add.ctp:7;9
+#: /Plugin/Admin/View/Contracts/edit.ctp:11
+#: /Plugin/Admin/View/Contracts/index.ctp:36
+#: /Plugin/Admin/View/Contracts/view.ctp:8
+#: /Plugin/Admin/View/Dashboards/index.ctp:158;183;211
+#: /Plugin/Admin/View/Deals/index.ctp:35
+#: /Plugin/Admin/View/DealsPayments/add.ctp:46
+#: /Plugin/Admin/View/Emailtemplates/add.ctp:7;9
+#: /Plugin/Admin/View/Emailtemplates/edit.ctp:11
+#: /Plugin/Admin/View/Emailtemplates/index.ctp:34
+#: /Plugin/Admin/View/Emailtemplates/view.ctp:8
+#: /Plugin/Admin/View/ExpenseCategories/index.ctp:36
+#: /Plugin/Admin/View/Features/add.ctp:7;9
+#: /Plugin/Admin/View/Features/edit.ctp:16;18
+#: /Plugin/Admin/View/Features/index.ctp:36
+#: /Plugin/Admin/View/Locations/add.ctp:7;9
+#: /Plugin/Admin/View/Locations/edit.ctp:16;18
+#: /Plugin/Admin/View/Locations/index.ctp:36
+#: /Plugin/Admin/View/Plans/index.ctp:36
+#: /Plugin/Admin/View/PlansPayments/add.ctp:17
+#: /Plugin/Admin/View/PlansPayments/index.ctp:35
+#: /Plugin/Admin/View/Properties/index.ctp:79
+#: /Plugin/Admin/View/Purchases/index.ctp:37
+#: /Plugin/Admin/View/Smstemplates/add.ctp:7;9
+#: /Plugin/Admin/View/Smstemplates/edit.ctp:17;19
+#: /Plugin/Admin/View/Smstemplates/index.ctp:36
+#: /Plugin/Admin/View/Statuses/index.ctp:37
+#: /Plugin/Admin/View/Templates/add.ctp:14;16
+#: /Plugin/Admin/View/Templates/edit.ctp:17
+#: /Plugin/Admin/View/Templates/index.ctp:35
+#: /Plugin/Admin/View/Templates/view.ctp:12
+#: /Plugin/Admin/View/Types/add.ctp:7;9
+#: /Plugin/Admin/View/Types/edit.ctp:16;18;22
+#: /Plugin/Admin/View/Types/index.ctp:36 /Plugin/Admin/View/Users/index.ctp:35
+#: /Plugin/Admin/View/Users/my_profile.ctp:12
+#: /Plugin/Admin/View/Users/view.ctp:13
+#: /Plugin/Admin/View/Vendors/add.ctp:18;20
+#: /Plugin/Admin/View/Vendors/edit.ctp:27;29
+#: /Plugin/Admin/View/Vendors/index.ctp:36 /View/Agencies/view.ctp:50;77
+#: /View/Agents/view.ctp:50;77 /View/Contacts/index.ctp:28
+#: /View/MyDeals/index.ctp:11 /View/MyDeals/printinvoice.ctp:41
+#: /View/MyProfiles/index.ctp:11 /View/Registers/index.ctp:42;43
+msgid "Name"
+msgstr ""
+
+#: /Controller/AgenciesController.php:52 /Controller/AgentsController.php:58
+#: /Controller/ContactsController.php:18
+#: /Plugin/Admin/View/Agencies/index.ctp:37
+#: /Plugin/Admin/View/Agents/wallet.ctp:11
+#: /Plugin/Admin/View/Contacts/add.ctp:48;50
+#: /Plugin/Admin/View/Contacts/edit.ctp:49;51
+#: /Plugin/Admin/View/Contacts/index.ctp:53
+#: /Plugin/Admin/View/Contacts/printclient.ctp:38
+#: /Plugin/Admin/View/Contacts/view.ctp:25
+#: /Plugin/Admin/View/Emailtemplates/view.ctp:3
+#: /Plugin/Admin/View/Invpastdues/index.ctp:30
+#: /Plugin/Admin/View/Leads/index.ctp:38 /Plugin/Admin/View/Leads/view.ctp:9
+#: /Plugin/Admin/View/Users/edit.ctp:75;77
+#: /Plugin/Admin/View/Users/editprofile.ctp:46;48
+#: /Plugin/Admin/View/Users/index.ctp:38 /View/Contacts/index.ctp:35;36
+#: /View/Emailverifications/resend.ctp:20 /View/Forgots/password.ctp:21;25
+#: /View/MyProfiles/index.ctp:17 /View/Properties/sendbymail.ctp:4
+#: /View/Registers/index.ctp:24;25
+msgid "Email"
+msgstr ""
+
+#: /Controller/AgenciesController.php:53 /Controller/AgentsController.php:59
+#: /Plugin/Admin/View/Sendemails/index.ctp:144 /View/Agencies/view.ctp:92
+#: /View/Agents/view.ctp:87 /View/Contacts/index.ctp:48;49
+#: /View/Properties/view.ctp:215
+msgid "Subject"
+msgstr ""
+
+#: /Controller/AgenciesController.php:54 /Controller/AgentsController.php:60
+#: /Controller/ContactsController.php:19 /View/Agencies/view.ctp:102
+#: /View/Agents/view.ctp:94 /View/Contacts/index.ctp:53
+#: /View/Properties/view.ctp:220
+msgid "Message"
+msgstr ""
+
+#: /Controller/AgenciesController.php:66
+msgid "E-mail successfully sent"
+msgstr ""
+
+#: /Controller/AppController.php:99 /Controller/PropertiesController.php:228
+#: /Plugin/Admin/Controller/CalendarsController.php:10
+#: /Plugin/Admin/View/Deals/add.ctp:175
+msgid "Monthly"
+msgstr ""
+
+#: /Controller/AppController.php:99 /Controller/PropertiesController.php:228
+#: /Plugin/Admin/View/Deals/add.ctp:175
+msgid "Quarterly"
+msgstr ""
+
+#: /Controller/AppController.php:99
+msgid "Semi Annually"
+msgstr ""
+
+#: /Controller/AppController.php:99
+#: /Plugin/Admin/Controller/CalendarsController.php:10
+msgid "Annually"
+msgstr ""
+
+#: /Controller/AppController.php:161;171
+msgid "Dashboard"
+msgstr ""
+
+#: /Controller/AppController.php:162 /View/Properties/index.ctp:17
+msgid "Search Properties"
+msgstr ""
+
+#: /Controller/AppController.php:163 /View/Layouts/default.ctp:190;269
+msgid "Favourite Properties"
+msgstr ""
+
+#: /Controller/AppController.php:164
+msgid "My Deals"
+msgstr ""
+
+#: /Controller/AppController.php:165
+msgid "My Payments"
+msgstr ""
+
+#: /Controller/AppController.php:166
+msgid "Invoices Past Due"
+msgstr ""
+
+#: /Controller/AppController.php:167 /Plugin/Admin/View/Users/my_profile.ctp:1
+msgid "My Profile"
+msgstr ""
+
+#: /Controller/AppController.php:168
+#: /Plugin/Admin/View/Contacts/changepass.ctp:16
+#: /Plugin/Admin/View/Contacts/index.ctp:74
+msgid "Change Password"
+msgstr ""
+
+#: /Controller/AppController.php:169
+msgid "Signout"
+msgstr ""
+
+#: /Controller/ChangepasswordsController.php:25
+#: /Controller/ForgotsController.php:115
+#: /Plugin/Admin/Controller/ContactsController.php:250
+#: /Plugin/Admin/Controller/ForgotsController.php:121
+#: /Plugin/Admin/Controller/UsersController.php:375
+msgid "Password Changed Successfully"
+msgstr ""
+
+#: /Controller/ChangepasswordsController.php:30
+#: /Plugin/Admin/Controller/UsersController.php:380
+msgid "Invalid Password."
+msgstr ""
+
+#: /Controller/ClientsController.php:26
+#: /Plugin/Admin/Controller/UsersController.php:341
+msgid "Thank you for logging in!"
+msgstr ""
+
+#: /Controller/ClientsController.php:41
+#: /Plugin/Admin/Controller/UsersController.php:348
+msgid "Incorrect username/password!"
+msgstr ""
+
+#: /Controller/ClientsController.php:50
+#: /Plugin/Admin/Controller/UsersController.php:357
+msgid "You have logged out"
+msgstr ""
+
+#: /Controller/ClientsController.php:34
+msgid "You are %s Member! Please contact administrator"
+msgstr ""
+
+#: /Controller/ComparepropertiesController.php:25
+#: /Controller/FavouritepropertiesController.php:28
+#: /Controller/PropertiesController.php:108
+msgid "No record found"
+msgstr ""
+
+#: /Controller/ContactsController.php:19
+msgid "Phone/Mobile"
+msgstr ""
+
+#: /Controller/ContactsController.php:30
+msgid "E-Mail send successfylly ."
+msgstr ""
+
+#: /Controller/ContactsController.php:35
+#: /Plugin/Admin/Controller/InvpastduesController.php:128
+#: /Plugin/Admin/Controller/SendemailsController.php:105
+msgid "No email to send!"
+msgstr ""
+
+#: /Controller/ContentsController.php:7;13
+#: /Controller/MyDealsController.php:21;33;40
+#: /Controller/MyPaymentsController.php:23;41
+#: /Controller/MypropertiesController.php:13;38;59
+#: /Plugin/Admin/Controller/AgenciesController.php:173
+#: /Plugin/Admin/Controller/AgentsController.php:74;163
+#: /Plugin/Admin/Controller/AwalletHistoriesController.php:46;64
+#: /Plugin/Admin/Controller/CalendarsController.php:121;162
+#: /Plugin/Admin/Controller/CategoriesController.php:69
+#: /Plugin/Admin/Controller/ContactsController.php:143;198;209;220;226;253;258
+#: /Plugin/Admin/Controller/ContentsController.php:70;105;111
+#: /Plugin/Admin/Controller/ContractsController.php:70;110
+#: /Plugin/Admin/Controller/DealsController.php:234;246;253
+#: /Plugin/Admin/Controller/DealsPaymentsController.php:212;258;268;285
+#: /Plugin/Admin/Controller/EmailtemplatesController.php:69;109
+#: /Plugin/Admin/Controller/ExpenseCategoriesController.php:69
+#: /Plugin/Admin/Controller/ExpensesController.php:92;123
+#: /Plugin/Admin/Controller/ExpensesPaymentsController.php:87;121;130;136
+#: /Plugin/Admin/Controller/FeaturesController.php:69
+#: /Plugin/Admin/Controller/InventoriesBalancesController.php:83;117
+#: /Plugin/Admin/Controller/InventoriesController.php:92;123
+#: /Plugin/Admin/Controller/LeadsController.php:186
+#: /Plugin/Admin/Controller/LocationsController.php:69
+#: /Plugin/Admin/Controller/PaymenttypesController.php:69
+#: /Plugin/Admin/Controller/PlansController.php:100
+#: /Plugin/Admin/Controller/PlansPaymentsController.php:121
+#: /Plugin/Admin/Controller/PropertiesController.php:312;322;328;362;368
+#: /Plugin/Admin/Controller/PropertiesFloorplansController.php:144;150
+#: /Plugin/Admin/Controller/PropertiesPhotosController.php:144;150;160;166
+#: /Plugin/Admin/Controller/PurchasesController.php:83;114;123
+#: /Plugin/Admin/Controller/PurchasesPaymentsController.php:85;119
+#: /Plugin/Admin/Controller/SmstemplatesController.php:69
+#: /Plugin/Admin/Controller/TaxesController.php:69
+#: /Plugin/Admin/Controller/TemplatesController.php:77;117
+#: /Plugin/Admin/Controller/TypesController.php:71
+#: /Plugin/Admin/Controller/UnitsController.php:69
+#: /Plugin/Admin/Controller/UsersController.php:441
+#: /Plugin/Admin/Controller/VendorsController.php:75
+msgid "Invalid Post."
+msgstr ""
+
+#: /Controller/EmailverificationsController.php:36
+msgid "Email verified successfully"
+msgstr ""
+
+#: /Controller/EmailverificationsController.php:43
+msgid "Invalid Verification Code"
+msgstr ""
+
+#: /Controller/EmailverificationsController.php:103
+#: /Controller/RegistersController.php:91
+msgid "A verification Code send to your Email inbox or Spam"
+msgstr ""
+
+#: /Controller/EmailverificationsController.php:109
+msgid "Email Id already verified"
+msgstr ""
+
+#: /Controller/EmailverificationsController.php:116
+msgid "Email Id not registered in system"
+msgstr ""
+
+#: /Controller/ForgotsController.php:17
+#: /Plugin/Admin/Controller/ForgotsController.php:17;145
+msgid "Email id is not registered in system"
+msgstr ""
+
+#: /Controller/ForgotsController.php:69
+#: /Plugin/Admin/Controller/ForgotsController.php:69
+msgid "Your password reset link is sent to your registered email id"
+msgstr ""
+
+#: /Controller/ForgotsController.php:91
+#: /Plugin/Admin/Controller/ForgotsController.php:91
+msgid "Incorrect code"
+msgstr ""
+
+#: /Controller/InstallersController.php:11
+msgid ""
+"Application already installed. Remove app/tmp/installed.txt to reinstall the "
+"application"
+msgstr ""
+
+#: /Controller/InstallersController.php:29;35
+msgid "Unwritable"
+msgstr ""
+
+#: /Controller/InstallersController.php:31;37 /View/Installers/index.ctp:126
+msgid "Writable"
+msgstr ""
+
+#: /Controller/InstallersController.php:57
+msgid ""
+"Unfortunately! File Permission Error<br>Please goto app/Config/database.php "
+"is in writable mode."
+msgstr ""
+
+#: /Controller/InstallersController.php:98
+msgid "A connection was successfully established with the server."
+msgstr ""
+
+#: /Controller/InstallersController.php:133
+msgid ""
+"Could not connect to database. Please check the settings in app/Config/"
+"database.php and try again"
+msgstr ""
+
+#: /Controller/InstallersController.php:154;163
+msgid ""
+"Unfortunately! Folder Permission Error<br>Please tmp folder is in writable "
+"mode."
+msgstr ""
+
+#: /Controller/PropertiesController.php:121
+#: /Plugin/Admin/View/AwalletHistories/index.ctp:38
+#: /Plugin/Admin/View/Dashboards/index.ctp:212
+#: /Plugin/Admin/View/Deals/printinvoice.ctp:43
+#: /Plugin/Admin/View/Deals/view.ctp:14 /Plugin/Admin/View/Leads/view.ctp:14
+#: /Plugin/Admin/View/Paymenttypes/edit.ctp:8
+#: /Plugin/Admin/View/Properties/add.ctp:21
+#: /Plugin/Admin/View/Properties/edit.ctp:27
+#: /Plugin/Admin/View/Properties/index.ctp:80
+#: /Plugin/Admin/View/Properties/view.ctp:16
+#: /Plugin/Admin/View/Searchhistories/index.ctp:43
+#: /Plugin/Admin/View/Sendemails/index.ctp:114
+#: /Plugin/Admin/View/Sendsms/index.ctp:122
+#: /Plugin/Admin/View/Smssettings/index.ctp:52
+#: /Plugin/Admin/View/Templates/add.ctp:7
+#: /Plugin/Admin/View/Templates/edit.ctp:11
+#: /Plugin/Admin/View/Templates/index.ctp:34
+#: /Plugin/Admin/View/Templates/view.ctp:8
+#: /Plugin/Admin/View/Users/index.ctp:36 /View/Helper/FunctionHelper.php:208
+#: /View/MyDeals/printinvoice.ctp:45 /View/MyDeals/view.ctp:17
+#: /View/Myproperties/index.ctp:13 /View/Properties/index.ctp:63
+msgid "Type"
+msgstr ""
+
+#: /Controller/PropertiesController.php:124
+#: /Plugin/Admin/View/Contracts/index.ctp:10
+#: /Plugin/Admin/View/Contracts/view.ctp:3 /Plugin/Admin/View/Leads/view.ctp:15
+#: /Plugin/Admin/View/Properties/add.ctp:55
+#: /Plugin/Admin/View/Properties/edit.ctp:61
+#: /Plugin/Admin/View/Properties/index.ctp:31;81
+#: /Plugin/Admin/View/Searchhistories/index.ctp:46
+#: /View/Compareproperties/index.ctp:31 /View/Helper/FunctionHelper.php:210
+#: /View/Properties/index.ctp:66 /View/Properties/view.ctp:35
+msgid "Contract"
+msgstr ""
+
+#: /Controller/PropertiesController.php:127
+#: /Plugin/Admin/View/Agencies/add.ctp:23
+#: /Plugin/Admin/View/Agencies/edit.ctp:22
+#: /Plugin/Admin/View/Agencies/index.ctp:39
+#: /Plugin/Admin/View/Properties/add.ctp:27
+#: /Plugin/Admin/View/Properties/edit.ctp:33
+#: /Plugin/Admin/View/Properties/index.ctp:25
+#: /Plugin/Admin/View/Properties/view.ctp:27
+#: /Plugin/Admin/View/Searchhistories/index.ctp:49
+#: /Plugin/Admin/View/Users/add.ctp:70 /Plugin/Admin/View/Users/edit.ctp:59
+#: /Plugin/Admin/View/Users/editprofile.ctp:30
+#: /Plugin/Admin/View/Users/my_profile.ctp:44 /View/Agencies/view.ctp:52
+#: /View/Compareproperties/index.ctp:30 /View/Helper/FunctionHelper.php:209
+#: /View/Properties/index.ctp:69 /View/Properties/view.ctp:31;62
+msgid "Location"
+msgstr ""
+
+#: /Controller/PropertiesController.php:130
+#: /Plugin/Admin/View/Searchhistories/index.ctp:52
+#: /View/Properties/index.ctp:72
+msgid "Keyword"
+msgstr ""
+
+#: /Controller/PropertiesController.php:133
+#: /Plugin/Admin/View/Searchhistories/index.ctp:55
+msgid "Start Price"
+msgstr ""
+
+#: /Controller/PropertiesController.php:136
+#: /Plugin/Admin/View/Searchhistories/index.ctp:58
+msgid "End Price"
+msgstr ""
+
+#: /Controller/PropertiesController.php:139
+#: /Plugin/Admin/View/Properties/index.ctp:40
+#: /Plugin/Admin/View/Searchhistories/index.ctp:61
+msgid "Bedroom"
+msgstr ""
+
+#: /Controller/PropertiesController.php:142
+#: /Plugin/Admin/View/Properties/index.ctp:43
+#: /Plugin/Admin/View/Searchhistories/index.ctp:64
+msgid "Bathroom"
+msgstr ""
+
+#: /Controller/PropertiesController.php:145
+#: /Plugin/Admin/View/Searchhistories/index.ctp:67
+#: /View/Properties/index.ctp:87
+msgid "Property ID"
+msgstr ""
+
+#: /Controller/PropertiesController.php:148
+#: /Plugin/Admin/View/Agents/view.ctp:3 /Plugin/Admin/View/Deals/view.ctp:28
+#: /Plugin/Admin/View/Searchhistories/index.ctp:70
+#: /Plugin/Admin/View/Users/view.ctp:3
+msgid "Agent"
+msgstr ""
+
+#: /Controller/PropertiesController.php:151
+#: /Plugin/Admin/View/Agencies/view.ctp:3
+#: /Plugin/Admin/View/Calendars/add.ctp:73
+#: /Plugin/Admin/View/Calendars/edit.ctp:70
+#: /Plugin/Admin/View/Contacts/add.ctp:11
+#: /Plugin/Admin/View/Expenses/add.ctp:13
+#: /Plugin/Admin/View/Expenses/edit.ctp:19
+#: /Plugin/Admin/View/Expenses/index.ctp:37
+#: /Plugin/Admin/View/Inventories/add.ctp:13
+#: /Plugin/Admin/View/Inventories/edit.ctp:19
+#: /Plugin/Admin/View/Leads/add.ctp:57 /Plugin/Admin/View/Leads/edit.ctp:64
+#: /Plugin/Admin/View/Properties/add.ctp:10
+#: /Plugin/Admin/View/Properties/edit.ctp:15
+#: /Plugin/Admin/View/Properties/view.ctp:11
+#: /Plugin/Admin/View/Purchases/add.ctp:8
+#: /Plugin/Admin/View/Purchases/edit.ctp:12
+#: /Plugin/Admin/View/Purchases/index.ctp:35
+#: /Plugin/Admin/View/Purchases/view.ctp:8
+#: /Plugin/Admin/View/Searchhistories/index.ctp:73
+#: /Plugin/Admin/View/Users/add.ctp:38 /Plugin/Admin/View/Users/edit.ctp:29
+#: /Plugin/Admin/View/Vendors/add.ctp:8 /Plugin/Admin/View/Vendors/edit.ctp:16
+#: /View/Properties/view.ctp:26
+msgid "Agency"
+msgstr ""
+
+#: /Controller/PropertiesController.php:228
+msgid "Fortnightly"
+msgstr ""
+
+#: /Controller/PropertiesController.php:228
+#: /Plugin/Admin/Controller/CalendarsController.php:10
+msgid "Weekly"
+msgstr ""
+
+#: /Controller/PropertiesController.php:229
+msgid "Principal & Interest"
+msgstr ""
+
+#: /Controller/PropertiesController.php:229
+msgid "Interest only"
+msgstr ""
+
+#: /Controller/PropertiesController.php:344;415
+msgid "E-Mail Successfully sent"
+msgstr ""
+
+#: /Controller/PropertiesController.php:450
+#: /View/Properties/view.ctp:68;107;131
+msgid "Rating"
+msgstr ""
+
+#: /Controller/PropertiesController.php:450
+msgid "Ratings"
+msgstr ""
+
+#: /Controller/RegistersController.php:105
+msgid "Invalid Security Code"
+msgstr ""
+
+#: /Controller/Component/CustomFunctionComponent.php:269
+#: /View/Helper/FunctionHelper.php:128
+msgid "Remove to favorites"
+msgstr ""
+
+#: /Controller/Component/CustomFunctionComponent.php:278
+#: /View/Helper/FunctionHelper.php:132
+msgid "Add to favorites"
+msgstr ""
+
+#: /Controller/Component/CustomFunctionComponent.php:296
+#: /View/Helper/FunctionHelper.php:150
+msgid "Remove to compare"
+msgstr ""
+
+#: /Controller/Component/CustomFunctionComponent.php:301;309
+#: /View/Helper/FunctionHelper.php:154
+msgid "Add to compare"
+msgstr ""
+
+#: /Controller/Component/CustomFunctionComponent.php:336
+#: /View/Agencies/index.ctp:44;45;46
+#: /View/Agencies/view.ctp:26;50;51;52;53;54;55;56;65
+#: /View/Helper/FunctionHelper.php:82
+#: /View/Properties/view.ctp:27;32;36;41;60;61;62;63;64;65;66;76
+msgid "Not Specified"
+msgstr ""
+
+#: /Plugin/Admin/Controller/AgenciesController.php:158
+msgid "Agency has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/AgenciesController.php:164
+msgid "Please delete all realted entry first"
+msgstr ""
+
+#: /Plugin/Admin/Controller/AgentsController.php:32;68
+#: /Plugin/Admin/Controller/UsersController.php:125
+msgid "Agent has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/AgentsController.php:47;59;121
+#: /Plugin/Admin/Controller/CalendarsController.php:74;91
+#: /Plugin/Admin/Controller/CategoriesController.php:44;55
+#: /Plugin/Admin/Controller/ContactsController.php:104;127
+#: /Plugin/Admin/Controller/ContentsController.php:45;56
+#: /Plugin/Admin/Controller/ContractsController.php:44;56
+#: /Plugin/Admin/Controller/DealsController.php:166;172
+#: /Plugin/Admin/Controller/DealsPaymentsController.php:184;196
+#: /Plugin/Admin/Controller/EmailtemplatesController.php:44;55
+#: /Plugin/Admin/Controller/ExpenseCategoriesController.php:44;55
+#: /Plugin/Admin/Controller/ExpensesController.php:58;78
+#: /Plugin/Admin/Controller/ExpensesPaymentsController.php:59;71
+#: /Plugin/Admin/Controller/FeaturesController.php:44;55
+#: /Plugin/Admin/Controller/InventoriesBalancesController.php:55;67
+#: /Plugin/Admin/Controller/InventoriesController.php:59;78
+#: /Plugin/Admin/Controller/LeadsController.php:115;133
+#: /Plugin/Admin/Controller/LocationsController.php:44;55
+#: /Plugin/Admin/Controller/PaymenttypesController.php:44;55
+#: /Plugin/Admin/Controller/PlansController.php:75;86
+#: /Plugin/Admin/Controller/PlansPaymentsController.php:78;89
+#: /Plugin/Admin/Controller/PropertiesController.php:175;200
+#: /Plugin/Admin/Controller/PurchasesController.php:53;69
+#: /Plugin/Admin/Controller/PurchasesPaymentsController.php:57;69
+#: /Plugin/Admin/Controller/SlidesController.php:61;72
+#: /Plugin/Admin/Controller/SmstemplatesController.php:44;55
+#: /Plugin/Admin/Controller/StatusesController.php:38;49
+#: /Plugin/Admin/Controller/TaxesController.php:44;55
+#: /Plugin/Admin/Controller/TemplatesController.php:52;63
+#: /Plugin/Admin/Controller/TypesController.php:45;57
+#: /Plugin/Admin/Controller/UnitsController.php:44;55
+#: /Plugin/Admin/Controller/UsersController.php:152;164;294;299
+#: /Plugin/Admin/Controller/VendorsController.php:48;59
+msgid "Invalid post"
+msgstr ""
+
+#: /Plugin/Admin/Controller/AgentsController.php:99
+msgid "Agent has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/AgentsController.php:105
+#: /Plugin/Admin/Controller/CategoriesController.php:100
+#: /Plugin/Admin/Controller/ContractsController.php:101
+#: /Plugin/Admin/Controller/EmailtemplatesController.php:100
+#: /Plugin/Admin/Controller/FeaturesController.php:100
+#: /Plugin/Admin/Controller/LocationsController.php:100
+#: /Plugin/Admin/Controller/PaymenttypesController.php:100
+#: /Plugin/Admin/Controller/PlansController.php:131
+#: /Plugin/Admin/Controller/SmstemplatesController.php:101
+#: /Plugin/Admin/Controller/StatusesController.php:94
+#: /Plugin/Admin/Controller/TemplatesController.php:108
+#: /Plugin/Admin/Controller/TypesController.php:102
+#: /Plugin/Admin/Controller/UnitsController.php:100
+msgid "Please delete related record first."
+msgstr ""
+
+#: /Plugin/Admin/Controller/AgentsController.php:132
+msgid "Agent Wallet has been updated."
+msgstr ""
+
+#: /Plugin/Admin/Controller/AgentsController.php:136
+msgid "Invalid Amount."
+msgstr ""
+
+#: /Plugin/Admin/Controller/AgentsController.php:143
+msgid "Agent record not found."
+msgstr ""
+
+#: /Plugin/Admin/Controller/CalendarsController.php:48;106
+msgid "Please fill repeat type and number of repeats."
+msgstr ""
+
+#: /Plugin/Admin/Controller/CalendarsController.php:55
+msgid "Calendar entry has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/CalendarsController.php:114
+msgid "Calendar entry has been updated."
+msgstr ""
+
+#: /Plugin/Admin/Controller/CalendarsController.php:147
+msgid "Calendar has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/CategoriesController.php:29
+msgid "Category has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/CategoriesController.php:63
+msgid "Categories has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/CategoriesController.php:94
+msgid "Categories has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/ConfigurationsController.php:19
+#: /Plugin/Admin/Controller/EmailsettingsController.php:24
+#: /Plugin/Admin/Controller/SmssettingsController.php:17
+msgid "Your Setting has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/ConfigurationsController.php:25
+#: /Plugin/Admin/Controller/EmailsettingsController.php:30
+#: /Plugin/Admin/Controller/SmssettingsController.php:23
+msgid "Setting Problem."
+msgstr ""
+
+#: /Plugin/Admin/Controller/ContactsController.php:89
+msgid "Your Contact Manager has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/ContactsController.php:137
+msgid "Your Contact Manager has been Updated."
+msgstr ""
+
+#: /Plugin/Admin/Controller/ContactsController.php:183
+msgid "Your Contact Manager has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/ContactsController.php:189
+msgid "Please Delete Deal first."
+msgstr ""
+
+#: /Plugin/Admin/Controller/ContentsController.php:29
+msgid "Your Page has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/ContentsController.php:35
+msgid "Page Url already exist."
+msgstr ""
+
+#: /Plugin/Admin/Controller/ContentsController.php:64
+msgid "Pages updated Successfully !"
+msgstr ""
+
+#: /Plugin/Admin/Controller/ContentsController.php:96
+msgid "Your page has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/ContentsController.php:126
+msgid "Page has been"
+msgstr ""
+
+#: /Plugin/Admin/Controller/ContentsController.php:131;137
+#: /Plugin/Admin/Controller/PropertiesController.php:348;354;388;394
+#: /Plugin/Admin/Controller/PropertiesPhotosController.php:185;191
+msgid "Something wrong."
+msgstr ""
+
+#: /Plugin/Admin/Controller/ContractsController.php:29;64
+msgid "Contract has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/ContractsController.php:95
+msgid "Contract has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/CurrenciesController.php:31
+msgid "Your Currency has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/CurrenciesController.php:37
+msgid "Currency Name already exist."
+msgstr ""
+
+#: /Plugin/Admin/Controller/CurrenciesController.php:50
+msgid "Your Currency has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/DealsController.php:143
+msgid "Please fill the evocate date"
+msgstr ""
+
+#: /Plugin/Admin/Controller/DealsController.php:151
+msgid "Deal has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/DealsController.php:181
+msgid "Deal has been updated."
+msgstr ""
+
+#: /Plugin/Admin/Controller/DealsController.php:219
+msgid "Deal has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/DealsController.php:225
+msgid "Please Delete Deals Payment first"
+msgstr ""
+
+#: /Plugin/Admin/Controller/DealsPaymentsController.php:151;206
+#: /Plugin/Admin/Controller/ExpensesPaymentsController.php:42;81
+#: /Plugin/Admin/Controller/PurchasesPaymentsController.php:40;79
+msgid "Your Payment has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/DealsPaymentsController.php:249
+#: /Plugin/Admin/Controller/ExpensesPaymentsController.php:114
+#: /Plugin/Admin/Controller/PurchasesPaymentsController.php:112
+msgid "Your Payment has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/EmailtemplatesController.php:29;63
+msgid "Email template has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/EmailtemplatesController.php:94
+msgid "Email template has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/ExpenseCategoriesController.php:29;63
+msgid "Your category has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/ExpenseCategoriesController.php:94
+msgid "Your category has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/ExpenseCategoriesController.php:100
+msgid "Can not delete category! Please delete related entries first"
+msgstr ""
+
+#: /Plugin/Admin/Controller/ExpensesController.php:41;86
+msgid "Expense has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/ExpensesController.php:117
+msgid "Expense has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/FeaturesController.php:29;63
+msgid "Feature has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/FeaturesController.php:94
+msgid "Feature has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/ForgotsController.php:189
+msgid "Your username is sent to your registered email id"
+msgstr ""
+
+#: /Plugin/Admin/Controller/InventoriesBalancesController.php:40
+msgid "Entry has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/InventoriesBalancesController.php:77
+msgid "Entries has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/InventoriesBalancesController.php:110
+msgid "Entries has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/InventoriesController.php:42
+msgid "Your Inventory has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/InventoriesController.php:86
+msgid "Your Inventories has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/InventoriesController.php:117
+msgid "Your Inventories has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/InvpastduesController.php:68
+msgid "Email has been sent"
+msgstr ""
+
+#: /Plugin/Admin/Controller/InvpastduesController.php:70
+msgid "SMS has been sent"
+msgstr ""
+
+#: /Plugin/Admin/Controller/InvpastduesController.php:121
+#: /Plugin/Admin/Controller/SendemailsController.php:100
+msgid "Email has been sent."
+msgstr ""
+
+#: /Plugin/Admin/Controller/InvpastduesController.php:163
+#: /Plugin/Admin/Controller/SendsmsController.php:88
+msgid "Sms has been sent."
+msgstr ""
+
+#: /Plugin/Admin/Controller/InvpastduesController.php:171
+#: /Plugin/Admin/Controller/SendsmsController.php:93
+msgid "No sms to send!"
+msgstr ""
+
+#: /Plugin/Admin/Controller/LeadsController.php:99
+msgid "Lead has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/LeadsController.php:105
+msgid "Please Select Property Name"
+msgstr ""
+
+#: /Plugin/Admin/Controller/LeadsController.php:148
+msgid "Lead has been updated."
+msgstr ""
+
+#: /Plugin/Admin/Controller/LeadsController.php:154
+msgid "Please Select Client Name & Property Name."
+msgstr ""
+
+#: /Plugin/Admin/Controller/LeadsController.php:177
+msgid "Lead has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/LocationsController.php:29;63
+msgid "Location has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/LocationsController.php:94
+msgid "Location has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/PaymenttypesController.php:29;63
+msgid "Your Payment Type has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/PaymenttypesController.php:94
+msgid "Your Payment Type has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/PlansController.php:60
+msgid "Plan has been saved"
+msgstr ""
+
+#: /Plugin/Admin/Controller/PlansController.php:94
+msgid "Plan has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/PlansController.php:125
+msgid "Plan has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/PlansPaymentsController.php:57
+msgid "Plans Payment has been added!."
+msgstr ""
+
+#: /Plugin/Admin/Controller/PlansPaymentsController.php:63;116
+msgid "Deal Amount is not equal to installment amount"
+msgstr ""
+
+#: /Plugin/Admin/Controller/PlansPaymentsController.php:110
+msgid "Plans Payment has been saved!."
+msgstr ""
+
+#: /Plugin/Admin/Controller/PlansPaymentsController.php:146
+msgid "Payments has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/PlansPaymentsController.php:152
+msgid "Delete releted options first"
+msgstr ""
+
+#: /Plugin/Admin/Controller/PropertiesController.php:157
+msgid "Property has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/PropertiesController.php:251
+msgid "Property has been updated."
+msgstr ""
+
+#: /Plugin/Admin/Controller/PropertiesController.php:297
+msgid "Property has been deleted"
+msgstr ""
+
+#: /Plugin/Admin/Controller/PropertiesController.php:303
+msgid "Please Delete Deal First."
+msgstr ""
+
+#: /Plugin/Admin/Controller/PropertiesController.php:343;383
+msgid "Record updated successfully"
+msgstr ""
+
+#: /Plugin/Admin/Controller/PropertiesDocumentsController.php:80
+msgid "Document has been saved"
+msgstr ""
+
+#: /Plugin/Admin/Controller/PropertiesDocumentsController.php:85
+#: /Plugin/Admin/Controller/PropertiesFloorplansController.php:85
+#: /Plugin/Admin/Controller/PropertiesPhotosController.php:85
+msgid "Something wrong"
+msgstr ""
+
+#: /Plugin/Admin/Controller/PropertiesDocumentsController.php:134
+msgid "Document has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/PropertiesFloorplansController.php:80
+msgid "Floor Plan has been saved"
+msgstr ""
+
+#: /Plugin/Admin/Controller/PropertiesFloorplansController.php:134
+msgid "Your Floor Plan has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/PropertiesPhotosController.php:39
+msgid "Invalid Post1"
+msgstr ""
+
+#: /Plugin/Admin/Controller/PropertiesPhotosController.php:46
+msgid "Invalid Post11"
+msgstr ""
+
+#: /Plugin/Admin/Controller/PropertiesPhotosController.php:51
+msgid "Invalid Post111"
+msgstr ""
+
+#: /Plugin/Admin/Controller/PropertiesPhotosController.php:80
+msgid "Property Photo has been saved"
+msgstr ""
+
+#: /Plugin/Admin/Controller/PropertiesPhotosController.php:134
+msgid "Your Property Photo has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/PropertiesPhotosController.php:180
+msgid "Photo has been set on top"
+msgstr ""
+
+#: /Plugin/Admin/Controller/PurchasesController.php:38;77
+msgid "Your Purchase has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/PurchasesController.php:108
+msgid "Your Purchase has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/SearchhistoriesController.php:30
+msgid "Search History has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/SearchhistoriesController.php:36
+msgid "This record cannot be deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/SendemailsController.php:32
+#: /Plugin/Admin/Controller/SendsmsController.php:29
+msgid "Please select any type in the list."
+msgstr ""
+
+#: /Plugin/Admin/Controller/SendemailsController.php:36
+#: /Plugin/Admin/Controller/SendsmsController.php:33
+msgid "Please type any email."
+msgstr ""
+
+#: /Plugin/Admin/Controller/SlidesController.php:39;80
+msgid "Slide has been saved"
+msgstr ""
+
+#: /Plugin/Admin/Controller/SlidesController.php:111
+msgid "Slide has been deleted"
+msgstr ""
+
+#: /Plugin/Admin/Controller/SlidesController.php:162
+msgid "Photo Changed Successfully"
+msgstr ""
+
+#: /Plugin/Admin/Controller/SmstemplatesController.php:29;63
+msgid "SMS template has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/SmstemplatesController.php:95
+msgid "SMS template has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/StatusesController.php:88
+msgid "Status has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/TaxesController.php:29;63
+msgid "Your Tax has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/TaxesController.php:94
+msgid "Your Tax has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/TemplatesController.php:10
+msgid "Print Property"
+msgstr ""
+
+#: /Plugin/Admin/Controller/TemplatesController.php:10
+msgid "Email Property"
+msgstr ""
+
+#: /Plugin/Admin/Controller/TemplatesController.php:36;71
+msgid "Template has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/TemplatesController.php:102
+msgid "Template has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/TypesController.php:30;65
+msgid "Type has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/TypesController.php:96
+msgid "Type has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/TypesController.php:118
+msgid "Photo has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/UnitsController.php:29;63
+msgid "Your Unit has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/UnitsController.php:94
+msgid "Your Unit has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/UsersController.php:121
+msgid "Agency has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/UsersController.php:129
+msgid "User has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/UsersController.php:183
+msgid "Agency has been updated."
+msgstr ""
+
+#: /Plugin/Admin/Controller/UsersController.php:187
+msgid "Agent has been updated."
+msgstr ""
+
+#: /Plugin/Admin/Controller/UsersController.php:191
+msgid "Users has been updated."
+msgstr ""
+
+#: /Plugin/Admin/Controller/UsersController.php:235
+msgid "User has been updated."
+msgstr ""
+
+#: /Plugin/Admin/Controller/UsersController.php:260
+msgid "User has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/UsersController.php:317
+msgid "Permission update successfully"
+msgstr ""
+
+#: /Plugin/Admin/Controller/UsersController.php:322
+msgid "Error in updation"
+msgstr ""
+
+#: /Plugin/Admin/Controller/UsersController.php:400
+msgid "Level User has been saved"
+msgstr ""
+
+#: /Plugin/Admin/Controller/UsersController.php:426
+msgid "Level user has been deleted"
+msgstr ""
+
+#: /Plugin/Admin/Controller/UsersController.php:430
+msgid "Can not delete level user"
+msgstr ""
+
+#: /Plugin/Admin/Controller/VendorsController.php:32;69
+msgid "Your Vendor has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/VendorsController.php:100
+msgid "Your Vendor has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/VendorsController.php:106
+msgid "Please delete related entries first."
+msgstr ""
+
+#: /Plugin/Admin/Controller/WeblogosController.php:14
+msgid "Your logo has been saved."
+msgstr ""
+
+#: /Plugin/Admin/Controller/WeblogosController.php:20
+msgid "File type mismatch"
+msgstr ""
+
+#: /Plugin/Admin/Controller/WeblogosController.php:38
+msgid "Your logo has been deleted."
+msgstr ""
+
+#: /Plugin/Admin/Controller/WeblogosController.php:43;49
+msgid "Something wrong.!"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/add.ctp:1 /Plugin/Admin/View/Users/add.ctp:1
+msgid "Add Agency"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/add.ctp:7;9
+#: /Plugin/Admin/View/Agencies/edit.ctp:16;18
+#: /Plugin/Admin/View/Agencies/index.ctp:36
+msgid "Agency Name"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/add.ctp:13
+#: /Plugin/Admin/View/Forgots/username.ctp:3
+#: /Plugin/Admin/View/Users/add.ctp:54
+#: /Plugin/Admin/View/Users/login_form.ctp:7
+#: /Plugin/Admin/View/Users/my_profile.ctp:14
+#: /Plugin/Admin/View/Users/view.ctp:15
+msgid "Username"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/add.ctp:15
+#: /Plugin/Admin/View/Emailsettings/index.ctp:32;34
+#: /Plugin/Admin/View/Forgots/password.ctp:23
+#: /Plugin/Admin/View/Forgots/presetcode.ctp:23
+#: /Plugin/Admin/View/Smssettings/index.ctp:18;20
+#: /Plugin/Admin/View/Users/add.ctp:56 /Plugin/Admin/View/Users/edit.ctp:43;45
+#: /Plugin/Admin/View/Users/editprofile.ctp:14;16
+#: /Plugin/Admin/View/Users/index.ctp:37
+#: /Plugin/Admin/View/Users/login_form.ctp:27
+msgid "User Name"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/add.ctp:17;19
+#: /Plugin/Admin/View/Contacts/changepass.ctp:20;22
+#: /Plugin/Admin/View/Emailsettings/index.ctp:36;38
+#: /Plugin/Admin/View/Forgots/password.ctp:3
+#: /Plugin/Admin/View/Forgots/reset.ctp:26
+#: /Plugin/Admin/View/Layouts/default.ctp:105
+#: /Plugin/Admin/View/Users/add.ctp:58;60
+#: /Plugin/Admin/View/Users/change_pass.ctp:1;13;15
+#: /Plugin/Admin/View/Users/edit.ctp:47;49
+#: /Plugin/Admin/View/Users/editprofile.ctp:18;20
+#: /Plugin/Admin/View/Users/login_form.ctp:14;24
+#: /View/Changepasswords/index.ctp:3;17;19 /View/Clients/login.ctp:30;34
+#: /View/Completes/index.ctp:62;63 /View/Forgots/reset.ctp:34;38
+#: /View/Registers/index.ctp:29;30
+msgid "Password"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/add.ctp:25
+#: /Plugin/Admin/View/Agencies/edit.ctp:24
+#: /Plugin/Admin/View/Agents/edit.ctp:84 /Plugin/Admin/View/Contacts/add.ctp:20
+#: /Plugin/Admin/View/Contacts/edit.ctp:21
+#: /Plugin/Admin/View/Properties/add.ctp:23;29;57;67
+#: /Plugin/Admin/View/Properties/edit.ctp:18;29;35;63;73
+#: /Plugin/Admin/View/Users/add.ctp:26;40 /Plugin/Admin/View/Users/edit.ctp:31
+msgid "Select"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/add.ctp:27;29
+#: /Plugin/Admin/View/Agencies/edit.ctp:26;28
+#: /Plugin/Admin/View/Agencies/index.ctp:38
+#: /Plugin/Admin/View/Agencies/view.ctp:19
+#: /Plugin/Admin/View/Agents/add.ctp:13;15
+#: /Plugin/Admin/View/Agents/edit.ctp:25;27
+#: /Plugin/Admin/View/Agents/index.ctp:39 /Plugin/Admin/View/Agents/view.ctp:17
+#: /Plugin/Admin/View/Configurations/index.ctp:17;19
+#: /Plugin/Admin/View/Contacts/add.ctp:28;30
+#: /Plugin/Admin/View/Contacts/edit.ctp:29;31
+#: /Plugin/Admin/View/Contacts/printclient.ctp:26
+#: /Plugin/Admin/View/Contacts/view.ctp:13
+#: /Plugin/Admin/View/Properties/add.ctp:31;33
+#: /Plugin/Admin/View/Properties/edit.ctp:37;39
+#: /Plugin/Admin/View/Properties/view.ctp:28
+#: /Plugin/Admin/View/Users/add.ctp:64;66
+#: /Plugin/Admin/View/Users/edit.ctp:53;55
+#: /Plugin/Admin/View/Users/editprofile.ctp:24;26
+#: /Plugin/Admin/View/Users/my_profile.ctp:40
+#: /Plugin/Admin/View/Users/view.ctp:19
+#: /Plugin/Admin/View/Vendors/add.ctp:24;26
+#: /Plugin/Admin/View/Vendors/edit.ctp:33;35
+#: /Plugin/Admin/View/Vendors/index.ctp:38 /View/Agencies/view.ctp:51
+#: /View/Agents/view.ctp:51 /View/MyProfiles/index.ctp:19
+#: /View/Registers/index.ctp:46;47
+msgid "Address"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/add.ctp:33;35
+#: /Plugin/Admin/View/Agencies/edit.ctp:32;34
+#: /Plugin/Admin/View/Agencies/view.ctp:23
+#: /Plugin/Admin/View/Agents/add.ctp:49;51
+#: /Plugin/Admin/View/Agents/edit.ctp:61;63
+#: /Plugin/Admin/View/Agents/view.ctp:21
+#: /Plugin/Admin/View/Contacts/add.ctp:58;60
+#: /Plugin/Admin/View/Contacts/edit.ctp:59;61
+#: /Plugin/Admin/View/Contacts/printclient.ctp:45
+#: /Plugin/Admin/View/Contacts/view.ctp:31
+#: /Plugin/Admin/View/Invpaids/index.ctp:69
+#: /Plugin/Admin/View/Invpastdues/index.ctp:74
+#: /Plugin/Admin/View/Users/add.ctp:76;78
+#: /Plugin/Admin/View/Users/edit.ctp:65;67
+#: /Plugin/Admin/View/Users/editprofile.ctp:36;38
+#: /Plugin/Admin/View/Users/my_profile.ctp:34
+#: /Plugin/Admin/View/Users/view.ctp:23 /View/Agencies/view.ctp:53
+#: /View/Agents/view.ctp:52 /View/Contacts/index.ctp:41
+#: /View/MyInvpastdues/index.ctp:12
+msgid "Phone"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/add.ctp:37;39
+#: /Plugin/Admin/View/Agencies/edit.ctp:36;38
+#: /Plugin/Admin/View/Agencies/view.ctp:25
+#: /Plugin/Admin/View/Agents/add.ctp:55;57
+#: /Plugin/Admin/View/Agents/edit.ctp:67;69
+#: /Plugin/Admin/View/Agents/index.ctp:41 /Plugin/Admin/View/Agents/view.ctp:23
+#: /Plugin/Admin/View/Agents/wallet.ctp:23 /Plugin/Admin/View/Leads/view.ctp:10
+#: /Plugin/Admin/View/Purchases/index.ctp:38
+#: /Plugin/Admin/View/Users/add.ctp:80;82
+#: /Plugin/Admin/View/Users/edit.ctp:69;71
+#: /Plugin/Admin/View/Users/editprofile.ctp:40;42
+#: /Plugin/Admin/View/Users/index.ctp:39
+#: /Plugin/Admin/View/Users/my_profile.ctp:36
+#: /Plugin/Admin/View/Users/view.ctp:25 /Plugin/Admin/View/Vendors/index.ctp:37
+#: /View/Agencies/view.ctp:54 /View/Agents/view.ctp:53
+#: /View/Registers/index.ctp:33;34
+msgid "Mobile"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/add.ctp:43;45
+#: /Plugin/Admin/View/Agencies/edit.ctp:42;44
+#: /Plugin/Admin/View/Agencies/view.ctp:29
+#: /Plugin/Admin/View/Agents/view.ctp:27 /Plugin/Admin/View/Users/add.ctp:86;88
+#: /Plugin/Admin/View/Users/my_profile.ctp:18
+#: /Plugin/Admin/View/Users/view.ctp:29
+msgid "Email ID"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/add.ctp:47;49
+#: /Plugin/Admin/View/Agencies/edit.ctp:46;48
+#: /Plugin/Admin/View/Agencies/view.ctp:31
+#: /Plugin/Admin/View/Agents/add.ctp:31;33
+#: /Plugin/Admin/View/Agents/edit.ctp:37;39
+#: /Plugin/Admin/View/Agents/view.ctp:29 /Plugin/Admin/View/Users/add.ctp:90;92
+#: /Plugin/Admin/View/Users/edit.ctp:79;81
+#: /Plugin/Admin/View/Users/editprofile.ctp:50;52
+#: /Plugin/Admin/View/Users/my_profile.ctp:20
+#: /Plugin/Admin/View/Users/view.ctp:31
+msgid "Skype ID"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/add.ctp:53;55
+#: /Plugin/Admin/View/Agencies/edit.ctp:52;54
+#: /Plugin/Admin/View/Agencies/view.ctp:35
+#: /Plugin/Admin/View/Agents/add.ctp:37;39
+#: /Plugin/Admin/View/Agents/edit.ctp:49;51
+#: /Plugin/Admin/View/Agents/view.ctp:33 /Plugin/Admin/View/Users/add.ctp:96;98
+#: /Plugin/Admin/View/Users/edit.ctp:85;87
+#: /Plugin/Admin/View/Users/editprofile.ctp:56;58
+#: /Plugin/Admin/View/Users/my_profile.ctp:24
+#: /Plugin/Admin/View/Users/view.ctp:35
+msgid "Twitter ID"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/add.ctp:57;59
+#: /Plugin/Admin/View/Agencies/edit.ctp:56;58
+#: /Plugin/Admin/View/Agencies/view.ctp:37
+#: /Plugin/Admin/View/Agents/add.ctp:25;27
+#: /Plugin/Admin/View/Agents/edit.ctp:43;45
+#: /Plugin/Admin/View/Agents/view.ctp:35
+#: /Plugin/Admin/View/Users/add.ctp:100;102
+#: /Plugin/Admin/View/Users/edit.ctp:89;91
+#: /Plugin/Admin/View/Users/editprofile.ctp:60;62
+#: /Plugin/Admin/View/Users/my_profile.ctp:26
+#: /Plugin/Admin/View/Users/view.ctp:37
+msgid "Facebook ID"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/add.ctp:63;65
+#: /Plugin/Admin/View/Agencies/edit.ctp:62;64
+#: /Plugin/Admin/View/Agencies/view.ctp:41
+#: /Plugin/Admin/View/Agents/add.ctp:61;63
+#: /Plugin/Admin/View/Agents/edit.ctp:73;75
+#: /Plugin/Admin/View/Agents/view.ctp:43
+#: /Plugin/Admin/View/Properties/add.ctp:131
+#: /Plugin/Admin/View/Properties/edit.ctp:131
+#: /Plugin/Admin/View/Properties/view.ctp:47
+#: /Plugin/Admin/View/Users/add.ctp:116;118
+#: /Plugin/Admin/View/Users/edit.ctp:113;115
+#: /Plugin/Admin/View/Users/editprofile.ctp:76;78
+#: /Plugin/Admin/View/Users/my_profile.ctp:48
+#: /Plugin/Admin/View/Users/view.ctp:41
+msgid "Description"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/add.ctp:67
+#: /Plugin/Admin/View/Agencies/edit.ctp:66
+#: /Plugin/Admin/View/Properties/add.ctp:109
+#: /Plugin/Admin/View/PropertiesPhotos/add.ctp:7
+msgid "Add Photo"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/add.ctp:74 /Plugin/Admin/View/Agents/add.ctp:74
+#: /Plugin/Admin/View/Calendars/add.ctp:106
+#: /Plugin/Admin/View/Categories/add.ctp:14
+#: /Plugin/Admin/View/Configurations/weblogo.ctp:21
+#: /Plugin/Admin/View/Contacts/add.ctp:67
+#: /Plugin/Admin/View/Contents/add.ctp:75
+#: /Plugin/Admin/View/Contracts/add.ctp:14
+#: /Plugin/Admin/View/Currencies/add.ctp:20
+#: /Plugin/Admin/View/Deals/add.ctp:193 /Plugin/Admin/View/Deals/edit.ctp:34
+#: /Plugin/Admin/View/DealsPayments/add.ctp:97
+#: /Plugin/Admin/View/Emailtemplates/add.ctp:20
+#: /Plugin/Admin/View/ExpenseCategories/add.ctp:14
+#: /Plugin/Admin/View/Expenses/add.ctp:64
+#: /Plugin/Admin/View/ExpensesPayments/add.ctp:40
+#: /Plugin/Admin/View/Features/add.ctp:14
+#: /Plugin/Admin/View/Inventories/add.ctp:64
+#: /Plugin/Admin/View/InventoriesBalances/add.ctp:34
+#: /Plugin/Admin/View/Leads/add.ctp:108 /Plugin/Admin/View/Locations/add.ctp:14
+#: /Plugin/Admin/View/Paymenttypes/add.ctp:14
+#: /Plugin/Admin/View/Plans/add.ctp:20
+#: /Plugin/Admin/View/PlansPayments/add.ctp:41
+#: /Plugin/Admin/View/Properties/add.ctp:138
+#: /Plugin/Admin/View/PropertiesDocuments/add.ctp:14
+#: /Plugin/Admin/View/PropertiesFloorplans/add.ctp:14
+#: /Plugin/Admin/View/PropertiesPhotos/add.ctp:14
+#: /Plugin/Admin/View/Purchases/add.ctp:59
+#: /Plugin/Admin/View/PurchasesPayments/add.ctp:40
+#: /Plugin/Admin/View/Smstemplates/add.ctp:20
+#: /Plugin/Admin/View/Statuses/add.ctp:20 /Plugin/Admin/View/Taxes/add.ctp:20
+#: /Plugin/Admin/View/Templates/add.ctp:27 /Plugin/Admin/View/Types/add.ctp:20
+#: /Plugin/Admin/View/Units/add.ctp:14 /Plugin/Admin/View/Users/add.ctp:123
+#: /Plugin/Admin/View/Users/leveladd.ctp:13
+#: /Plugin/Admin/View/Vendors/add.ctp:43
+#: /Plugin/Admin/View/Weblogos/index.ctp:14
+msgid "Save"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/add.ctp:75 /Plugin/Admin/View/Agents/add.ctp:75
+#: /Plugin/Admin/View/Agents/wallet.ctp:65
+#: /Plugin/Admin/View/Calendars/add.ctp:107
+#: /Plugin/Admin/View/Categories/add.ctp:15
+#: /Plugin/Admin/View/Contacts/add.ctp:68
+#: /Plugin/Admin/View/Contacts/changepass.ctp:40
+#: /Plugin/Admin/View/Contents/add.ctp:76
+#: /Plugin/Admin/View/Contents/edit.ctp:93
+#: /Plugin/Admin/View/Contracts/add.ctp:15
+#: /Plugin/Admin/View/Currencies/add.ctp:21
+#: /Plugin/Admin/View/Deals/add.ctp:194
+#: /Plugin/Admin/View/DealsPayments/add.ctp:98
+#: /Plugin/Admin/View/Emailtemplates/add.ctp:21
+#: /Plugin/Admin/View/ExpenseCategories/add.ctp:15
+#: /Plugin/Admin/View/Expenses/add.ctp:65
+#: /Plugin/Admin/View/ExpensesPayments/add.ctp:41
+#: /Plugin/Admin/View/Features/add.ctp:15
+#: /Plugin/Admin/View/Inventories/add.ctp:65
+#: /Plugin/Admin/View/InventoriesBalances/add.ctp:35
+#: /Plugin/Admin/View/Leads/add.ctp:109 /Plugin/Admin/View/Locations/add.ctp:15
+#: /Plugin/Admin/View/Paymenttypes/add.ctp:15
+#: /Plugin/Admin/View/Plans/add.ctp:21
+#: /Plugin/Admin/View/PlansPayments/add.ctp:42
+#: /Plugin/Admin/View/Properties/add.ctp:139
+#: /Plugin/Admin/View/PropertiesDocuments/add.ctp:15
+#: /Plugin/Admin/View/PropertiesFloorplans/add.ctp:15
+#: /Plugin/Admin/View/PropertiesPhotos/add.ctp:15
+#: /Plugin/Admin/View/Purchases/add.ctp:60
+#: /Plugin/Admin/View/PurchasesPayments/add.ctp:41
+#: /Plugin/Admin/View/Slides/add.ctp:29
+#: /Plugin/Admin/View/Slides/changephoto.ctp:21
+#: /Plugin/Admin/View/Slides/edit.ctp:43
+#: /Plugin/Admin/View/Smstemplates/add.ctp:21
+#: /Plugin/Admin/View/Statuses/add.ctp:21 /Plugin/Admin/View/Taxes/add.ctp:21
+#: /Plugin/Admin/View/Templates/add.ctp:28 /Plugin/Admin/View/Types/add.ctp:21
+#: /Plugin/Admin/View/Units/add.ctp:15
+#: /Plugin/Admin/View/Users/add.ctp:124;125;126
+#: /Plugin/Admin/View/Users/leveladd.ctp:14
+#: /Plugin/Admin/View/Vendors/add.ctp:44 /View/Properties/calculator.ctp:43
+msgid "Close"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/edit.ctp:8
+#: /Plugin/Admin/View/Agencies/index.ctp:16;58
+#: /Plugin/Admin/View/Agents/index.ctp:16;65
+#: /Plugin/Admin/View/Calendars/edit.ctp:3
+#: /Plugin/Admin/View/Calendars/index.ctp:16;54
+#: /Plugin/Admin/View/Categories/edit.ctp:3
+#: /Plugin/Admin/View/Categories/index.ctp:16;50
+#: /Plugin/Admin/View/Contacts/edit.ctp:8
+#: /Plugin/Admin/View/Contacts/index.ctp:16;75
+#: /Plugin/Admin/View/Contents/index.ctp:16;53
+#: /Plugin/Admin/View/Contracts/edit.ctp:3
+#: /Plugin/Admin/View/Contracts/index.ctp:16;51
+#: /Plugin/Admin/View/Deals/index.ctp:76
+#: /Plugin/Admin/View/DealsPayments/edit.ctp:8
+#: /Plugin/Admin/View/DealsPayments/index.ctp:16;65
+#: /Plugin/Admin/View/Emailtemplates/edit.ctp:3
+#: /Plugin/Admin/View/Emailtemplates/index.ctp:16;51
+#: /Plugin/Admin/View/ExpenseCategories/index.ctp:16;52
+#: /Plugin/Admin/View/Expenses/index.ctp:16;76
+#: /Plugin/Admin/View/ExpensesPayments/edit.ctp:8
+#: /Plugin/Admin/View/ExpensesPayments/index.ctp:16;54
+#: /Plugin/Admin/View/Features/edit.ctp:8
+#: /Plugin/Admin/View/Features/index.ctp:16;50
+#: /Plugin/Admin/View/Inventories/edit.ctp:10
+#: /Plugin/Admin/View/Inventories/index.ctp:16;76
+#: /Plugin/Admin/View/InventoriesBalances/edit.ctp:8
+#: /Plugin/Admin/View/InventoriesBalances/index.ctp:16;52
+#: /Plugin/Admin/View/Leads/edit.ctp:11
+#: /Plugin/Admin/View/Leads/index.ctp:15;59
+#: /Plugin/Admin/View/Locations/edit.ctp:8
+#: /Plugin/Admin/View/Locations/index.ctp:16;50
+#: /Plugin/Admin/View/Paymenttypes/edit.ctp:8
+#: /Plugin/Admin/View/Paymenttypes/index.ctp:16;50
+#: /Plugin/Admin/View/Plans/edit.ctp:8 /Plugin/Admin/View/Plans/index.ctp:16;52
+#: /Plugin/Admin/View/PlansPayments/edit.ctp:8
+#: /Plugin/Admin/View/PlansPayments/index.ctp:15
+#: /Plugin/Admin/View/Properties/edit.ctp:6
+#: /Plugin/Admin/View/Properties/index.ctp:15;114
+#: /Plugin/Admin/View/Purchases/edit.ctp:3
+#: /Plugin/Admin/View/Purchases/index.ctp:16;75
+#: /Plugin/Admin/View/PurchasesPayments/edit.ctp:3
+#: /Plugin/Admin/View/PurchasesPayments/index.ctp:16;54
+#: /Plugin/Admin/View/Slides/index.ctp:16;52
+#: /Plugin/Admin/View/Smstemplates/edit.ctp:9
+#: /Plugin/Admin/View/Smstemplates/index.ctp:16;54
+#: /Plugin/Admin/View/Statuses/edit.ctp:3
+#: /Plugin/Admin/View/Statuses/index.ctp:16;56
+#: /Plugin/Admin/View/Taxes/edit.ctp:8 /Plugin/Admin/View/Taxes/index.ctp:16;52
+#: /Plugin/Admin/View/Templates/index.ctp:16;53
+#: /Plugin/Admin/View/Types/edit.ctp:8 /Plugin/Admin/View/Types/index.ctp:16;53
+#: /Plugin/Admin/View/Units/edit.ctp:8 /Plugin/Admin/View/Units/index.ctp:16;50
+#: /Plugin/Admin/View/Users/index.ctp:15;60
+#: /Plugin/Admin/View/Vendors/edit.ctp:8
+#: /Plugin/Admin/View/Vendors/index.ctp:16;56
+msgid "Edit"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/edit.ctp:8
+#: /Plugin/Admin/View/Agencies/index.ctp:10 /View/Agencies/index.ctp:19
+msgid "Agencies"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/edit.ctp:13
+#: /Plugin/Admin/View/Agents/edit.ctp:16
+#: /Plugin/Admin/View/Calendars/edit.ctp:27
+#: /Plugin/Admin/View/Categories/edit.ctp:8
+#: /Plugin/Admin/View/Contacts/edit.ctp:13
+#: /Plugin/Admin/View/Contents/edit.ctp:29
+#: /Plugin/Admin/View/Contracts/edit.ctp:8
+#: /Plugin/Admin/View/DealsPayments/edit.ctp:13
+#: /Plugin/Admin/View/Emailtemplates/edit.ctp:8
+#: /Plugin/Admin/View/ExpenseCategories/edit.ctp:14
+#: /Plugin/Admin/View/Expenses/edit.ctp:15
+#: /Plugin/Admin/View/ExpensesPayments/edit.ctp:13
+#: /Plugin/Admin/View/Features/edit.ctp:13
+#: /Plugin/Admin/View/Inventories/edit.ctp:15
+#: /Plugin/Admin/View/InventoriesBalances/edit.ctp:13
+#: /Plugin/Admin/View/Leads/edit.ctp:59
+#: /Plugin/Admin/View/Locations/edit.ctp:13
+#: /Plugin/Admin/View/Paymenttypes/edit.ctp:13
+#: /Plugin/Admin/View/Plans/edit.ctp:13
+#: /Plugin/Admin/View/PlansPayments/edit.ctp:13
+#: /Plugin/Admin/View/Properties/edit.ctp:11
+#: /Plugin/Admin/View/Purchases/edit.ctp:8
+#: /Plugin/Admin/View/PurchasesPayments/edit.ctp:14
+#: /Plugin/Admin/View/Slides/edit.ctp:9
+#: /Plugin/Admin/View/Smstemplates/edit.ctp:14
+#: /Plugin/Admin/View/Statuses/edit.ctp:8 /Plugin/Admin/View/Taxes/edit.ctp:13
+#: /Plugin/Admin/View/Templates/edit.ctp:8 /Plugin/Admin/View/Types/edit.ctp:13
+#: /Plugin/Admin/View/Units/edit.ctp:13 /Plugin/Admin/View/Users/edit.ctp:18
+#: /Plugin/Admin/View/Vendors/edit.ctp:13
+msgid "Form"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/edit.ctp:82
+#: /Plugin/Admin/View/Agents/edit.ctp:104
+#: /Plugin/Admin/View/Agents/wallet.ctp:63
+#: /Plugin/Admin/View/Calendars/edit.ctp:134
+#: /Plugin/Admin/View/Categories/edit.ctp:27
+#: /Plugin/Admin/View/Contacts/changepass.ctp:38
+#: /Plugin/Admin/View/Contacts/edit.ctp:78
+#: /Plugin/Admin/View/Contents/edit.ctp:91
+#: /Plugin/Admin/View/Contracts/edit.ctp:28
+#: /Plugin/Admin/View/DealsPayments/edit.ctp:47
+#: /Plugin/Admin/View/Emailtemplates/edit.ctp:43
+#: /Plugin/Admin/View/ExpenseCategories/edit.ctp:39
+#: /Plugin/Admin/View/Expenses/edit.ctp:101
+#: /Plugin/Admin/View/ExpensesPayments/edit.ctp:53
+#: /Plugin/Admin/View/Features/edit.ctp:32
+#: /Plugin/Admin/View/Inventories/edit.ctp:101
+#: /Plugin/Admin/View/InventoriesBalances/edit.ctp:47
+#: /Plugin/Admin/View/Leads/edit.ctp:147
+#: /Plugin/Admin/View/Locations/edit.ctp:32
+#: /Plugin/Admin/View/Paymenttypes/edit.ctp:32
+#: /Plugin/Admin/View/Plans/edit.ctp:48
+#: /Plugin/Admin/View/PlansPayments/edit.ctp:48
+#: /Plugin/Admin/View/Properties/edit.ctp:216
+#: /Plugin/Admin/View/Purchases/edit.ctp:72
+#: /Plugin/Admin/View/PurchasesPayments/edit.ctp:54
+#: /Plugin/Admin/View/Slides/add.ctp:27
+#: /Plugin/Admin/View/Slides/changephoto.ctp:19
+#: /Plugin/Admin/View/Slides/edit.ctp:41
+#: /Plugin/Admin/View/Smstemplates/edit.ctp:49
+#: /Plugin/Admin/View/Statuses/edit.ctp:33 /Plugin/Admin/View/Taxes/edit.ctp:38
+#: /Plugin/Admin/View/Templates/edit.ctp:49
+#: /Plugin/Admin/View/Types/edit.ctp:38 /Plugin/Admin/View/Units/edit.ctp:32
+#: /Plugin/Admin/View/Users/assignrightsedit.ctp:36
+#: /Plugin/Admin/View/Users/change_pass.ctp:26
+#: /Plugin/Admin/View/Users/edit.ctp:129
+#: /Plugin/Admin/View/Users/editprofile.ctp:89
+#: /Plugin/Admin/View/Vendors/edit.ctp:61 /View/Changepasswords/index.ctp:30
+msgid "Update"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/edit.ctp:83
+#: /Plugin/Admin/View/Agents/wallet.ctp:64
+#: /Plugin/Admin/View/Calendars/edit.ctp:135
+#: /Plugin/Admin/View/Categories/edit.ctp:28
+#: /Plugin/Admin/View/Contacts/changepass.ctp:39
+#: /Plugin/Admin/View/Contacts/edit.ctp:79
+#: /Plugin/Admin/View/Contents/edit.ctp:92
+#: /Plugin/Admin/View/Contracts/edit.ctp:29
+#: /Plugin/Admin/View/Deals/edit.ctp:35
+#: /Plugin/Admin/View/DealsPayments/edit.ctp:48
+#: /Plugin/Admin/View/Emailtemplates/edit.ctp:44
+#: /Plugin/Admin/View/ExpenseCategories/edit.ctp:40
+#: /Plugin/Admin/View/Expenses/edit.ctp:102
+#: /Plugin/Admin/View/ExpensesPayments/edit.ctp:54
+#: /Plugin/Admin/View/Features/edit.ctp:33
+#: /Plugin/Admin/View/Inventories/edit.ctp:102
+#: /Plugin/Admin/View/InventoriesBalances/edit.ctp:48
+#: /Plugin/Admin/View/Leads/edit.ctp:148
+#: /Plugin/Admin/View/Locations/edit.ctp:33
+#: /Plugin/Admin/View/Paymenttypes/edit.ctp:33
+#: /Plugin/Admin/View/Plans/edit.ctp:49
+#: /Plugin/Admin/View/PlansPayments/edit.ctp:49
+#: /Plugin/Admin/View/Properties/edit.ctp:217
+#: /Plugin/Admin/View/Purchases/edit.ctp:73
+#: /Plugin/Admin/View/PurchasesPayments/edit.ctp:55
+#: /Plugin/Admin/View/Slides/add.ctp:28
+#: /Plugin/Admin/View/Slides/changephoto.ctp:20
+#: /Plugin/Admin/View/Slides/edit.ctp:42
+#: /Plugin/Admin/View/Smstemplates/edit.ctp:50
+#: /Plugin/Admin/View/Statuses/edit.ctp:34 /Plugin/Admin/View/Taxes/edit.ctp:39
+#: /Plugin/Admin/View/Templates/edit.ctp:50
+#: /Plugin/Admin/View/Types/edit.ctp:39 /Plugin/Admin/View/Units/edit.ctp:33
+#: /Plugin/Admin/View/Users/edit.ctp:130
+#: /Plugin/Admin/View/Users/editprofile.ctp:90
+#: /Plugin/Admin/View/Vendors/edit.ctp:62
+msgid "Cancel"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/index.ctp:15
+msgid "Add New Agency"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/index.ctp:17;59
+#: /Plugin/Admin/View/Agents/index.ctp:17;66
+#: /Plugin/Admin/View/Calendars/index.ctp:17;55
+#: /Plugin/Admin/View/Categories/index.ctp:17;51
+#: /Plugin/Admin/View/Contacts/index.ctp:17;76
+#: /Plugin/Admin/View/Contents/index.ctp:17;54
+#: /Plugin/Admin/View/Contracts/index.ctp:17;52
+#: /Plugin/Admin/View/Currencies/index.ctp:15;50
+#: /Plugin/Admin/View/Deals/index.ctp:15;77
+#: /Plugin/Admin/View/DealsPayments/index.ctp:66
+#: /Plugin/Admin/View/Emailtemplates/index.ctp:17;52
+#: /Plugin/Admin/View/ExpenseCategories/index.ctp:17;53
+#: /Plugin/Admin/View/Expenses/index.ctp:77
+#: /Plugin/Admin/View/ExpensesPayments/index.ctp:17;55
+#: /Plugin/Admin/View/Features/index.ctp:17;51
+#: /Plugin/Admin/View/Inventories/index.ctp:77
+#: /Plugin/Admin/View/InventoriesBalances/index.ctp:17;53
+#: /Plugin/Admin/View/Leads/index.ctp:16;60
+#: /Plugin/Admin/View/Locations/index.ctp:17;51
+#: /Plugin/Admin/View/Paymenttypes/index.ctp:17;51
+#: /Plugin/Admin/View/Plans/index.ctp:17;53
+#: /Plugin/Admin/View/Properties/index.ctp:16;115
+#: /Plugin/Admin/View/PropertiesDocuments/index.ctp:16;38
+#: /Plugin/Admin/View/PropertiesFloorplans/index.ctp:16;39
+#: /Plugin/Admin/View/PropertiesPhotos/index.ctp:16;42
+#: /Plugin/Admin/View/Purchases/index.ctp:76
+#: /Plugin/Admin/View/PurchasesPayments/index.ctp:17;55
+#: /Plugin/Admin/View/Searchhistories/index.ctp:14;79
+#: /Plugin/Admin/View/Slides/index.ctp:17;53
+#: /Plugin/Admin/View/Smstemplates/index.ctp:17;55
+#: /Plugin/Admin/View/Statuses/index.ctp:17;57
+#: /Plugin/Admin/View/Taxes/index.ctp:17;53
+#: /Plugin/Admin/View/Templates/index.ctp:17;54
+#: /Plugin/Admin/View/Types/index.ctp:17;54
+#: /Plugin/Admin/View/Units/index.ctp:17;51
+#: /Plugin/Admin/View/Users/assignrights.ctp:8;32
+#: /Plugin/Admin/View/Users/index.ctp:16;61
+#: /Plugin/Admin/View/Vendors/index.ctp:17;57
+msgid "Delete"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/index.ctp:40;54
+#: /Plugin/Admin/View/Agents/index.ctp:44;59
+#: /Plugin/Admin/View/Agents/wallet.ctp:41
+#: /Plugin/Admin/View/Calendars/index.ctp:38;50
+#: /Plugin/Admin/View/Categories/index.ctp:37;47
+#: /Plugin/Admin/View/Contacts/index.ctp:55;68
+#: /Plugin/Admin/View/Contents/index.ctp:36;50
+#: /Plugin/Admin/View/Contracts/index.ctp:37;47
+#: /Plugin/Admin/View/Currencies/index.ctp:36;47
+#: /Plugin/Admin/View/Deals/index.ctp:43;68
+#: /Plugin/Admin/View/DealsPayments/index.ctp:38;61
+#: /Plugin/Admin/View/Emailtemplates/index.ctp:36;47
+#: /Plugin/Admin/View/ExpenseCategories/index.ctp:38;49
+#: /Plugin/Admin/View/Expenses/index.ctp:45;71
+#: /Plugin/Admin/View/ExpensesPayments/index.ctp:35;51
+#: /Plugin/Admin/View/Features/index.ctp:37;47
+#: /Plugin/Admin/View/Inventories/index.ctp:45;71
+#: /Plugin/Admin/View/InventoriesBalances/index.ctp:34;49
+#: /Plugin/Admin/View/Invpastdues/index.ctp:80
+#: /Plugin/Admin/View/Leads/index.ctp:41;55
+#: /Plugin/Admin/View/Locations/index.ctp:37;47
+#: /Plugin/Admin/View/Paymenttypes/index.ctp:37;47
+#: /Plugin/Admin/View/Plans/index.ctp:38;49
+#: /Plugin/Admin/View/Properties/index.ctp:84;106
+#: /Plugin/Admin/View/PropertiesDocuments/index.ctp:30
+#: /Plugin/Admin/View/PropertiesFloorplans/index.ctp:30
+#: /Plugin/Admin/View/PropertiesPhotos/index.ctp:31
+#: /Plugin/Admin/View/Purchases/index.ctp:44;69
+#: /Plugin/Admin/View/PurchasesPayments/index.ctp:35;51
+#: /Plugin/Admin/View/Searchhistories/index.ctp:33
+#: /Plugin/Admin/View/Slides/index.ctp:35;47
+#: /Plugin/Admin/View/Smstemplates/index.ctp:39;51
+#: /Plugin/Admin/View/Statuses/index.ctp:39;53
+#: /Plugin/Admin/View/Templates/index.ctp:37;49
+#: /Plugin/Admin/View/Types/index.ctp:38;49
+#: /Plugin/Admin/View/Units/index.ctp:37;47
+#: /Plugin/Admin/View/Users/assignrights.ctp:19;28
+#: /Plugin/Admin/View/Users/index.ctp:41;56
+#: /Plugin/Admin/View/Vendors/index.ctp:40;53 /View/MyDeals/index.ctp:15
+#: /View/MyPayments/index.ctp:16 /View/Myproperties/photo.ctp:12
+msgid "Action"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/index.ctp:41;57;64
+#: /Plugin/Admin/View/Agents/index.ctp:64
+#: /Plugin/Admin/View/Calendars/index.ctp:53
+#: /Plugin/Admin/View/Contacts/index.ctp:71
+#: /Plugin/Admin/View/Contracts/index.ctp:50
+#: /Plugin/Admin/View/Deals/index.ctp:75
+#: /Plugin/Admin/View/Emailtemplates/index.ctp:50
+#: /Plugin/Admin/View/Leads/index.ctp:58
+#: /Plugin/Admin/View/Properties/index.ctp:102;113
+#: /Plugin/Admin/View/PropertiesDocuments/index.ctp:37
+#: /Plugin/Admin/View/PropertiesFloorplans/index.ctp:38
+#: /Plugin/Admin/View/PropertiesPhotos/index.ctp:41
+#: /Plugin/Admin/View/Purchases/index.ctp:74
+#: /Plugin/Admin/View/Slides/index.ctp:50
+#: /Plugin/Admin/View/Templates/index.ctp:52
+#: /Plugin/Admin/View/Users/index.ctp:59 /View/Myproperties/photo.ctp:20
+msgid "View"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/index.ctp:67
+#: /Plugin/Admin/View/Properties/edit.ctp:6
+#: /Plugin/Admin/View/Properties/index.ctp:10
+#: /View/Compareproperties/index.ctp:14 /View/Favouriteproperties/index.ctp:18
+msgid "Properties"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/index.ctp:68
+#: /Plugin/Admin/View/Leads/edit.ctp:11 /Plugin/Admin/View/Leads/index.ctp:10
+#: /Plugin/Admin/View/Sendemails/index.ctp:116;126
+#: /Plugin/Admin/View/Sendsms/index.ctp:124;134
+msgid "Leads"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/index.ctp:69
+#: /Plugin/Admin/View/Deals/index.ctp:10 /View/MyDeals/index.ctp:3
+msgid "Deals"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/index.ctp:70
+#: /Plugin/Admin/View/Purchases/edit.ctp:3
+#: /Plugin/Admin/View/Purchases/index.ctp:10
+msgid "Purchases"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/index.ctp:71
+#: /Plugin/Admin/View/Expenses/index.ctp:10
+msgid "Expenses"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/view.ctp:3 /Plugin/Admin/View/Agents/view.ctp:3
+#: /Plugin/Admin/View/Contacts/view.ctp:3
+#: /Plugin/Admin/View/Properties/view.ctp:3
+#: /Plugin/Admin/View/Purchases/view.ctp:3 /Plugin/Admin/View/Users/view.ctp:3
+#: /View/MyDeals/index.ctp:33 /View/MyDeals/view.ctp:6
+#: /View/Myproperties/index.ctp:6
+msgid "Details"
+msgstr ""
+
+#: /Plugin/Admin/View/Agencies/view.ctp:17 /View/Myproperties/index.ctp:25
+msgid "City"
+msgstr ""
+
+#: /Plugin/Admin/View/Agents/add.ctp:1
+msgid "Add Agents"
+msgstr ""
+
+#: /Plugin/Admin/View/Agents/add.ctp:19;21
+#: /Plugin/Admin/View/Agents/edit.ctp:31;33
+#: /Plugin/Admin/View/Agents/index.ctp:40
+#: /Plugin/Admin/View/Forgots/password.ctp:13
+#: /Plugin/Admin/View/Forgots/username.ctp:13
+msgid "E-Mail"
+msgstr ""
+
+#: /Plugin/Admin/View/Agents/add.ctp:43;45
+#: /Plugin/Admin/View/Agents/edit.ctp:55;57
+#: /Plugin/Admin/View/Agents/view.ctp:39
+#: /Plugin/Admin/View/Users/add.ctp:106;108
+#: /Plugin/Admin/View/Users/edit.ctp:95;97
+#: /Plugin/Admin/View/Users/editprofile.ctp:66;68
+#: /Plugin/Admin/View/Users/my_profile.ctp:30
+msgid "Linkedin ID"
+msgstr ""
+
+#: /Plugin/Admin/View/Agents/add.ctp:67 /Plugin/Admin/View/Agents/edit.ctp:88
+#: /Plugin/Admin/View/Users/add.ctp:110 /Plugin/Admin/View/Users/edit.ctp:99
+#: /Plugin/Admin/View/Users/editprofile.ctp:70
+msgid "Upload Photo"
+msgstr ""
+
+#: /Plugin/Admin/View/Agents/edit.ctp:11
+msgid "Edit Agents"
+msgstr ""
+
+#: /Plugin/Admin/View/Agents/edit.ctp:79 /Plugin/Admin/View/Agents/index.ctp:42
+#: /Plugin/Admin/View/Deals/index.ctp:42
+#: /Plugin/Admin/View/Emailtemplates/edit.ctp:23
+#: /Plugin/Admin/View/Emailtemplates/index.ctp:35
+#: /Plugin/Admin/View/ExpenseCategories/edit.ctp:23
+#: /Plugin/Admin/View/ExpenseCategories/index.ctp:37
+#: /Plugin/Admin/View/Expenses/index.ctp:43
+#: /Plugin/Admin/View/Inventories/index.ctp:43
+#: /Plugin/Admin/View/Leads/add.ctp:95 /Plugin/Admin/View/Leads/edit.ctp:102
+#: /Plugin/Admin/View/Leads/index.ctp:40 /Plugin/Admin/View/Leads/view.ctp:20
+#: /Plugin/Admin/View/Plans/edit.ctp:29 /Plugin/Admin/View/Plans/index.ctp:37
+#: /Plugin/Admin/View/Properties/edit.ctp:119
+#: /Plugin/Admin/View/Properties/index.ctp:53;82
+#: /Plugin/Admin/View/Purchases/index.ctp:43
+#: /Plugin/Admin/View/Slides/edit.ctp:24 /Plugin/Admin/View/Slides/index.ctp:34
+#: /Plugin/Admin/View/Smstemplates/edit.ctp:29
+#: /Plugin/Admin/View/Smstemplates/index.ctp:38
+#: /Plugin/Admin/View/Statuses/edit.ctp:3
+#: /Plugin/Admin/View/Statuses/index.ctp:10
+#: /Plugin/Admin/View/Templates/edit.ctp:29
+#: /Plugin/Admin/View/Templates/index.ctp:36
+#: /Plugin/Admin/View/Users/edit.ctp:106 /Plugin/Admin/View/Users/index.ctp:40
+#: /View/Properties/view.ctp:63
+msgid "Status"
+msgstr ""
+
+#: /Plugin/Admin/View/Agents/edit.ctp:82
+#: /Plugin/Admin/View/ExpenseCategories/edit.ctp:25
+#: /Plugin/Admin/View/Plans/edit.ctp:32 /Plugin/Admin/View/Slides/edit.ctp:26
+#: /Plugin/Admin/View/Users/edit.ctp:108
+msgid "Active"
+msgstr ""
+
+#: /Plugin/Admin/View/Agents/edit.ctp:82
+#: /Plugin/Admin/View/ExpenseCategories/edit.ctp:25
+#: /Plugin/Admin/View/Plans/edit.ctp:32 /Plugin/Admin/View/Slides/edit.ctp:26
+#: /Plugin/Admin/View/Users/edit.ctp:108
+msgid "Suspend"
+msgstr ""
+
+#: /Plugin/Admin/View/Agents/edit.ctp:105
+msgid "Cancle"
+msgstr ""
+
+#: /Plugin/Admin/View/Agents/index.ctp:10
+#: /Plugin/Admin/View/Sendemails/index.ctp:116;132
+#: /Plugin/Admin/View/Sendsms/index.ctp:124;140 /View/Agents/index.ctp:19
+msgid "Agents"
+msgstr ""
+
+#: /Plugin/Admin/View/Agents/index.ctp:15
+msgid "Add New Agent"
+msgstr ""
+
+#: /Plugin/Admin/View/Agents/index.ctp:18;62
+msgid "Wallet"
+msgstr ""
+
+#: /Plugin/Admin/View/Agents/index.ctp:19
+msgid "Wallet History"
+msgstr ""
+
+#: /Plugin/Admin/View/Agents/index.ctp:37
+#: /Plugin/Admin/View/AwalletHistories/index.ctp:35
+#: /Plugin/Admin/View/Calendars/index.ctp:34
+#: /Plugin/Admin/View/Categories/index.ctp:35
+#: /Plugin/Admin/View/Contacts/index.ctp:50
+#: /Plugin/Admin/View/Contents/index.ctp:31
+#: /Plugin/Admin/View/Contracts/index.ctp:35
+#: /Plugin/Admin/View/Currencies/index.ctp:33
+#: /Plugin/Admin/View/Deals/index.ctp:34
+#: /Plugin/Admin/View/Deals/printinvoice.ctp:67
+#: /Plugin/Admin/View/DealsPayments/index.ctp:30
+#: /Plugin/Admin/View/Emailtemplates/index.ctp:33
+#: /Plugin/Admin/View/ExpenseCategories/index.ctp:35
+#: /Plugin/Admin/View/ExpensesPayments/index.ctp:30
+#: /Plugin/Admin/View/Features/index.ctp:35
+#: /Plugin/Admin/View/Inventories/index.ctp:35
+#: /Plugin/Admin/View/InventoriesBalances/index.ctp:30
+#: /Plugin/Admin/View/Invpaids/index.ctp:67
+#: /Plugin/Admin/View/Invpastdues/index.ctp:72
+#: /Plugin/Admin/View/Leads/index.ctp:35
+#: /Plugin/Admin/View/Locations/index.ctp:35
+#: /Plugin/Admin/View/Paymenttypes/index.ctp:35
+#: /Plugin/Admin/View/Plans/index.ctp:35
+#: /Plugin/Admin/View/PlansPayments/index.ctp:34
+#: /Plugin/Admin/View/Properties/index.ctp:77
+#: /Plugin/Admin/View/PropertiesDocuments/index.ctp:28
+#: /Plugin/Admin/View/PropertiesFloorplans/index.ctp:28
+#: /Plugin/Admin/View/PropertiesPhotos/index.ctp:28
+#: /Plugin/Admin/View/Purchases/index.ctp:36
+#: /Plugin/Admin/View/PurchasesPayments/index.ctp:30
+#: /Plugin/Admin/View/Searchhistories/index.ctp:30
+#: /Plugin/Admin/View/Slides/index.ctp:31
+#: /Plugin/Admin/View/Smstemplates/index.ctp:35
+#: /Plugin/Admin/View/Statuses/index.ctp:36
+#: /Plugin/Admin/View/Taxes/index.ctp:35
+#: /Plugin/Admin/View/Templates/index.ctp:33
+#: /Plugin/Admin/View/Types/index.ctp:35 /Plugin/Admin/View/Units/index.ctp:35
+#: /Plugin/Admin/View/Users/assignrightsedit.ctp:18
+#: /Plugin/Admin/View/Users/index.ctp:34
+#: /Plugin/Admin/View/Vendors/index.ctp:35 /View/MyDeals/index.ctp:10
+#: /View/MyDeals/printinvoice.ctp:69 /View/MyInvpastdues/index.ctp:10
+#: /View/MyPayments/index.ctp:10 /View/Myproperties/document.ctp:10
+#: /View/Myproperties/photo.ctp:10
+msgid "#"
+msgstr ""
+
+#: /Plugin/Admin/View/Agents/index.ctp:43
+#: /Plugin/Admin/View/Agents/wallet.ctp:29
+#: /Plugin/Admin/View/AwalletHistories/index.ctp:62
+#: /Plugin/Admin/View/Inventories/index.ctp:42
+#: /Plugin/Admin/View/Invpastdues/index.ctp:79 /View/MyInvpastdues/index.ctp:18
+msgid "Balance"
+msgstr ""
+
+#: /Plugin/Admin/View/Agents/index.ctp:63
+msgid "Show Commission"
+msgstr ""
+
+#: /Plugin/Admin/View/Agents/wallet.ctp:8
+msgid "Transaction  Form"
+msgstr ""
+
+#: /Plugin/Admin/View/Agents/wallet.ctp:35;37
+#: /Plugin/Admin/View/AwalletHistories/index.ctp:37
+#: /Plugin/Admin/View/Dashboards/index.ctp:185;235
+#: /Plugin/Admin/View/Deals/add.ctp:160;162
+#: /Plugin/Admin/View/Deals/printinvoice.ctp:49;69
+#: /Plugin/Admin/View/Deals/view.ctp:38
+#: /Plugin/Admin/View/DealsPayments/add.ctp:50;52
+#: /Plugin/Admin/View/DealsPayments/index.ctp:31
+#: /Plugin/Admin/View/ExpensesPayments/add.ctp:12;14
+#: /Plugin/Admin/View/ExpensesPayments/edit.ctp:16;18
+#: /Plugin/Admin/View/InventoriesBalances/edit.ctp:18
+#: /Plugin/Admin/View/Invpaids/index.ctp:74
+#: /Plugin/Admin/View/PlansPayments/add.ctp:23;25
+#: /Plugin/Admin/View/PlansPayments/edit.ctp:22;24
+#: /Plugin/Admin/View/PlansPayments/index.ctp:36
+#: /Plugin/Admin/View/Purchases/index.ctp:41
+#: /Plugin/Admin/View/PurchasesPayments/add.ctp:12;14
+#: /Plugin/Admin/View/PurchasesPayments/edit.ctp:17;19
+#: /View/MyDeals/printinvoice.ctp:51;71 /View/MyDeals/view.ctp:35
+#: /View/Properties/calculator.ctp:9
+msgid "Amount"
+msgstr ""
+
+#: /Plugin/Admin/View/Agents/wallet.ctp:43
+#: /Plugin/Admin/View/Ajaxcontents/agent.ctp:2
+#: /Plugin/Admin/View/Ajaxcontents/vendor.ctp:2
+#: /Plugin/Admin/View/Calendars/add.ctp:76;81;82
+#: /Plugin/Admin/View/Calendars/edit.ctp:72;77;78
+#: /Plugin/Admin/View/Configurations/index.ctp:49;59
+#: /Plugin/Admin/View/Deals/add.ctp:115;120;172;181
+#: /Plugin/Admin/View/Deals/propertydetails.ctp:2
+#: /Plugin/Admin/View/DealsPayments/add.ctp:78
+#: /Plugin/Admin/View/DealsPayments/edit.ctp:18
+#: /Plugin/Admin/View/Expenses/add.ctp:16;25;31;32
+#: /Plugin/Admin/View/Expenses/edit.ctp:21;30;36;37
+#: /Plugin/Admin/View/ExpensesPayments/add.ctp:20
+#: /Plugin/Admin/View/ExpensesPayments/edit.ctp:24
+#: /Plugin/Admin/View/Inventories/add.ctp:16;25;31;32
+#: /Plugin/Admin/View/Inventories/edit.ctp:21;30;36;37
+#: /Plugin/Admin/View/Leads/add.ctp:60;67;68;97
+#: /Plugin/Admin/View/Leads/edit.ctp:66;73;74;84;104
+#: /Plugin/Admin/View/Plans/edit.ctp:34
+#: /Plugin/Admin/View/Purchases/add.ctp:10;38
+#: /Plugin/Admin/View/Purchases/edit.ctp:14;42
+#: /Plugin/Admin/View/PurchasesPayments/add.ctp:20
+#: /Plugin/Admin/View/PurchasesPayments/edit.ctp:25
+#: /Plugin/Admin/View/Sendemails/index.ctp:116;152
+#: /Plugin/Admin/View/Sendsms/index.ctp:124;154
+#: /Plugin/Admin/View/Templates/add.ctp:9
+#: /Plugin/Admin/View/Templates/edit.ctp:13
+#: /Plugin/Admin/View/Vendors/add.ctp:11 /Plugin/Admin/View/Vendors/edit.ctp:19
+msgid "Please Select"
+msgstr ""
+
+#: /Plugin/Admin/View/Agents/wallet.ctp:47;49
+#: /Plugin/Admin/View/AwalletHistories/index.ctp:40
+#: /Plugin/Admin/View/Dashboards/index.ctp:237
+#: /Plugin/Admin/View/Expenses/add.ctp:57
+#: /Plugin/Admin/View/Expenses/edit.ctp:62;64
+#: /Plugin/Admin/View/Expenses/index.ctp:44
+#: /Plugin/Admin/View/Inventories/add.ctp:57;59
+#: /Plugin/Admin/View/Inventories/edit.ctp:62;64
+#: /Plugin/Admin/View/Inventories/index.ctp:44
+#: /Plugin/Admin/View/InventoriesBalances/add.ctp:27
+#: /Plugin/Admin/View/InventoriesBalances/edit.ctp:31
+#: /Plugin/Admin/View/InventoriesBalances/index.ctp:33
+#: /Plugin/Admin/View/Purchases/add.ctp:52;54
+#: /Plugin/Admin/View/Purchases/edit.ctp:56;58
+#: /Plugin/Admin/View/Purchases/view.ctp:32
+msgid "Remarks"
+msgstr ""
+
+#: /Plugin/Admin/View/AwalletHistories/index.ctp:10
+msgid "Agent Wallet History"
+msgstr ""
+
+#: /Plugin/Admin/View/AwalletHistories/index.ctp:15
+msgid "Back"
+msgstr ""
+
+#: /Plugin/Admin/View/AwalletHistories/index.ctp:39
+msgid "Date & Time"
+msgstr ""
+
+#: /Plugin/Admin/View/AwalletHistories/index.ctp:41
+#: /Plugin/Admin/View/Deals/index.ctp:73
+#: /Plugin/Admin/View/Expenses/index.ctp:75
+#: /Plugin/Admin/View/Purchases/index.ctp:73
+msgid "Show Payment"
+msgstr ""
+
+#: /Plugin/Admin/View/AwalletHistories/index.ctp:60
+msgid "Total Credit"
+msgstr ""
+
+#: /Plugin/Admin/View/AwalletHistories/index.ctp:61
+msgid "Total Debit"
+msgstr ""
+
+#: /Plugin/Admin/View/AwalletHistories/view.ctp:4
+msgid "Payment Details"
+msgstr ""
+
+#: /Plugin/Admin/View/AwalletHistories/view.ctp:9
+#: /Plugin/Admin/View/Dashboards/index.ctp:186;236
+#: /Plugin/Admin/View/Expensereports/index.ctp:48
+#: /Plugin/Admin/View/InventoriesBalances/add.ctp:18
+#: /Plugin/Admin/View/InventoriesBalances/edit.ctp:22
+#: /Plugin/Admin/View/InventoriesBalances/index.ctp:32
+#: /Plugin/Admin/View/Invpaids/index.ctp:31
+#: /Plugin/Admin/View/Invpastdues/index.ctp:35
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:8
+#: /Plugin/Admin/View/Purchasereports/index.ctp:47
+#: /Plugin/Admin/View/Salesreports/index.ctp:76
+#: /View/Emails/html/mailinvoice.ctp:8
+msgid "Date"
+msgstr ""
+
+#: /Plugin/Admin/View/AwalletHistories/view.ctp:12
+#: /Plugin/Admin/View/DealsPayments/printreceipt.ctp:29
+msgid "Receipt number"
+msgstr ""
+
+#: /Plugin/Admin/View/AwalletHistories/view.ctp:13
+#: /Plugin/Admin/View/DealsPayments/printreceipt.ctp:30
+#: /View/MyPayments/printreceipt.ctp:32
+msgid "Narration"
+msgstr ""
+
+#: /Plugin/Admin/View/AwalletHistories/view.ctp:14
+#: /Plugin/Admin/View/DealsPayments/printreceipt.ctp:31
+msgid "Dear  Mr./Mrs./Ms  "
+msgstr ""
+
+#: /Plugin/Admin/View/AwalletHistories/view.ctp:15
+#: /Plugin/Admin/View/DealsPayments/printreceipt.ctp:32
+msgid "Thank you for your payment against the following details."
+msgstr ""
+
+#: /Plugin/Admin/View/AwalletHistories/view.ctp:19
+#: /Plugin/Admin/View/Deals/add.ctp:124 /Plugin/Admin/View/Deals/view.ctp:10
+#: /Plugin/Admin/View/DealsPayments/printreceipt.ctp:36
+#: /Plugin/Admin/View/Leads/view.ctp:13
+#: /Plugin/Admin/View/Purchases/add.ctp:29;31
+#: /Plugin/Admin/View/Purchases/edit.ctp:33;35
+#: /Plugin/Admin/View/Purchases/index.ctp:39
+#: /Plugin/Admin/View/Purchases/view.ctp:20 /View/MyDeals/view.ctp:13
+#: /View/MyPayments/printreceipt.ctp:38 /View/Myproperties/index.ctp:11
+msgid "Property Name"
+msgstr ""
+
+#: /Plugin/Admin/View/AwalletHistories/view.ctp:20
+#: /Plugin/Admin/View/Deals/add.ctp:156;158
+#: /Plugin/Admin/View/Deals/index.ctp:39
+#: /Plugin/Admin/View/Deals/printinvoice.ctp:45
+#: /Plugin/Admin/View/Deals/view.ctp:34
+#: /Plugin/Admin/View/DealsPayments/printreceipt.ctp:37
+#: /Plugin/Admin/View/Properties/add.ctp:61;63
+#: /Plugin/Admin/View/Properties/edit.ctp:67
+#: /Plugin/Admin/View/Properties/index.ctp:46
+#: /Plugin/Admin/View/Properties/view.ctp:24
+#: /Plugin/Admin/View/Purchases/index.ctp:40
+#: /View/Helper/FunctionHelper.php:211 /View/MyDeals/printinvoice.ctp:47
+#: /View/MyDeals/view.ctp:31 /View/MyPayments/printreceipt.ctp:42
+#: /View/Myproperties/index.ctp:23 /View/Properties/view.ctp:66
+msgid "Area"
+msgstr ""
+
+#: /Plugin/Admin/View/AwalletHistories/view.ctp:23
+#: /Plugin/Admin/View/DealsPayments/printreceipt.ctp:40
+#: /View/MyPayments/printreceipt.ctp:46
+msgid "Actual Amount"
+msgstr ""
+
+#: /Plugin/Admin/View/AwalletHistories/view.ctp:24
+#: /Plugin/Admin/View/DealsPayments/index.ctp:32
+#: /Plugin/Admin/View/DealsPayments/printreceipt.ctp:41
+#: /Plugin/Admin/View/Invpaids/index.ctp:75
+#: /View/MyPayments/printreceipt.ctp:48
+msgid "Tax Amount"
+msgstr ""
+
+#: /Plugin/Admin/View/AwalletHistories/view.ctp:28
+#: /Plugin/Admin/View/DealsPayments/add.ctp:56;58
+#: /Plugin/Admin/View/DealsPayments/printreceipt.ctp:45
+msgid "Extra/Late Amount"
+msgstr ""
+
+#: /Plugin/Admin/View/AwalletHistories/view.ctp:32
+#: /Plugin/Admin/View/DealsPayments/printreceipt.ctp:49
+#: /View/MyPayments/printreceipt.ctp:52
+msgid "Amount(numerals)"
+msgstr ""
+
+#: /Plugin/Admin/View/AwalletHistories/view.ctp:32;39
+#: /Plugin/Admin/View/Dashboards/index.ctp:160;184;213
+#: /Plugin/Admin/View/Deals/printinvoice.ctp:44
+#: /Plugin/Admin/View/DealsPayments/printreceipt.ctp:49;56
+#: /View/MyDeals/printinvoice.ctp:46 /View/MyPayments/printreceipt.ctp:53;62
+msgid "For"
+msgstr ""
+
+#: /Plugin/Admin/View/AwalletHistories/view.ctp:35
+#: /Plugin/Admin/View/DealsPayments/printreceipt.ctp:52
+#: /View/MyPayments/printreceipt.ctp:56
+msgid "Amount (word)"
+msgstr ""
+
+#: /Plugin/Admin/View/AwalletHistories/view.ctp:39
+#: /Plugin/Admin/View/DealsPayments/printreceipt.ctp:56
+#: /View/MyPayments/printreceipt.ctp:61
+msgid "Payment Through"
+msgstr ""
+
+#: /Plugin/Admin/View/Calendars/add.ctp:21
+msgid "Add Calendar details"
+msgstr ""
+
+#: /Plugin/Admin/View/Calendars/add.ctp:29;32
+#: /Plugin/Admin/View/Calendars/edit.ctp:30
+#: /Plugin/Admin/View/Calendars/index.ctp:37
+#: /Plugin/Admin/View/Calendars/view.ctp:12
+msgid "Start Date Time"
+msgstr ""
+
+#: /Plugin/Admin/View/Calendars/add.ctp:38;41
+#: /Plugin/Admin/View/Calendars/edit.ctp:38;42
+#: /Plugin/Admin/View/Calendars/view.ctp:16
+msgid "End Date Time"
+msgstr ""
+
+#: /Plugin/Admin/View/Calendars/add.ctp:48
+#: /Plugin/Admin/View/Calendars/edit.ctp:48
+#: /Plugin/Admin/View/Calendars/view.ctp:20
+msgid "Repeative Event"
+msgstr ""
+
+#: /Plugin/Admin/View/Calendars/add.ctp:50
+#: /Plugin/Admin/View/Calendars/edit.ctp:50
+#: /Plugin/Admin/View/Calendars/view.ctp:21
+#: /Plugin/Admin/View/Properties/index.ctp:97;99
+#: /Plugin/Admin/View/Properties/view.ctp:43;44
+#: /Plugin/Admin/View/PropertiesPhotos/index.ctp:40
+#: /View/Emails/html/mailinvoice.ctp:17
+msgid "No"
+msgstr ""
+
+#: /Plugin/Admin/View/Calendars/add.ctp:50
+#: /Plugin/Admin/View/Calendars/edit.ctp:50
+#: /Plugin/Admin/View/Calendars/view.ctp:21
+#: /Plugin/Admin/View/Properties/index.ctp:96;98
+#: /Plugin/Admin/View/Properties/view.ctp:43;44
+#: /Plugin/Admin/View/PropertiesPhotos/index.ctp:39
+msgid "Yes"
+msgstr ""
+
+#: /Plugin/Admin/View/Calendars/add.ctp:55;57
+#: /Plugin/Admin/View/Calendars/edit.ctp:55;57
+#: /Plugin/Admin/View/Calendars/view.ctp:25
+msgid "Repeat Type"
+msgstr ""
+
+#: /Plugin/Admin/View/Calendars/add.ctp:61;63
+#: /Plugin/Admin/View/Calendars/edit.ctp:61;63
+#: /Plugin/Admin/View/Calendars/view.ctp:29
+msgid "Number of Repeats"
+msgstr ""
+
+#: /Plugin/Admin/View/Calendars/add.ctp:79
+#: /Plugin/Admin/View/Calendars/edit.ctp:75
+msgid "Representative's Name"
+msgstr ""
+
+#: /Plugin/Admin/View/Calendars/add.ctp:89;91
+#: /Plugin/Admin/View/Calendars/edit.ctp:85;87
+#: /Plugin/Admin/View/Calendars/index.ctp:36
+#: /Plugin/Admin/View/Calendars/view.ctp:38
+msgid "Message Type"
+msgstr ""
+
+#: /Plugin/Admin/View/Calendars/add.ctp:95
+#: /Plugin/Admin/View/Calendars/edit.ctp:91
+#: /Plugin/Admin/View/Calendars/view.ctp:42
+#: /Plugin/Admin/View/Statuses/add.ctp:13
+#: /Plugin/Admin/View/Statuses/edit.ctp:17
+#: /Plugin/Admin/View/Statuses/index.ctp:38
+msgid "Color"
+msgstr ""
+
+#: /Plugin/Admin/View/Calendars/add.ctp:99;101
+#: /Plugin/Admin/View/Calendars/edit.ctp:95;97
+#: /Plugin/Admin/View/Calendars/view.ctp:46
+msgid "Comment"
+msgstr ""
+
+#: /Plugin/Admin/View/Calendars/edit.ctp:3
+#: /Plugin/Admin/View/Calendars/view.ctp:3
+msgid "Calendar Schedule"
+msgstr ""
+
+#: /Plugin/Admin/View/Calendars/edit.ctp:34
+msgid "Date Time"
+msgstr ""
+
+#: /Plugin/Admin/View/Calendars/index.ctp:10
+#: /Plugin/Admin/View/Dashboards/index.ctp:132
+msgid "Calender Schedules"
+msgstr ""
+
+#: /Plugin/Admin/View/Calendars/index.ctp:15
+msgid "Add New Calender Schedules"
+msgstr ""
+
+#: /Plugin/Admin/View/Calendars/index.ctp:35
+msgid "Agent Name"
+msgstr ""
+
+#: /Plugin/Admin/View/Calendars/view.ctp:34
+msgid "Representative"
+msgstr ""
+
+#: /Plugin/Admin/View/Categories/add.ctp:1
+#: /Plugin/Admin/View/ExpenseCategories/add.ctp:1
+msgid "Add Category"
+msgstr ""
+
+#: /Plugin/Admin/View/Categories/edit.ctp:3
+#: /Plugin/Admin/View/Contacts/add.ctp:18
+#: /Plugin/Admin/View/Contacts/edit.ctp:19
+#: /Plugin/Admin/View/Contacts/index.ctp:22
+#: /Plugin/Admin/View/Dashboards/index.ctp:234
+#: /Plugin/Admin/View/ExpenseCategories/index.ctp:10
+msgid "Category"
+msgstr ""
+
+#: /Plugin/Admin/View/Categories/index.ctp:10
+msgid "Categories"
+msgstr ""
+
+#: /Plugin/Admin/View/Categories/index.ctp:15
+#: /Plugin/Admin/View/ExpenseCategories/index.ctp:15
+msgid "Add New Category"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:1
+msgid "Configuration Options"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:7;9
+#: /View/Installers/step3.ctp:48
+msgid "Site Name"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:11;13
+#: /View/Installers/step3.ctp:78
+msgid "Organization Name"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:21;23
+msgid "Account Details"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:27;29
+#: /View/Installers/step3.ctp:54
+msgid "Domain Name"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:31;33
+#: /View/Installers/step3.ctp:84
+msgid "Organization Email"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:37;39
+msgid "Meta Title"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:41;43
+#: /View/Installers/step3.ctp:66
+msgid "Meta Description"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:47
+#: /View/Installers/step3.ctp:72;74
+msgid "Time Zone"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:51
+#: /Plugin/Admin/View/Currencies/index.ctp:10;35
+msgid "Currency"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:57
+msgid "Language"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:61
+msgid "Text Direction"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:63
+msgid "Left-to-right (LTR)"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:63
+msgid "Right-to-Left (RTL)"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:67;69
+msgid "Display records per page"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:71;73
+msgid "Max records per page"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:77;79;120
+msgid "Date Format"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:79;120
+msgid "Date Format Required"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:81
+msgid ""
+"Date, Month, Year, Hour, Min, Sec, Meridian, Date Separator, Time Separator"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:84;86
+msgid "Map Key"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:91
+msgid "Capthca"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:93
+msgid "Image"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:93
+msgid "Text"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:98;100
+msgid "Short Name"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:102
+msgid "Contact Nos."
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:104
+msgid "Contact No. should be comma seprated"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:108
+msgid "Due Days"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:110
+msgid "Number of Due Days"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:112;114
+msgid "Late Fees (% annually)"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:118
+msgid "Email Notification"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:122
+msgid "SMS Notification"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:126
+msgid "Google Translation"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:132
+msgid "Front End Registration"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:136
+msgid "Front End Slides"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/index.ctp:143
+#: /Plugin/Admin/View/Emailsettings/index.ctp:44
+#: /Plugin/Admin/View/Smssettings/index.ctp:59
+msgid "Save Settings"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/weblogo.ctp:7
+msgid "Organisation Logo"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/weblogo.ctp:11
+msgid "Back To Contents"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/weblogo.ctp:14
+msgid "Upload Image(* height less than 220px)"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/weblogo.ctp:16
+#: /Plugin/Admin/View/Weblogos/index.ctp:7;9
+msgid "Upload Image"
+msgstr ""
+
+#: /Plugin/Admin/View/Configurations/weblogo.ctp:22
+#: /Plugin/Admin/View/Weblogos/index.ctp:15
+msgid "Delete Logo"
+msgstr ""
+
+#: /Plugin/Admin/View/Contacts/add.ctp:1
+msgid "Add Contact"
+msgstr ""
+
+#: /Plugin/Admin/View/Contacts/add.ctp:7
+#: /Plugin/Admin/View/Contacts/edit.ctp:16
+#: /Plugin/Admin/View/Contacts/view.ctp:8
+msgid "Contact Information"
+msgstr ""
+
+#: /Plugin/Admin/View/Contacts/add.ctp:13
+#: /Plugin/Admin/View/Properties/add.ctp:12
+msgid "No Agency"
+msgstr ""
+
+#: /Plugin/Admin/View/Contacts/add.ctp:34;36
+#: /Plugin/Admin/View/Contacts/edit.ctp:35;37
+#: /Plugin/Admin/View/Contacts/index.ctp:54
+#: /Plugin/Admin/View/Contacts/printclient.ctp:30
+#: /Plugin/Admin/View/Contacts/view.ctp:17
+msgid "District"
+msgstr ""
+
+#: /Plugin/Admin/View/Contacts/add.ctp:38;40
+#: /Plugin/Admin/View/Contacts/edit.ctp:39;41
+#: /Plugin/Admin/View/Contacts/printclient.ctp:32
+#: /Plugin/Admin/View/Contacts/view.ctp:19 /View/Myproperties/index.ctp:29
+msgid "State"
+msgstr ""
+
+#: /Plugin/Admin/View/Contacts/add.ctp:44;46
+#: /Plugin/Admin/View/Contacts/edit.ctp:45;47
+#: /Plugin/Admin/View/Contacts/printclient.ctp:36
+#: /Plugin/Admin/View/Contacts/view.ctp:23
+msgid "Pincode"
+msgstr ""
+
+#: /Plugin/Admin/View/Contacts/add.ctp:54;56
+#: /Plugin/Admin/View/Contacts/edit.ctp:55;57
+msgid "Cell Phone"
+msgstr ""
+
+#: /Plugin/Admin/View/Contacts/changepass.ctp:26;28
+#: /Plugin/Admin/View/Forgots/reset.ctp:33
+#: /Plugin/Admin/View/Users/change_pass.ctp:19;21
+#: /View/Changepasswords/index.ctp:23;25 /View/Forgots/reset.ctp:44;48
+msgid "Confirm Password"
+msgstr ""
+
+#: /Plugin/Admin/View/Contacts/edit.ctp:8
+#: /Plugin/Admin/View/Dashboards/index.ctp:159
+#: /Plugin/Admin/View/Deals/printinvoice.ctp:32
+#: /Plugin/Admin/View/Vendors/add.ctp:30;32
+#: /Plugin/Admin/View/Vendors/edit.ctp:39;41 /View/MyDeals/printinvoice.ctp:32
+msgid "Contact"
+msgstr ""
+
+#: /Plugin/Admin/View/Contacts/index.ctp:10
+msgid "Contacts"
+msgstr ""
+
+#: /Plugin/Admin/View/Contacts/index.ctp:15
+#: /Plugin/Admin/View/Dashboards/index.ctp:99
+msgid "Add New Contact"
+msgstr ""
+
+#: /Plugin/Admin/View/Contacts/index.ctp:18;72
+#: /Plugin/Admin/View/Deals/index.ctp:16
+#: /Plugin/Admin/View/DealsPayments/index.ctp:17
+#: /Plugin/Admin/View/Expenses/index.ctp:17
+#: /Plugin/Admin/View/ExpensesPayments/index.ctp:18
+#: /Plugin/Admin/View/Inventories/index.ctp:17
+#: /Plugin/Admin/View/InventoriesBalances/index.ctp:18
+#: /Plugin/Admin/View/Invpaids/index.ctp:27
+#: /Plugin/Admin/View/Invpastdues/index.ctp:29
+#: /Plugin/Admin/View/Leads/index.ctp:17
+#: /Plugin/Admin/View/Purchases/index.ctp:17
+#: /Plugin/Admin/View/PurchasesPayments/index.ctp:18
+#: /View/Properties/view.ctp:182
+msgid "Print"
+msgstr ""
+
+#: /Plugin/Admin/View/Contacts/index.ctp:23
+#: /Plugin/Admin/View/Expensereports/index.ctp:35;38;41;46
+#: /Plugin/Admin/View/Leads/add.ctp:78
+#: /Plugin/Admin/View/Profitreports/index.ctp:27;30
+#: /Plugin/Admin/View/Properties/index.ctp:29;32;51;55
+#: /Plugin/Admin/View/Purchasereports/index.ctp:37;43
+#: /Plugin/Admin/View/Salesreports/index.ctp:60;74
+msgid "All"
+msgstr ""
+
+#: /Plugin/Admin/View/Contacts/index.ctp:26
+msgid "Contact Name"
+msgstr ""
+
+#: /Plugin/Admin/View/Contacts/index.ctp:29
+#: /Plugin/Admin/View/Expensereports/index.ctp:62
+#: /Plugin/Admin/View/Invpaids/index.ctp:45
+#: /Plugin/Admin/View/Invpastdues/index.ctp:49
+#: /Plugin/Admin/View/Profitreports/index.ctp:46
+#: /Plugin/Admin/View/Properties/index.ctp:59
+#: /Plugin/Admin/View/Purchasereports/index.ctp:61
+#: /Plugin/Admin/View/Salesreports/index.ctp:90
+#: /View/Elements/pagination.ctp:36 /View/Properties/index.ctp:89
+msgid "Search"
+msgstr ""
+
+#: /Plugin/Admin/View/Contacts/index.ctp:52
+#: /Plugin/Admin/View/Deals/printinvoice.ctp:92 /View/MyProfiles/index.ctp:13
+msgid "Contact Number"
+msgstr ""
+
+#: /Plugin/Admin/View/Contacts/printclient.ctp:20
+msgid " Details"
+msgstr ""
+
+#: /Plugin/Admin/View/Contacts/printclient.ctp:43
+#: /Plugin/Admin/View/Contacts/view.ctp:29
+msgid "Cell phone"
+msgstr ""
+
+#: /Plugin/Admin/View/Contents/add.ctp:20
+msgid "Add Pages"
+msgstr ""
+
+#: /Plugin/Admin/View/Contents/add.ctp:26;28
+#: /Plugin/Admin/View/Contents/edit.ctp:32;34
+#: /Plugin/Admin/View/Contents/index.ctp:32
+msgid "Link Name"
+msgstr ""
+
+#: /Plugin/Admin/View/Contents/add.ctp:30;32
+#: /Plugin/Admin/View/Contents/edit.ctp:36;38
+msgid "Link Order"
+msgstr ""
+
+#: /Plugin/Admin/View/Contents/add.ctp:36
+#: /Plugin/Admin/View/Contents/edit.ctp:42;63;65
+msgid "Page Type"
+msgstr ""
+
+#: /Plugin/Admin/View/Contents/add.ctp:38
+#: /Plugin/Admin/View/Contents/edit.ctp:44
+msgid "Internal"
+msgstr ""
+
+#: /Plugin/Admin/View/Contents/add.ctp:38
+#: /Plugin/Admin/View/Contents/edit.ctp:44
+msgid "External"
+msgstr ""
+
+#: /Plugin/Admin/View/Contents/add.ctp:40;42
+#: /Plugin/Admin/View/Contents/edit.ctp:46;48
+msgid "Icon"
+msgstr ""
+
+#: /Plugin/Admin/View/Contents/add.ctp:46;48
+#: /Plugin/Admin/View/Contents/edit.ctp:52;54
+msgid "External Url"
+msgstr ""
+
+#: /Plugin/Admin/View/Contents/add.ctp:50
+#: /Plugin/Admin/View/Contents/edit.ctp:56
+msgid "Url Target"
+msgstr ""
+
+#: /Plugin/Admin/View/Contents/add.ctp:52
+#: /Plugin/Admin/View/Contents/edit.ctp:58
+msgid "_self"
+msgstr ""
+
+#: /Plugin/Admin/View/Contents/add.ctp:52
+#: /Plugin/Admin/View/Contents/edit.ctp:58
+msgid "_blank"
+msgstr ""
+
+#: /Plugin/Admin/View/Contents/add.ctp:57;59
+#: /Plugin/Admin/View/Contents/index.ctp:33
+#: /Plugin/Admin/View/Users/assignrightsedit.ctp:20
+msgid "Page Name"
+msgstr ""
+
+#: /Plugin/Admin/View/Contents/add.ctp:61;63
+#: /Plugin/Admin/View/Contents/edit.ctp:67;69
+msgid "Page Url"
+msgstr ""
+
+#: /Plugin/Admin/View/Contents/add.ctp:67;69
+#: /Plugin/Admin/View/Contents/edit.ctp:73;75
+msgid "Page Content"
+msgstr ""
+
+#: /Plugin/Admin/View/Contents/edit.ctp:3
+msgid "Edit Pages"
+msgstr ""
+
+#: /Plugin/Admin/View/Contents/index.ctp:10
+msgid "Pages"
+msgstr ""
+
+#: /Plugin/Admin/View/Contents/index.ctp:15
+msgid "Add New Page"
+msgstr ""
+
+#: /Plugin/Admin/View/Contents/index.ctp:34
+#: /Plugin/Admin/View/Slides/add.ctp:14;16
+#: /Plugin/Admin/View/Slides/edit.ctp:18;20
+#: /Plugin/Admin/View/Slides/index.ctp:33
+msgid "Ordering"
+msgstr ""
+
+#: /Plugin/Admin/View/Contents/index.ctp:35;46
+#: /Plugin/Admin/View/Emailtemplates/edit.ctp:26
+#: /Plugin/Admin/View/Properties/index.ctp:49
+#: /Plugin/Admin/View/Templates/edit.ctp:32
+msgid "Published"
+msgstr ""
+
+#: /Plugin/Admin/View/Contents/index.ctp:47
+#: /Plugin/Admin/View/Emailtemplates/edit.ctp:26
+#: /Plugin/Admin/View/Templates/edit.ctp:32
+msgid "Unpublished"
+msgstr ""
+
+#: /Plugin/Admin/View/Contracts/add.ctp:1
+msgid "Add Contracts"
+msgstr ""
+
+#: /Plugin/Admin/View/Contracts/edit.ctp:3
+msgid "Contracts"
+msgstr ""
+
+#: /Plugin/Admin/View/Contracts/index.ctp:15
+msgid "Add New Contract"
+msgstr ""
+
+#: /Plugin/Admin/View/Currencies/add.ctp:1
+msgid "Add Currency"
+msgstr ""
+
+#: /Plugin/Admin/View/Currencies/add.ctp:7;9
+#: /Plugin/Admin/View/Currencies/index.ctp:34
+msgid "Currency Name"
+msgstr ""
+
+#: /Plugin/Admin/View/Currencies/add.ctp:13
+msgid "Upload Currency (Less or equal to 50*50)"
+msgstr ""
+
+#: /Plugin/Admin/View/Currencies/index.ctp:14
+msgid "Add New Currency"
+msgstr ""
+
+#: /Plugin/Admin/View/Dashboards/index.ctp:93
+msgid "Quick Action"
+msgstr ""
+
+#: /Plugin/Admin/View/Dashboards/index.ctp:104
+#: /Plugin/Admin/View/Properties/index.ctp:14
+msgid "Add New Property"
+msgstr ""
+
+#: /Plugin/Admin/View/Dashboards/index.ctp:109
+#: /Plugin/Admin/View/Leads/index.ctp:14
+msgid "Add New Lead"
+msgstr ""
+
+#: /Plugin/Admin/View/Dashboards/index.ctp:114
+#: /Plugin/Admin/View/Deals/index.ctp:14
+msgid "Add New Deal"
+msgstr ""
+
+#: /Plugin/Admin/View/Dashboards/index.ctp:119
+#: /Plugin/Admin/View/Expenses/index.ctp:15
+msgid "Add New Expense"
+msgstr ""
+
+#: /Plugin/Admin/View/Dashboards/index.ctp:124
+#: /Plugin/Admin/View/Purchases/index.ctp:15
+msgid "Add New Purchase"
+msgstr ""
+
+#: /Plugin/Admin/View/Dashboards/index.ctp:141
+msgid "Chart Wise Report"
+msgstr ""
+
+#: /Plugin/Admin/View/Dashboards/index.ctp:154
+msgid "New Leads"
+msgstr ""
+
+#: /Plugin/Admin/View/Dashboards/index.ctp:161
+msgid "Followup Date"
+msgstr ""
+
+#: /Plugin/Admin/View/Dashboards/index.ctp:179
+msgid "New Deals"
+msgstr ""
+
+#: /Plugin/Admin/View/Dashboards/index.ctp:207
+msgid "New Property"
+msgstr ""
+
+#: /Plugin/Admin/View/Dashboards/index.ctp:230
+msgid "New Expenses"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/add.ctp:101
+msgid "Add Deal"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/add.ctp:107
+msgid "Deal On"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/add.ctp:109 /Plugin/Admin/View/Deals/view.ctp:8
+#: /Plugin/Admin/View/Invpaids/index.ctp:68
+#: /Plugin/Admin/View/Invpastdues/index.ctp:73
+#: /Plugin/Admin/View/Leads/edit.ctp:91 /Plugin/Admin/View/Leads/index.ctp:36
+#: /Plugin/Admin/View/Leads/view.ctp:8 /View/MyDeals/view.ctp:11
+#: /View/MyInvpastdues/index.ctp:11
+msgid "Client Name"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/add.ctp:113
+msgid "Deal For"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/add.ctp:118
+msgid "Available For"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/add.ctp:129;132
+msgid "Evocate Date"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/add.ctp:139 /Plugin/Admin/View/Deals/edit.ctp:21
+#: /View/MyDeals/index.ctp:32
+msgid "Invoice"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/add.ctp:143;146
+#: /Plugin/Admin/View/Deals/edit.ctp:12 /Plugin/Admin/View/Deals/index.ctp:38
+#: /Plugin/Admin/View/Deals/view.ctp:32 /Plugin/Admin/View/Expenses/add.ctp:42
+#: /Plugin/Admin/View/Expenses/edit.ctp:47
+#: /Plugin/Admin/View/Expenses/index.ctp:40
+#: /Plugin/Admin/View/Inventories/add.ctp:42
+#: /Plugin/Admin/View/Inventories/edit.ctp:47
+#: /Plugin/Admin/View/Inventories/index.ctp:40 /View/MyDeals/index.ctp:13
+#: /View/MyDeals/printinvoice.ctp:26 /View/MyDeals/view.ctp:29
+msgid "Invoice Date"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/add.ctp:150
+msgid "Booking Amount"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/add.ctp:152
+msgid "Enter amount"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/add.ctp:164;166
+#: /Plugin/Admin/View/Deals/printinvoice.ctp:51
+#: /Plugin/Admin/View/Deals/view.ctp:40 /View/MyDeals/printinvoice.ctp:53
+#: /View/MyDeals/view.ctp:37
+msgid "Discount"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/add.ctp:170 /Plugin/Admin/View/Deals/view.ctp:26
+#: /View/MyDeals/view.ctp:25
+msgid "Payment Plan"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/add.ctp:175
+msgid "Half Yearly"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/add.ctp:175
+msgid "Yearly"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/add.ctp:175
+msgid "Manually"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/add.ctp:177
+msgid "Agent if any"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/add.ctp:185;187
+#: /Plugin/Admin/View/Deals/edit.ctp:27;29
+#: /Plugin/Admin/View/Leads/add.ctp:101;103
+#: /Plugin/Admin/View/Leads/edit.ctp:108;110 /View/Myproperties/index.ctp:37
+msgid "Comment/Remarks"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/edit.ctp:8
+msgid "Edit Deal"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/index.ctp:36
+#: /Plugin/Admin/View/Deals/printinvoice.ctp:39
+#: /Plugin/Admin/View/Invpaids/index.ctp:70
+#: /Plugin/Admin/View/Invpastdues/index.ctp:75
+#: /Plugin/Admin/View/Properties/view.ctp:3
+#: /Plugin/Admin/View/PropertiesFloorplans/view.ctp:3
+#: /Plugin/Admin/View/PropertiesPhotos/view.ctp:3
+#: /View/MyDeals/printinvoice.ctp:39 /View/MyInvpastdues/index.ctp:13
+#: /View/Myproperties/document.ctp:6 /View/Myproperties/documentview.ctp:7
+#: /View/Myproperties/index.ctp:6 /View/Myproperties/photo.ctp:6
+#: /View/Myproperties/photoview.ctp:7
+msgid "Property"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/index.ctp:37
+#: /Plugin/Admin/View/ExpensesPayments/index.ctp:10
+#: /Plugin/Admin/View/InventoriesBalances/index.ctp:10
+#: /View/MyDeals/index.ctp:12
+msgid "Invoice No"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/index.ctp:40
+#: /Plugin/Admin/View/Deals/printinvoice.ctp:55
+#: /Plugin/Admin/View/Deals/view.ctp:45
+#: /Plugin/Admin/View/DealsPayments/index.ctp:10;33
+#: /Plugin/Admin/View/Invpaids/index.ctp:76 /View/MyDeals/printinvoice.ctp:57
+#: /View/MyDeals/view.ctp:41
+msgid "Total Amount"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/index.ctp:41
+#: /Plugin/Admin/View/Expenses/index.ctp:42
+#: /Plugin/Admin/View/ExpensesPayments/index.ctp:66
+#: /Plugin/Admin/View/Purchases/index.ctp:42
+msgid "Balance Due"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/index.ctp:71
+msgid "Show Payment Plan"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/index.ctp:72
+#: /Plugin/Admin/View/Expenses/index.ctp:74
+#: /Plugin/Admin/View/Purchases/index.ctp:72
+msgid "Make Payment"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/index.ctp:74
+msgid "Print Invoice"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/index.ctp:86
+#: /Plugin/Admin/View/Deals/printinvoice.ctp:81
+#: /Plugin/Admin/View/DealsPayments/index.ctp:75
+#: /Plugin/Admin/View/Expensereports/index.ctp:24;29;91
+#: /Plugin/Admin/View/Expenses/index.ctp:85
+#: /Plugin/Admin/View/ExpensesPayments/index.ctp:64
+#: /Plugin/Admin/View/Inventories/index.ctp:85
+#: /Plugin/Admin/View/Invpaids/index.ctp:101
+#: /Plugin/Admin/View/Purchasereports/index.ctp:26;31;90
+#: /Plugin/Admin/View/Purchases/index.ctp:84
+#: /Plugin/Admin/View/PurchasesPayments/index.ctp:64
+#: /Plugin/Admin/View/Salesreports/index.ctp:49;54;119
+#: /View/MyDeals/printinvoice.ctp:83
+msgid "Total"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/printinvoice.ctp:21
+#: /View/MyDeals/printinvoice.ctp:21
+msgid "INVOICE"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/printinvoice.ctp:24
+#: /Plugin/Admin/View/Expenses/add.ctp:36;38
+#: /Plugin/Admin/View/Expenses/edit.ctp:41;43 /View/MyDeals/printinvoice.ctp:24
+msgid "Invoice Number"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/printinvoice.ctp:30
+#: /View/MyDeals/printinvoice.ctp:30
+msgid "Client"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/printinvoice.ctp:64
+#: /View/MyDeals/printinvoice.ctp:66
+msgid "PAYMENT DETAILS"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/printinvoice.ctp:68
+#: /Plugin/Admin/View/Plans/add.ctp:13;15
+#: /Plugin/Admin/View/Plans/edit.ctp:22;24 /View/MyDeals/printinvoice.ctp:70
+msgid "Installment"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/printinvoice.ctp:70
+#: /Plugin/Admin/View/Invpastdues/index.ctp:78
+#: /Plugin/Admin/View/PlansPayments/add.ctp:29
+#: /Plugin/Admin/View/PlansPayments/edit.ctp:28
+#: /Plugin/Admin/View/PlansPayments/index.ctp:37
+#: /View/MyDeals/printinvoice.ctp:72 /View/MyInvpastdues/index.ctp:17
+msgid "Due Date"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/printinvoice.ctp:85
+#: /View/MyDeals/printinvoice.ctp:87
+msgid "Signture"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/printinvoice.ctp:88
+msgid "Thanking You,"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/printinvoice.ctp:89
+msgid "Yours faithfully,"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/printinvoice.ctp:90
+#: /View/MyDeals/printinvoice.ctp:92
+msgid "For M/s."
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/showplan.ctp:2
+msgid "(Please Select)"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/view.ctp:3
+msgid "My Deal Details"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/view.ctp:16
+#: /Plugin/Admin/View/Properties/view.ctp:39 /View/MyDeals/view.ctp:19
+#: /View/Myproperties/index.ctp:17
+msgid "Availiable For"
+msgstr ""
+
+#: /Plugin/Admin/View/Deals/view.ctp:49 /Plugin/Admin/View/Leads/view.ctp:24
+#: /View/MyDeals/view.ctp:48
+msgid "Comments/Remarks"
+msgstr ""
+
+#: /Plugin/Admin/View/DealsPayments/add.ctp:40
+#: /Plugin/Admin/View/ExpensesPayments/add.ctp:6
+#: /Plugin/Admin/View/PurchasesPayments/add.ctp:6
+msgid "Add Payment"
+msgstr ""
+
+#: /Plugin/Admin/View/DealsPayments/add.ctp:62
+#: /Plugin/Admin/View/Taxes/index.ctp:10
+msgid "Tax"
+msgstr ""
+
+#: /Plugin/Admin/View/DealsPayments/add.ctp:64
+msgid "Select Tax if applicable"
+msgstr ""
+
+#: /Plugin/Admin/View/DealsPayments/add.ctp:66;68
+msgid "Taxable Amount"
+msgstr ""
+
+#: /Plugin/Admin/View/DealsPayments/add.ctp:72
+msgid "Payable Amount"
+msgstr ""
+
+#: /Plugin/Admin/View/DealsPayments/add.ctp:74
+msgid "Net Amount"
+msgstr ""
+
+#: /Plugin/Admin/View/DealsPayments/add.ctp:76
+#: /Plugin/Admin/View/DealsPayments/edit.ctp:16
+#: /Plugin/Admin/View/DealsPayments/index.ctp:36
+#: /Plugin/Admin/View/ExpensesPayments/add.ctp:18
+#: /Plugin/Admin/View/ExpensesPayments/edit.ctp:22
+#: /Plugin/Admin/View/ExpensesPayments/index.ctp:33
+#: /Plugin/Admin/View/Paymenttypes/add.ctp:7;9
+#: /Plugin/Admin/View/Paymenttypes/edit.ctp:16;18
+#: /Plugin/Admin/View/Paymenttypes/index.ctp:10;36
+#: /Plugin/Admin/View/PurchasesPayments/add.ctp:18
+#: /Plugin/Admin/View/PurchasesPayments/edit.ctp:23
+#: /Plugin/Admin/View/PurchasesPayments/index.ctp:33
+#: /Plugin/Admin/View/Units/edit.ctp:16;18 /View/Dashboards/index.ctp:13
+#: /View/MyPayments/index.ctp:14
+msgid "Payment Type"
+msgstr ""
+
+#: /Plugin/Admin/View/DealsPayments/add.ctp:83;86
+#: /Plugin/Admin/View/DealsPayments/edit.ctp:22;25
+#: /Plugin/Admin/View/DealsPayments/index.ctp:35
+#: /Plugin/Admin/View/ExpensesPayments/add.ctp:24;27
+#: /Plugin/Admin/View/ExpensesPayments/edit.ctp:28;31
+#: /Plugin/Admin/View/ExpensesPayments/index.ctp:32
+#: /Plugin/Admin/View/InventoriesBalances/add.ctp:21
+#: /Plugin/Admin/View/InventoriesBalances/edit.ctp:25
+#: /Plugin/Admin/View/Invpaids/index.ctp:73
+#: /Plugin/Admin/View/PurchasesPayments/add.ctp:24;27
+#: /Plugin/Admin/View/PurchasesPayments/edit.ctp:29;32
+#: /Plugin/Admin/View/PurchasesPayments/index.ctp:32
+#: /View/Dashboards/index.ctp:11 /View/MyPayments/index.ctp:12
+#: /View/MyPayments/printreceipt.ctp:26
+msgid "Payment Date"
+msgstr ""
+
+#: /Plugin/Admin/View/DealsPayments/add.ctp:90;92
+#: /Plugin/Admin/View/DealsPayments/edit.ctp:31;33
+#: /Plugin/Admin/View/DealsPayments/index.ctp:37
+#: /Plugin/Admin/View/ExpensesPayments/add.ctp:33;35
+#: /Plugin/Admin/View/ExpensesPayments/edit.ctp:37;39
+#: /Plugin/Admin/View/ExpensesPayments/index.ctp:34
+#: /Plugin/Admin/View/InventoriesBalances/add.ctp:29
+#: /Plugin/Admin/View/InventoriesBalances/edit.ctp:33
+#: /Plugin/Admin/View/PurchasesPayments/add.ctp:33;35
+#: /Plugin/Admin/View/PurchasesPayments/edit.ctp:38;40
+#: /Plugin/Admin/View/PurchasesPayments/index.ctp:34
+#: /View/Dashboards/index.ctp:14 /View/MyPayments/index.ctp:15
+msgid "Transaction Reference"
+msgstr ""
+
+#: /Plugin/Admin/View/DealsPayments/edit.ctp:8
+msgid "Deals Payments"
+msgstr ""
+
+#: /Plugin/Admin/View/DealsPayments/index.ctp:10
+#: /Plugin/Admin/View/ExpensesPayments/index.ctp:10
+#: /Plugin/Admin/View/PurchasesPayments/index.ctp:10
+msgid "Show Payments of"
+msgstr ""
+
+#: /Plugin/Admin/View/DealsPayments/index.ctp:10
+#: /Plugin/Admin/View/PurchasesPayments/index.ctp:10
+msgid "for"
+msgstr ""
+
+#: /Plugin/Admin/View/DealsPayments/index.ctp:14
+msgid "Back To Deals"
+msgstr ""
+
+#: /Plugin/Admin/View/DealsPayments/index.ctp:15
+#: /Plugin/Admin/View/ExpensesPayments/index.ctp:15
+#: /Plugin/Admin/View/PurchasesPayments/index.ctp:15
+msgid "Add New Payment"
+msgstr ""
+
+#: /Plugin/Admin/View/DealsPayments/index.ctp:34
+msgid "Payment Name"
+msgstr ""
+
+#: /Plugin/Admin/View/DealsPayments/index.ctp:64
+msgid "Print Receipt"
+msgstr ""
+
+#: /Plugin/Admin/View/DealsPayments/printreceipt.ctp:27
+#: /View/MyPayments/printreceipt.ctp:28
+msgid "Next Due Date"
+msgstr ""
+
+#: /Plugin/Admin/View/DealsPayments/printreceipt.ctp:27
+#: /View/MyPayments/printreceipt.ctp:29
+msgid "PAID"
+msgstr ""
+
+#: /Plugin/Admin/View/DealsPayments/printreceipt.ctp:61
+#: /View/MyPayments/printreceipt.ctp:67
+msgid "Authorised Signatory"
+msgstr ""
+
+#: /Plugin/Admin/View/DealsPayments/printreceipt.ctp:61
+msgid "(Subject to Realisation of Cheque)"
+msgstr ""
+
+#: /Plugin/Admin/View/Emailsettings/index.ctp:8
+msgid "Email Settings"
+msgstr ""
+
+#: /Plugin/Admin/View/Emailsettings/index.ctp:15
+msgid "Email Type"
+msgstr ""
+
+#: /Plugin/Admin/View/Emailsettings/index.ctp:22
+msgid "Server Name/Host"
+msgstr ""
+
+#: /Plugin/Admin/View/Emailsettings/index.ctp:24
+msgid "Server Name"
+msgstr ""
+
+#: /Plugin/Admin/View/Emailsettings/index.ctp:26;28
+msgid "Port"
+msgstr ""
+
+#: /Plugin/Admin/View/Emailtemplates/add.ctp:1
+msgid "Add Email Template"
+msgstr ""
+
+#: /Plugin/Admin/View/Emailtemplates/add.ctp:13;15
+#: /Plugin/Admin/View/Emailtemplates/edit.ctp:3;17;19
+#: /Plugin/Admin/View/Sendemails/index.ctp:156
+msgid "Email Template"
+msgstr ""
+
+#: /Plugin/Admin/View/Emailtemplates/index.ctp:10
+msgid "Email Templates"
+msgstr ""
+
+#: /Plugin/Admin/View/Emailtemplates/index.ctp:15
+msgid "Add New Email Template"
+msgstr ""
+
+#: /Plugin/Admin/View/Emailtemplates/view.ctp:3;12
+#: /Plugin/Admin/View/Smstemplates/add.ctp:13;15
+#: /Plugin/Admin/View/Smstemplates/edit.ctp:23;25
+#: /Plugin/Admin/View/Smstemplates/index.ctp:37
+#: /Plugin/Admin/View/Templates/add.ctp:20;22
+#: /Plugin/Admin/View/Templates/edit.ctp:3;23;25
+#: /Plugin/Admin/View/Templates/view.ctp:3;16
+msgid "Template"
+msgstr ""
+
+#: /Plugin/Admin/View/ExpenseCategories/add.ctp:7;9
+#: /Plugin/Admin/View/ExpenseCategories/edit.ctp:17;19
+#: /Plugin/Admin/View/Expenses/add.ctp:23
+#: /Plugin/Admin/View/Expenses/edit.ctp:28
+#: /Plugin/Admin/View/Expenses/index.ctp:38
+#: /Plugin/Admin/View/Inventories/add.ctp:23
+#: /Plugin/Admin/View/Inventories/edit.ctp:28
+#: /Plugin/Admin/View/Inventories/index.ctp:38
+msgid "Category Name"
+msgstr ""
+
+#: /Plugin/Admin/View/ExpenseCategories/edit.ctp:9
+msgid "Edit Categories"
+msgstr ""
+
+#: /Plugin/Admin/View/Expensereports/index.ctp:7
+msgid "Expense Report"
+msgstr ""
+
+#: /Plugin/Admin/View/Expensereports/index.ctp:14
+msgid "Total Expense Count this month"
+msgstr ""
+
+#: /Plugin/Admin/View/Expensereports/index.ctp:20
+msgid "Total Expense this month"
+msgstr ""
+
+#: /Plugin/Admin/View/Expensereports/index.ctp:24;76
+msgid "Expense Count"
+msgstr ""
+
+#: /Plugin/Admin/View/Expensereports/index.ctp:29;77
+#: /Plugin/Admin/View/Profitreports/index.ctp:62
+msgid "Expense"
+msgstr ""
+
+#: /Plugin/Admin/View/Expensereports/index.ctp:63
+#: /Plugin/Admin/View/Invpaids/index.ctp:47
+#: /Plugin/Admin/View/Invpastdues/index.ctp:51
+#: /Plugin/Admin/View/Profitreports/index.ctp:47
+#: /Plugin/Admin/View/Purchasereports/index.ctp:62
+#: /Plugin/Admin/View/Salesreports/index.ctp:91
+#: /Plugin/Admin/View/Sendemails/index.ctp:164
+#: /Plugin/Admin/View/Sendsms/index.ctp:167 /View/Properties/index.ctp:91
+msgid "Reset"
+msgstr ""
+
+#: /Plugin/Admin/View/Expensereports/index.ctp:75
+#: /Plugin/Admin/View/Profitreports/index.ctp:59
+#: /Plugin/Admin/View/Purchasereports/index.ctp:74
+#: /Plugin/Admin/View/Salesreports/index.ctp:103
+msgid "Month"
+msgstr ""
+
+#: /Plugin/Admin/View/Expenses/add.ctp:6
+msgid "Add Expense"
+msgstr ""
+
+#: /Plugin/Admin/View/Expenses/add.ctp:29
+#: /Plugin/Admin/View/Expenses/edit.ctp:34
+#: /Plugin/Admin/View/Inventories/add.ctp:29
+#: /Plugin/Admin/View/Inventories/edit.ctp:34
+msgid "Vendor/Staff Name"
+msgstr ""
+
+#: /Plugin/Admin/View/Expenses/add.ctp:51;53
+#: /Plugin/Admin/View/Expenses/edit.ctp:56;58
+#: /Plugin/Admin/View/Expenses/index.ctp:41
+msgid "Invoice Amount"
+msgstr ""
+
+#: /Plugin/Admin/View/Expenses/edit.ctp:10
+msgid "Edit Expenses"
+msgstr ""
+
+#: /Plugin/Admin/View/Expenses/index.ctp:35
+msgid "S.No."
+msgstr ""
+
+#: /Plugin/Admin/View/Expenses/index.ctp:36
+#: /Plugin/Admin/View/Inventories/index.ctp:36
+msgid "Vendor / Staff"
+msgstr ""
+
+#: /Plugin/Admin/View/Expenses/index.ctp:39
+msgid "Invoice Nnumber"
+msgstr ""
+
+#: /Plugin/Admin/View/ExpensesPayments/edit.ctp:8
+msgid "Expenses Payments"
+msgstr ""
+
+#: /Plugin/Admin/View/ExpensesPayments/index.ctp:10
+#: /Plugin/Admin/View/InventoriesBalances/index.ctp:10
+msgid "dated"
+msgstr ""
+
+#: /Plugin/Admin/View/ExpensesPayments/index.ctp:14
+msgid "Back To Expense"
+msgstr ""
+
+#: /Plugin/Admin/View/ExpensesPayments/index.ctp:31
+#: /Plugin/Admin/View/PurchasesPayments/index.ctp:31
+#: /View/Dashboards/index.ctp:12 /View/MyPayments/index.ctp:13
+msgid "Payment"
+msgstr ""
+
+#: /Plugin/Admin/View/Features/add.ctp:1
+#: /Plugin/Admin/View/Features/index.ctp:15
+msgid "Add New Feature"
+msgstr ""
+
+#: /Plugin/Admin/View/Features/edit.ctp:8
+#: /Plugin/Admin/View/Features/index.ctp:10
+msgid "Features"
+msgstr ""
+
+#: /Plugin/Admin/View/Forgots/password.ctp:3
+#: /Plugin/Admin/View/Forgots/username.ctp:3
+msgid "Forgot"
+msgstr ""
+
+#: /Plugin/Admin/View/Forgots/password.ctp:18
+#: /Plugin/Admin/View/Forgots/presetcode.ctp:18
+#: /Plugin/Admin/View/Forgots/reset.ctp:38
+#: /Plugin/Admin/View/Forgots/username.ctp:18
+#: /View/Emailverifications/index.ctp:31 /View/Emailverifications/resend.ctp:30
+#: /View/Forgots/password.ctp:31 /View/Forgots/presetcode.ctp:31
+#: /View/Forgots/reset.ctp:54 /View/Installers/step1.ctp:82
+#: /View/Properties/sendbymail.ctp:17 /View/Properties/view.ctp:124
+msgid "Submit"
+msgstr ""
+
+#: /Plugin/Admin/View/Forgots/password.ctp:26
+#: /Plugin/Admin/View/Forgots/presetcode.ctp:26
+#: /Plugin/Admin/View/Forgots/reset.ctp:46
+#: /Plugin/Admin/View/Forgots/username.ctp:26
+#: /Plugin/Admin/View/Users/login_form.ctp:19 /View/Clients/login.ctp:8;39
+#: /View/Forgots/password.ctp:34 /View/Layouts/default.ctp:189;268
+msgid "Login"
+msgstr ""
+
+#: /Plugin/Admin/View/Forgots/presetcode.ctp:3
+#: /View/Emailverifications/index.ctp:21 /View/Forgots/presetcode.ctp:8;21
+msgid "Verification Code"
+msgstr ""
+
+#: /Plugin/Admin/View/Forgots/presetcode.ctp:13
+msgid "verification Code"
+msgstr ""
+
+#: /Plugin/Admin/View/Forgots/reset.ctp:16 /View/Forgots/reset.ctp:21
+msgid "Reset Password"
+msgstr ""
+
+#: /Plugin/Admin/View/Forgots/reset.ctp:43
+msgid "Forgot Username"
+msgstr ""
+
+#: /Plugin/Admin/View/Forgots/username.ctp:23 /View/Clients/login.ctp:42
+#: /View/Forgots/password.ctp:8
+msgid "Forgot Password"
+msgstr ""
+
+#: /Plugin/Admin/View/Helps/index.ctp:1
+msgid "Help"
+msgstr ""
+
+#: /Plugin/Admin/View/Helps/index.ctp:5
+msgid "CUSTOMER SUPPORT"
+msgstr ""
+
+#: /Plugin/Admin/View/Helps/index.ctp:7
+msgid "A Responsive and Dedicated Technical Support, Any where, Any time"
+msgstr ""
+
+#: /Plugin/Admin/View/Helps/index.ctp:9
+msgid "Forum"
+msgstr ""
+
+#: /Plugin/Admin/View/Helps/index.ctp:9;10
+msgid "24"
+msgstr ""
+
+#: /Plugin/Admin/View/Helps/index.ctp:9;10 /View/Helper/FunctionHelper.php:45
+msgid "Hours"
+msgstr ""
+
+#: /Plugin/Admin/View/Helps/index.ctp:10
+msgid "Email Support"
+msgstr ""
+
+#: /Plugin/Admin/View/Helps/index.ctp:11
+msgid "Live Chat"
+msgstr ""
+
+#: /Plugin/Admin/View/Helps/index.ctp:11;12
+msgid "10:30"
+msgstr ""
+
+#: /Plugin/Admin/View/Helps/index.ctp:11;12
+msgid "AM"
+msgstr ""
+
+#: /Plugin/Admin/View/Helps/index.ctp:11;12
+msgid "to"
+msgstr ""
+
+#: /Plugin/Admin/View/Helps/index.ctp:11
+msgid "8.00"
+msgstr ""
+
+#: /Plugin/Admin/View/Helps/index.ctp:11;12
+msgid "PM"
+msgstr ""
+
+#: /Plugin/Admin/View/Helps/index.ctp:11;12
+msgid "GMT +5:30, INDIA"
+msgstr ""
+
+#: /Plugin/Admin/View/Helps/index.ctp:12
+msgid "Telephonic Support"
+msgstr ""
+
+#: /Plugin/Admin/View/Helps/index.ctp:12
+msgid "6.00"
+msgstr ""
+
+#: /Plugin/Admin/View/Inventories/add.ctp:6
+msgid "Add Inventory"
+msgstr ""
+
+#: /Plugin/Admin/View/Inventories/add.ctp:36;38
+#: /Plugin/Admin/View/Inventories/edit.ctp:41;43
+#: /Plugin/Admin/View/Inventories/index.ctp:39
+#: /Plugin/Admin/View/Invpaids/index.ctp:71
+#: /Plugin/Admin/View/Invpastdues/index.ctp:76 /View/MyInvpastdues/index.ctp:15
+msgid "Invoice No."
+msgstr ""
+
+#: /Plugin/Admin/View/Inventories/add.ctp:51;53
+#: /Plugin/Admin/View/Inventories/edit.ctp:56;58
+#: /Plugin/Admin/View/Inventories/index.ctp:41
+#: /Plugin/Admin/View/InventoriesBalances/add.ctp:12;14
+#: /Plugin/Admin/View/InventoriesBalances/edit.ctp:16
+#: /Plugin/Admin/View/InventoriesBalances/index.ctp:31
+msgid "Quantity"
+msgstr ""
+
+#: /Plugin/Admin/View/Inventories/edit.ctp:10
+#: /Plugin/Admin/View/Inventories/index.ctp:10
+msgid "Inventories"
+msgstr ""
+
+#: /Plugin/Admin/View/Inventories/index.ctp:15
+msgid "Add New Inventory"
+msgstr ""
+
+#: /Plugin/Admin/View/Inventories/index.ctp:37
+msgid "Project"
+msgstr ""
+
+#: /Plugin/Admin/View/Inventories/index.ctp:53
+msgid "Empty"
+msgstr ""
+
+#: /Plugin/Admin/View/Inventories/index.ctp:55
+#: /Plugin/Admin/View/Properties/edit.ctp:121
+#: /Plugin/Admin/View/Properties/index.ctp:54
+msgid "Available"
+msgstr ""
+
+#: /Plugin/Admin/View/Inventories/index.ctp:74
+msgid "Make Entry"
+msgstr ""
+
+#: /Plugin/Admin/View/Inventories/index.ctp:75
+msgid "Show Inventories"
+msgstr ""
+
+#: /Plugin/Admin/View/InventoriesBalances/add.ctp:6
+msgid "Add Entry"
+msgstr ""
+
+#: /Plugin/Admin/View/InventoriesBalances/edit.ctp:8
+msgid "Entries"
+msgstr ""
+
+#: /Plugin/Admin/View/InventoriesBalances/index.ctp:10
+msgid "Show Entries of"
+msgstr ""
+
+#: /Plugin/Admin/View/InventoriesBalances/index.ctp:14
+msgid "Back To Inventory"
+msgstr ""
+
+#: /Plugin/Admin/View/InventoriesBalances/index.ctp:15
+msgid "Add New Entry"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpaids/index.ctp:23
+msgid "Paid Invoices"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpaids/index.ctp:72
+msgid "Payment On"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/index.ctp:25 /View/MyInvpastdues/index.ctp:3
+msgid "Balance Invoices"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/index.ctp:31
+msgid "SMS"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/index.ctp:77 /View/MyInvpastdues/index.ctp:16
+msgid "Payment Due On"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/index.ctp:104
+#: /View/MyInvpastdues/index.ctp:43
+msgid "Total Balance"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:8
+#: /View/Emails/html/mailinvoice.ctp:8
+msgid "Ref. No"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:9
+#: /View/Emails/html/mailinvoice.ctp:9
+msgid "DEMAND LETTER"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:10
+msgid "To"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:15
+#: /View/Emails/html/mailinvoice.ctp:15
+msgid "Sub"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:15
+#: /View/Emails/html/mailinvoice.ctp:15
+msgid "Demand For Due Payment"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:16
+#: /View/Emails/html/mailinvoice.ctp:16
+msgid "Dear Sir / Madam"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:17
+#: /View/Emails/html/mailinvoice.ctp:17
+msgid "We are please allot you"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:17
+msgid "Property :"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:17
+#: /View/Emails/html/mailinvoice.ctp:17
+msgid "on the"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:17
+#: /View/Emails/html/mailinvoice.ctp:17
+msgid "in"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:18
+#: /View/Emails/html/mailinvoice.ctp:18
+msgid "complex to be known as"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:18
+msgid "to be"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:18
+msgid "being constructed,"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:19
+#: /View/Emails/html/mailinvoice.ctp:19
+msgid "for a total consideration of"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:22
+#: /View/Emails/html/mailinvoice.ctp:22
+msgid "We are please to inform you that the"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:22
+#: /View/Emails/html/mailinvoice.ctp:22
+msgid "Level of"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:23
+#: /View/Emails/html/mailinvoice.ctp:23
+msgid "is completed and as per agreement the total amount"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:23
+#: /View/Emails/html/mailinvoice.ctp:23
+msgid "Plus Service"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:24
+#: /View/Emails/html/mailinvoice.ctp:24
+msgid "is due at this stage"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:27
+#: /View/Emails/html/mailinvoice.ctp:27
+msgid "You are requested to pay"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:27
+#: /View/Emails/html/mailinvoice.ctp:27
+msgid "Plus Service Tax amount  within a"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:27
+#: /View/Emails/html/mailinvoice.ctp:27
+msgid "days"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:28
+msgid "from the date of receipt of this letter"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:28
+msgid "The interest would be charged"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:28
+#: /View/Emails/html/mailinvoice.ctp:28
+msgid "if payment is delayed"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:31
+#: /View/Emails/html/mailinvoice.ctp:31
+msgid ""
+"Please note that the payment for this transactions should be made by crossed "
+"cheque"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:32
+#: /View/Emails/html/mailinvoice.ctp:32
+msgid "Transfer of funds favouring"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:34
+#: /View/Emails/html/mailinvoice.ctp:34
+msgid "Note"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:34
+#: /View/Emails/html/mailinvoice.ctp:34
+msgid "Please prepare separate cheque for service tax"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:36
+#: /View/Emails/html/mailinvoice.ctp:36 /View/MyDeals/printinvoice.ctp:90
+msgid "Thanking You"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:37
+#: /View/Emails/html/mailinvoice.ctp:37 /View/MyDeals/printinvoice.ctp:91
+msgid "Yours faithfully"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:38
+#: /View/Emails/html/mailinvoice.ctp:38
+msgid "For M/s"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:40
+#: /View/Emails/html/mailinvoice.ctp:40 /View/MyDeals/printinvoice.ctp:94
+msgid "Contact No"
+msgstr ""
+
+#: /Plugin/Admin/View/Invpastdues/printletter.ctp:43
+#: /View/Emails/html/mailinvoice.ctp:43
+msgid "Director"
+msgstr ""
+
+#: /Plugin/Admin/View/Layouts/default.ctp:104 /View/MyProfiles/index.ctp:3
+msgid "Profile"
+msgstr ""
+
+#: /Plugin/Admin/View/Layouts/default.ctp:106
+msgid "Logout"
+msgstr ""
+
+#: /Plugin/Admin/View/Layouts/default.ctp:164 /View/Layouts/default.ctp:318
+msgid "Powered by"
+msgstr ""
+
+#: /Plugin/Admin/View/Layouts/default.ctp:164 /View/Completes/index.ctp:41
+#: /View/Layouts/default.ctp:318
+msgid "Elfemo"
+msgstr ""
+
+#: /Plugin/Admin/View/Layouts/default.ctp:179
+msgid "%s Admin Panel"
+msgstr ""
+
+#: /Plugin/Admin/View/Leads/add.ctp:49
+msgid "Add Lead"
+msgstr ""
+
+#: /Plugin/Admin/View/Leads/add.ctp:65 /Plugin/Admin/View/Leads/edit.ctp:71
+msgid "Agent's Name"
+msgstr ""
+
+#: /Plugin/Admin/View/Leads/add.ctp:76 /Plugin/Admin/View/Leads/edit.ctp:82
+msgid "Lead For"
+msgstr ""
+
+#: /Plugin/Admin/View/Leads/add.ctp:81
+msgid "Search Property Name"
+msgstr ""
+
+#: /Plugin/Admin/View/Leads/add.ctp:84
+#: /Plugin/Admin/View/Salesreports/index.ctp:63
+msgid "Search Client Name"
+msgstr ""
+
+#: /Plugin/Admin/View/Leads/add.ctp:88 /Plugin/Admin/View/Leads/edit.ctp:95
+#: /Plugin/Admin/View/Leads/index.ctp:39 /Plugin/Admin/View/Leads/view.ctp:19
+msgid "Follow Up"
+msgstr ""
+
+#: /Plugin/Admin/View/Leads/index.ctp:37 /View/Agencies/view.ctp:87
+msgid "Phone Number"
+msgstr ""
+
+#: /Plugin/Admin/View/Leads/view.ctp:3
+msgid "Lead Details"
+msgstr ""
+
+#: /Plugin/Admin/View/Leads/view.ctp:16
+msgid "Property Status"
+msgstr ""
+
+#: /Plugin/Admin/View/Locations/add.ctp:1
+msgid "Add Location"
+msgstr ""
+
+#: /Plugin/Admin/View/Locations/edit.ctp:8
+#: /Plugin/Admin/View/Locations/index.ctp:10
+msgid "Locations"
+msgstr ""
+
+#: /Plugin/Admin/View/Locations/index.ctp:15
+msgid "Add New Location"
+msgstr ""
+
+#: /Plugin/Admin/View/Paymenttypes/add.ctp:1
+msgid "Add Payment Type"
+msgstr ""
+
+#: /Plugin/Admin/View/Paymenttypes/edit.ctp:8
+#: /Plugin/Admin/View/PlansPayments/edit.ctp:8 /View/Dashboards/index.ctp:3
+#: /View/MyPayments/index.ctp:3
+msgid "Payments"
+msgstr ""
+
+#: /Plugin/Admin/View/Paymenttypes/index.ctp:15
+msgid "Add New Payment Type"
+msgstr ""
+
+#: /Plugin/Admin/View/Plans/add.ctp:1
+msgid "Add Plans"
+msgstr ""
+
+#: /Plugin/Admin/View/Plans/add.ctp:7;9 /Plugin/Admin/View/Plans/edit.ctp:16;18
+msgid "Plan Name"
+msgstr ""
+
+#: /Plugin/Admin/View/Plans/edit.ctp:8 /Plugin/Admin/View/Plans/index.ctp:10
+msgid "Plans"
+msgstr ""
+
+#: /Plugin/Admin/View/Plans/index.ctp:15
+msgid "Add New Plan"
+msgstr ""
+
+#: /Plugin/Admin/View/PlansPayments/add.ctp:6
+msgid "Add Payments"
+msgstr ""
+
+#: /Plugin/Admin/View/PlansPayments/add.ctp:13
+msgid " Installment"
+msgstr ""
+
+#: /Plugin/Admin/View/PlansPayments/add.ctp:19
+#: /Plugin/Admin/View/PlansPayments/edit.ctp:16;18
+msgid "Installment Name"
+msgstr ""
+
+#: /Plugin/Admin/View/PlansPayments/index.ctp:10
+msgid "Plans Payments"
+msgstr ""
+
+#: /Plugin/Admin/View/PlansPayments/index.ctp:14
+msgid "Add  Payments"
+msgstr ""
+
+#: /Plugin/Admin/View/PlansPayments/index.ctp:16
+msgid "Back To Deal"
+msgstr ""
+
+#: /Plugin/Admin/View/Profitreports/index.ctp:7
+msgid "Profit & Loss Report"
+msgstr ""
+
+#: /Plugin/Admin/View/Profitreports/index.ctp:14
+msgid "Total Profit & Loss this month"
+msgstr ""
+
+#: /Plugin/Admin/View/Profitreports/index.ctp:20
+msgid "Profit & Loss"
+msgstr ""
+
+#: /Plugin/Admin/View/Profitreports/index.ctp:60
+#: /Plugin/Admin/View/Salesreports/index.ctp:54;105
+msgid "Earning"
+msgstr ""
+
+#: /Plugin/Admin/View/Profitreports/index.ctp:61
+#: /Plugin/Admin/View/Purchasereports/index.ctp:31;76
+#: /Plugin/Admin/View/Purchases/view.ctp:3
+msgid "Purchase"
+msgstr ""
+
+#: /Plugin/Admin/View/Profitreports/index.ctp:63
+msgid "Profit/Loss"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/add.ctp:5
+msgid "Add Property"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/add.ctp:17;19
+#: /Plugin/Admin/View/Properties/edit.ctp:23;25
+#: /Plugin/Admin/View/Properties/view.ctp:15
+msgid "Title"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/add.ctp:37;39
+#: /Plugin/Admin/View/Properties/edit.ctp:43;45
+#: /Plugin/Admin/View/Properties/view.ctp:19
+msgid "Latitude"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/add.ctp:41;43
+#: /Plugin/Admin/View/Properties/edit.ctp:47;49
+#: /Plugin/Admin/View/Properties/view.ctp:20
+msgid "Longitude"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/add.ctp:46
+#: /Plugin/Admin/View/Properties/edit.ctp:52
+msgid "Or drag the marker to property position"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/add.ctp:51;53
+#: /Plugin/Admin/View/Properties/edit.ctp:57;59
+#: /Plugin/Admin/View/Properties/view.ctp:23
+#: /View/Compareproperties/index.ctp:32 /View/Properties/index.ctp:35;118
+#: /View/Properties/view.ctp:40;61
+msgid "Price"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/add.ctp:65
+#: /Plugin/Admin/View/Properties/edit.ctp:71
+#: /Plugin/Admin/View/Units/add.ctp:7;9 /Plugin/Admin/View/Units/edit.ctp:8
+#: /Plugin/Admin/View/Units/index.ctp:36
+msgid "Unit"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/add.ctp:71;73
+#: /Plugin/Admin/View/Properties/edit.ctp:77;79
+msgid "Number of Floors"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/add.ctp:75;77
+#: /Plugin/Admin/View/Properties/edit.ctp:81;83
+msgid "Number of Bedrooms"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/add.ctp:81;83
+#: /Plugin/Admin/View/Properties/edit.ctp:87;89
+msgid "Number of Bathrooms"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/add.ctp:85
+#: /Plugin/Admin/View/Properties/edit.ctp:91
+msgid "Add Features"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/add.ctp:91
+#: /Plugin/Admin/View/Properties/edit.ctp:101
+msgid "Agent's Commission Type"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/add.ctp:93
+#: /Plugin/Admin/View/Properties/edit.ctp:103
+msgid "Percentage"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/add.ctp:93
+#: /Plugin/Admin/View/Properties/edit.ctp:103 /View/Myproperties/index.ctp:19
+msgid "Value"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/add.ctp:95;97
+#: /Plugin/Admin/View/Properties/edit.ctp:105;107
+msgid "Agent's Commission"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/add.ctp:101
+#: /Plugin/Admin/View/Properties/edit.ctp:111
+msgid "Allow User Rating"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/add.ctp:105
+#: /Plugin/Admin/View/Properties/edit.ctp:115
+msgid "Allow User Comment"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/add.ctp:115
+#: /Plugin/Admin/View/PropertiesDocuments/add.ctp:3;7
+msgid "Add Document"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/add.ctp:119
+#: /Plugin/Admin/View/PropertiesFloorplans/add.ctp:3;7
+msgid "Add Floor Plan"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/add.ctp:125;127
+#: /Plugin/Admin/View/Properties/edit.ctp:125;127
+#: /Plugin/Admin/View/Properties/view.ctp:40
+msgid "Embed Video"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/edit.ctp:121
+#: /Plugin/Admin/View/Properties/index.ctp:54
+msgid "Sold"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/index.ctp:22
+msgid "General Search"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/index.ctp:23
+msgid "Search Title, directions, ID etc."
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/index.ctp:26
+msgid "Write a colony, city or state."
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/index.ctp:28
+msgid "Kind of property"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/index.ctp:34;35
+msgid "Minimum price"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/index.ctp:37;38
+msgid "Maximum price"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/index.ctp:41
+msgid "Bedroom +"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/index.ctp:44
+msgid "Bathroom +"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/index.ctp:47
+msgid "Area +"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/index.ctp:78
+#: /Plugin/Admin/View/Properties/view.ctp:8 /View/Properties/view.ctp:60
+msgid "Office ID"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/index.ctp:83
+msgid "Featured/Published"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/index.ctp:109 /View/MyDeals/index.ctp:34
+#: /View/Myproperties/photo.ctp:6
+msgid "Photos"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/index.ctp:110
+#: /Plugin/Admin/View/PropertiesDocuments/index.ctp:10
+#: /View/MyDeals/index.ctp:35 /View/Myproperties/document.ctp:6
+msgid "Documents"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/index.ctp:111 /View/Properties/view.ctp:90
+msgid "Floor Plans"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/view.ctp:12
+msgid "Property's Agent"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/view.ctp:19;20;31;35;36
+msgid "Not specified"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/view.ctp:31
+msgid "Number of floors"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/view.ctp:35
+msgid "Number of bedrooms"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/view.ctp:36
+msgid "Number of bathrooms"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/view.ctp:43
+msgid "Allow user rating"
+msgstr ""
+
+#: /Plugin/Admin/View/Properties/view.ctp:44
+msgid "Allow user comment"
+msgstr ""
+
+#: /Plugin/Admin/View/PropertiesDocuments/index.ctp:14
+#: /Plugin/Admin/View/PropertiesFloorplans/index.ctp:14
+#: /Plugin/Admin/View/PropertiesPhotos/index.ctp:14
+msgid "Back To Property"
+msgstr ""
+
+#: /Plugin/Admin/View/PropertiesDocuments/index.ctp:15
+msgid "Add New Document"
+msgstr ""
+
+#: /Plugin/Admin/View/PropertiesDocuments/index.ctp:29
+#: /View/Myproperties/documentview.ctp:7 /View/Properties/view.ctp:301
+msgid "Document"
+msgstr ""
+
+#: /Plugin/Admin/View/PropertiesFloorplans/index.ctp:10;29
+#: /Plugin/Admin/View/PropertiesFloorplans/view.ctp:3
+msgid "Floor Plan"
+msgstr ""
+
+#: /Plugin/Admin/View/PropertiesFloorplans/index.ctp:15
+msgid "Add New Floor Plan"
+msgstr ""
+
+#: /Plugin/Admin/View/PropertiesPhotos/add.ctp:3
+msgid "Add Property Photos"
+msgstr ""
+
+#: /Plugin/Admin/View/PropertiesPhotos/index.ctp:10
+msgid "Property Photo"
+msgstr ""
+
+#: /Plugin/Admin/View/PropertiesPhotos/index.ctp:15
+msgid "Add New Photo"
+msgstr ""
+
+#: /Plugin/Admin/View/PropertiesPhotos/index.ctp:29
+#: /Plugin/Admin/View/PropertiesPhotos/view.ctp:3
+#: /Plugin/Admin/View/Types/add.ctp:13 /Plugin/Admin/View/Types/index.ctp:37
+#: /View/Myproperties/document.ctp:11 /View/Myproperties/photo.ctp:11
+#: /View/Myproperties/photoview.ctp:7
+msgid "Photo"
+msgstr ""
+
+#: /Plugin/Admin/View/PropertiesPhotos/index.ctp:30
+msgid "Show on Front"
+msgstr ""
+
+#: /Plugin/Admin/View/Purchasereports/index.ctp:8
+msgid "Purchase Report"
+msgstr ""
+
+#: /Plugin/Admin/View/Purchasereports/index.ctp:15
+msgid "Total Purchase Count this month"
+msgstr ""
+
+#: /Plugin/Admin/View/Purchasereports/index.ctp:21
+msgid "Total Purchase this month"
+msgstr ""
+
+#: /Plugin/Admin/View/Purchasereports/index.ctp:26;75
+msgid "Purchase Count"
+msgstr ""
+
+#: /Plugin/Admin/View/Purchasereports/index.ctp:40
+#: /Plugin/Admin/View/Purchases/add.ctp:13;15
+#: /Plugin/Admin/View/Purchases/edit.ctp:17;19
+#: /Plugin/Admin/View/Purchases/view.ctp:10
+msgid "Seller Name"
+msgstr ""
+
+#: /Plugin/Admin/View/Purchases/add.ctp:1
+msgid "Add Purchase"
+msgstr ""
+
+#: /Plugin/Admin/View/Purchases/add.ctp:19;21
+#: /Plugin/Admin/View/Purchases/edit.ctp:23;25
+#: /Plugin/Admin/View/Purchases/view.ctp:14
+msgid "Seller Address"
+msgstr ""
+
+#: /Plugin/Admin/View/Purchases/add.ctp:23;25
+#: /Plugin/Admin/View/Purchases/edit.ctp:27;29
+#: /Plugin/Admin/View/Purchases/view.ctp:16
+msgid "Seller Mobile"
+msgstr ""
+
+#: /Plugin/Admin/View/Purchases/add.ctp:33;35
+#: /Plugin/Admin/View/Purchases/edit.ctp:37;39
+#: /Plugin/Admin/View/Purchases/view.ctp:22
+msgid "Property Area"
+msgstr ""
+
+#: /Plugin/Admin/View/Purchases/add.ctp:42;44
+#: /Plugin/Admin/View/Purchases/edit.ctp:46;48
+#: /Plugin/Admin/View/Purchases/view.ctp:26
+msgid "Property Amount"
+msgstr ""
+
+#: /Plugin/Admin/View/Purchases/add.ctp:46;48
+#: /Plugin/Admin/View/Purchases/edit.ctp:50;52
+#: /Plugin/Admin/View/Purchases/view.ctp:28 /View/Properties/view.ctp:74
+msgid "Property Description"
+msgstr ""
+
+#: /Plugin/Admin/View/PurchasesPayments/edit.ctp:3
+msgid "PurchasesPayments"
+msgstr ""
+
+#: /Plugin/Admin/View/PurchasesPayments/index.ctp:14
+msgid "Back To Purchase"
+msgstr ""
+
+#: /Plugin/Admin/View/Salesreports/index.ctp:32
+msgid "Sales Report"
+msgstr ""
+
+#: /Plugin/Admin/View/Salesreports/index.ctp:39
+msgid "Total Sales Count this month"
+msgstr ""
+
+#: /Plugin/Admin/View/Salesreports/index.ctp:45
+msgid "Total Earning this month"
+msgstr ""
+
+#: /Plugin/Admin/View/Salesreports/index.ctp:49;104
+msgid "Sales Count"
+msgstr ""
+
+#: /Plugin/Admin/View/Salesreports/index.ctp:66
+msgid "Commercial"
+msgstr ""
+
+#: /Plugin/Admin/View/Salesreports/index.ctp:66
+msgid "Residential"
+msgstr ""
+
+#: /Plugin/Admin/View/Salesreports/index.ctp:69
+msgid "Sale"
+msgstr ""
+
+#: /Plugin/Admin/View/Salesreports/index.ctp:69
+msgid "Rent"
+msgstr ""
+
+#: /Plugin/Admin/View/Searchhistories/index.ctp:10
+msgid "Search History"
+msgstr ""
+
+#: /Plugin/Admin/View/Searchhistories/index.ctp:31
+msgid "Search Keywords"
+msgstr ""
+
+#: /Plugin/Admin/View/Searchhistories/index.ctp:32
+msgid "Link"
+msgstr ""
+
+#: /Plugin/Admin/View/Searchhistories/index.ctp:78
+msgid "Click here to view result"
+msgstr ""
+
+#: /Plugin/Admin/View/Searchhistories/index.ctp:78
+msgid "No result found"
+msgstr ""
+
+#: /Plugin/Admin/View/Sendemails/index.ctp:107
+msgid "Send Emails"
+msgstr ""
+
+#: /Plugin/Admin/View/Sendemails/index.ctp:116;120
+#: /Plugin/Admin/View/Sendsms/index.ctp:124;128
+msgid "Clients"
+msgstr ""
+
+#: /Plugin/Admin/View/Sendemails/index.ctp:116;138
+msgid "Any Email"
+msgstr ""
+
+#: /Plugin/Admin/View/Sendemails/index.ctp:122
+#: /Plugin/Admin/View/Sendsms/index.ctp:130
+msgid "Default all client if you add manually then search clients name"
+msgstr ""
+
+#: /Plugin/Admin/View/Sendemails/index.ctp:128
+#: /Plugin/Admin/View/Sendsms/index.ctp:136
+msgid "Default all client if you add manually then search leads name"
+msgstr ""
+
+#: /Plugin/Admin/View/Sendemails/index.ctp:134
+#: /Plugin/Admin/View/Sendsms/index.ctp:142
+msgid "Default all client if you add manually then search agents name"
+msgstr ""
+
+#: /Plugin/Admin/View/Sendemails/index.ctp:140
+msgid "Type any email comma seprated"
+msgstr ""
+
+#: /Plugin/Admin/View/Sendemails/index.ctp:146
+msgid "Type subject"
+msgstr ""
+
+#: /Plugin/Admin/View/Sendemails/index.ctp:150
+msgid "Select Email Template"
+msgstr ""
+
+#: /Plugin/Admin/View/Sendemails/index.ctp:158
+msgid ""
+"If you do not want to select email template then simply type email message. "
+"Once you load editor then you can not select template go to reset button"
+msgstr ""
+
+#: /Plugin/Admin/View/Sendemails/index.ctp:163
+#: /Plugin/Admin/View/Sendsms/index.ctp:166
+msgid "Send"
+msgstr ""
+
+#: /Plugin/Admin/View/Sendsms/index.ctp:115
+msgid "Send SMS"
+msgstr ""
+
+#: /Plugin/Admin/View/Sendsms/index.ctp:124
+msgid "Any Sms"
+msgstr ""
+
+#: /Plugin/Admin/View/Sendsms/index.ctp:146
+msgid "Any Number"
+msgstr ""
+
+#: /Plugin/Admin/View/Sendsms/index.ctp:148
+msgid "Type any number comma seprated"
+msgstr ""
+
+#: /Plugin/Admin/View/Sendsms/index.ctp:152
+msgid "Select Sms Template"
+msgstr ""
+
+#: /Plugin/Admin/View/Sendsms/index.ctp:158
+msgid "Sms Template"
+msgstr ""
+
+#: /Plugin/Admin/View/Sendsms/index.ctp:160
+msgid "If you do not want to select sms template then simply type sms message."
+msgstr ""
+
+#: /Plugin/Admin/View/Slides/add.ctp:4
+msgid "Add Slides"
+msgstr ""
+
+#: /Plugin/Admin/View/Slides/add.ctp:8;10
+#: /Plugin/Admin/View/Slides/edit.ctp:12;14
+#: /Plugin/Admin/View/Slides/index.ctp:32
+msgid "Slide Name"
+msgstr ""
+
+#: /Plugin/Admin/View/Slides/add.ctp:20
+#: /Plugin/Admin/View/Slides/changephoto.ctp:7
+msgid "Upload Slide (1350*550)"
+msgstr ""
+
+#: /Plugin/Admin/View/Slides/changephoto.ctp:3
+msgid "Update Photo"
+msgstr ""
+
+#: /Plugin/Admin/View/Slides/edit.ctp:4
+msgid "Edit Slides"
+msgstr ""
+
+#: /Plugin/Admin/View/Slides/index.ctp:11
+msgid "Slides"
+msgstr ""
+
+#: /Plugin/Admin/View/Slides/index.ctp:15
+msgid "Add New Slide"
+msgstr ""
+
+#: /Plugin/Admin/View/Slides/index.ctp:51
+msgid "Change Photo"
+msgstr ""
+
+#: /Plugin/Admin/View/Slides/view.ctp:3
+msgid "View Slides"
+msgstr ""
+
+#: /Plugin/Admin/View/Smssettings/index.ctp:1
+msgid "SMS Settings"
+msgstr ""
+
+#: /Plugin/Admin/View/Smssettings/index.ctp:8;10
+msgid "API Link"
+msgstr ""
+
+#: /Plugin/Admin/View/Smssettings/index.ctp:12;14
+msgid "Sender ID"
+msgstr ""
+
+#: /Plugin/Admin/View/Smssettings/index.ctp:22;24
+msgid "Password/API Key"
+msgstr ""
+
+#: /Plugin/Admin/View/Smssettings/index.ctp:28
+msgid "Heading Username"
+msgstr ""
+
+#: /Plugin/Admin/View/Smssettings/index.ctp:30
+msgid "Username field provided by sms gateway"
+msgstr ""
+
+#: /Plugin/Admin/View/Smssettings/index.ctp:32
+msgid "eading Password"
+msgstr ""
+
+#: /Plugin/Admin/View/Smssettings/index.ctp:34
+msgid "Password field provided by sms gateway"
+msgstr ""
+
+#: /Plugin/Admin/View/Smssettings/index.ctp:38
+msgid "Heading Mobile No"
+msgstr ""
+
+#: /Plugin/Admin/View/Smssettings/index.ctp:40
+msgid "Mobile No field provided by sms gateway"
+msgstr ""
+
+#: /Plugin/Admin/View/Smssettings/index.ctp:42
+msgid "Heading Message"
+msgstr ""
+
+#: /Plugin/Admin/View/Smssettings/index.ctp:44
+msgid "Message field provided by sms gateway"
+msgstr ""
+
+#: /Plugin/Admin/View/Smssettings/index.ctp:48
+msgid "Heading Sender Id"
+msgstr ""
+
+#: /Plugin/Admin/View/Smssettings/index.ctp:50
+msgid "Sender Id field provided by sms gateway"
+msgstr ""
+
+#: /Plugin/Admin/View/Smssettings/index.ctp:54
+msgid "Get"
+msgstr ""
+
+#: /Plugin/Admin/View/Smssettings/index.ctp:54
+msgid "Post"
+msgstr ""
+
+#: /Plugin/Admin/View/Smstemplates/add.ctp:1
+msgid "Add SMS Template"
+msgstr ""
+
+#: /Plugin/Admin/View/Smstemplates/edit.ctp:9
+msgid "SMS Template"
+msgstr ""
+
+#: /Plugin/Admin/View/Smstemplates/index.ctp:10
+msgid "SMS Templates"
+msgstr ""
+
+#: /Plugin/Admin/View/Smstemplates/index.ctp:15
+msgid "Add New SMS Template"
+msgstr ""
+
+#: /Plugin/Admin/View/Statuses/add.ctp:1
+msgid "Add Status"
+msgstr ""
+
+#: /Plugin/Admin/View/Statuses/add.ctp:7;9
+#: /Plugin/Admin/View/Statuses/edit.ctp:11
+msgid "Status Name"
+msgstr ""
+
+#: /Plugin/Admin/View/Statuses/index.ctp:15
+msgid "Add New Status"
+msgstr ""
+
+#: /Plugin/Admin/View/Taxes/add.ctp:1
+msgid "Add Tax"
+msgstr ""
+
+#: /Plugin/Admin/View/Taxes/add.ctp:7;9 /Plugin/Admin/View/Taxes/edit.ctp:16;18
+#: /Plugin/Admin/View/Taxes/index.ctp:36
+msgid "Tax Name"
+msgstr ""
+
+#: /Plugin/Admin/View/Taxes/add.ctp:13;15
+#: /Plugin/Admin/View/Taxes/edit.ctp:22;24
+#: /Plugin/Admin/View/Taxes/index.ctp:37
+msgid "Tax Percentage"
+msgstr ""
+
+#: /Plugin/Admin/View/Taxes/edit.ctp:8
+msgid "Taxes"
+msgstr ""
+
+#: /Plugin/Admin/View/Taxes/index.ctp:15
+msgid "Add New Tax"
+msgstr ""
+
+#: /Plugin/Admin/View/Templates/add.ctp:1
+msgid "Add  Template"
+msgstr ""
+
+#: /Plugin/Admin/View/Templates/index.ctp:10
+msgid "Templates"
+msgstr ""
+
+#: /Plugin/Admin/View/Templates/index.ctp:15
+msgid "Add New  Template"
+msgstr ""
+
+#: /Plugin/Admin/View/Types/add.ctp:1 /Plugin/Admin/View/Types/index.ctp:15
+msgid "Add New Type"
+msgstr ""
+
+#: /Plugin/Admin/View/Types/edit.ctp:8 /Plugin/Admin/View/Types/index.ctp:10
+msgid "Types"
+msgstr ""
+
+#: /Plugin/Admin/View/Types/index.ctp:52
+msgid "Delete Photo"
+msgstr ""
+
+#: /Plugin/Admin/View/Units/add.ctp:1
+msgid "Add Unit"
+msgstr ""
+
+#: /Plugin/Admin/View/Units/index.ctp:10
+msgid "Units"
+msgstr ""
+
+#: /Plugin/Admin/View/Units/index.ctp:15
+msgid "Add New Unit"
+msgstr ""
+
+#: /Plugin/Admin/View/Users/add.ctp:2
+msgid "Add Agent"
+msgstr ""
+
+#: /Plugin/Admin/View/Users/add.ctp:3
+msgid "Add User"
+msgstr ""
+
+#: /Plugin/Admin/View/Users/add.ctp:24 /View/Completes/index.ctp:58;59
+msgid "User"
+msgstr ""
+
+#: /Plugin/Admin/View/Users/add.ctp:24
+msgid "Level"
+msgstr ""
+
+#: /Plugin/Admin/View/Users/add.ctp:72 /Plugin/Admin/View/Users/edit.ctp:61
+#: /Plugin/Admin/View/Users/editprofile.ctp:32
+msgid "Please select"
+msgstr ""
+
+#: /Plugin/Admin/View/Users/assignrights.ctp:1
+msgid "Level users"
+msgstr ""
+
+#: /Plugin/Admin/View/Users/assignrights.ctp:7
+msgid "Add New Level"
+msgstr ""
+
+#: /Plugin/Admin/View/Users/assignrights.ctp:9
+msgid "Back To Users"
+msgstr ""
+
+#: /Plugin/Admin/View/Users/assignrights.ctp:18
+msgid "Level Name"
+msgstr ""
+
+#: /Plugin/Admin/View/Users/assignrights.ctp:31
+msgid "Set Permission"
+msgstr ""
+
+#: /Plugin/Admin/View/Users/assignrightsedit.ctp:11
+msgid "Assign Form Rights"
+msgstr ""
+
+#: /Plugin/Admin/View/Users/assignrightsedit.ctp:19
+msgid "Module Name"
+msgstr ""
+
+#: /Plugin/Admin/View/Users/change_pass.ctp:1 /View/Changepasswords/index.ctp:3
+msgid "Change"
+msgstr ""
+
+#: /Plugin/Admin/View/Users/change_pass.ctp:7;9
+#: /View/Changepasswords/index.ctp:11;13
+msgid "Old Password"
+msgstr ""
+
+#: /Plugin/Admin/View/Users/edit.ctp:1
+msgid "Edit User"
+msgstr ""
+
+#: /Plugin/Admin/View/Users/edit.ctp:23
+msgid "User Level"
+msgstr ""
+
+#: /Plugin/Admin/View/Users/editprofile.ctp:1
+#: /Plugin/Admin/View/Users/my_profile.ctp:52
+msgid "Edit Profile"
+msgstr ""
+
+#: /Plugin/Admin/View/Users/index.ctp:10
+msgid "Users"
+msgstr ""
+
+#: /Plugin/Admin/View/Users/index.ctp:14
+msgid "Add New User"
+msgstr ""
+
+#: /Plugin/Admin/View/Users/leveladd.ctp:2
+msgid "Add Level Users"
+msgstr ""
+
+#: /Plugin/Admin/View/Users/leveladd.ctp:6;8
+msgid "Level User"
+msgstr ""
+
+#: /Plugin/Admin/View/Vendors/add.ctp:1
+msgid "Add"
+msgstr ""
+
+#: /Plugin/Admin/View/Vendors/add.ctp:1 /Plugin/Admin/View/Vendors/edit.ctp:8
+#: /Plugin/Admin/View/Vendors/index.ctp:10
+msgid "Vendors"
+msgstr ""
+
+#: /Plugin/Admin/View/Vendors/add.ctp:1 /Plugin/Admin/View/Vendors/edit.ctp:8
+#: /Plugin/Admin/View/Vendors/index.ctp:10
+msgid "Staff"
+msgstr ""
+
+#: /Plugin/Admin/View/Vendors/add.ctp:36;38
+#: /Plugin/Admin/View/Vendors/edit.ctp:45;47
+#: /Plugin/Admin/View/Vendors/index.ctp:39
+msgid "Licence No."
+msgstr ""
+
+#: /Plugin/Admin/View/Vendors/index.ctp:15
+msgid "Add New Vendors / Staff"
+msgstr ""
+
+#: /Plugin/Admin/View/Weblogos/index.ctp:1
+msgid "Organisation"
+msgstr ""
+
+#: /Plugin/Admin/View/Weblogos/index.ctp:1
+msgid "Logo"
+msgstr ""
+
+#: /Plugin/Admin/View/Weblogos/index.ctp:7
+msgid "height less than 220px"
+msgstr ""
+
+#: /Plugin/HighCharts/Controller/Component/HighChartsComponent.php:96
+msgid "Please provide a type for chart %s!"
+msgstr ""
+
+#: /Plugin/HighCharts/View/Helper/HighChartsHelper.php:99
+msgid ""
+"Chart: \"%s\" could not be found. Ensure that Chart Name is the same string "
+"that is passed to $this->HighCharts->render() in your view."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:173
+msgid ""
+"The Express Checkout transaction has expired and the transaction needs to be "
+"restarted"
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:174
+msgid ""
+"You may have made a second call for the same payment or you may have used "
+"the same invoice ID for seperate transactions."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:175
+msgid "Please use a different funcing source."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:176
+msgid "An error occured, please retry the transaction."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:177
+msgid "This transaction couldn't be completed. Redirecting to payment gateway"
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:178
+msgid "You have not agreed to the billing agreement."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:179
+msgid "The billing agreement is disabled or inactive."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:180
+msgid "The credit card used is expired."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:181
+msgid ""
+"The transaction was refused because the AVS response returned the value of "
+"N, and the merchant account is not able to accept such transactions."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:182
+msgid "The payment gateway account is restricted."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:183
+msgid "You must submit an IP address of the buyer with each API call."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:184
+msgid ""
+"The merchant selected a value for the PaymentAction field that is not "
+"supported."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:185
+msgid "The credit card field was blank."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:186
+msgid "The total amount and item amounts do not match."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:187;192
+msgid "The credit card entered is currently restricted by the payment gateway."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:188
+msgid ""
+"The merchant entered an invoice ID that is already associated with a "
+"transaction by the same merchant. Attempt with a new invoice ID"
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:189
+msgid ""
+"The transaction was declined by the country filter managed by the merchant."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:190
+msgid ""
+"The transaction was declined by the maximum amount filter managed by the "
+"merchant."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:191;193;208
+msgid "The transaction was declined by the payment gateway."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:194
+msgid ""
+"The transaction was declined by payment gateway because of possible "
+"fraudulent activity."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:195
+msgid ""
+"The transaction was declined by payment gateway because of possible "
+"fraudulent activity on the IP address."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:196
+msgid ""
+"The merchant account attempting the transaction is not a business account."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:197
+msgid ""
+"The merchant account attempting the transaction is not able to process "
+"Direct Payment transactions. "
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:198
+msgid "Access to Direct Payment was disabled for your account."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:199
+msgid ""
+"The merchant account attempting the transaction does not have a confirmed "
+"email address with the payment gateway."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:200
+msgid ""
+"The merchant attempted a transaction where the amount exceeded the upper "
+"limit for that merchant."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:201
+msgid ""
+"The transaction was declined because of a merchant risk filter for AVS. "
+"Specifically, the merchant has set to decline transaction when the AVS "
+"returned a no match (AVS = N)."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:202
+msgid ""
+"The transaction was declined because of a merchant risk filter for AVS. "
+"Specifically, the merchant has set the filter to decline transactions when "
+"the AVS returns a partial match."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:203
+msgid ""
+"The transaction was declined because of a merchant risk filter for AVS. "
+"Specifically, the merchant has set the filter to decline transactions when "
+"the AVS is unsupported."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:204
+msgid ""
+"The merchant entered an IP address that was in an invalid format. The IP "
+"address must be in a format such as 123.456.123.456."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:205
+msgid ""
+"The merchant's configuration requires a CVV to be entered, but no CVV was "
+"provided with this transaction."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:206
+msgid ""
+"The merchant provided an address either in the United States or Canada, but "
+"the state provided is not a valid state in either country."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:207;219;220
+msgid ""
+"The transaction was declined by the issuing bank, not the payment gateway. "
+"The merchant should attempt another card."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:209
+msgid ""
+"The merchant's country of residence is not currently supported to allow "
+"Direct Payment transactions."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:210
+msgid ""
+"The transaction was declined because the payment gateway is currently "
+"processing a transaction by the same buyer for the same amount. Can occur "
+"when a buyer submits multiple, identical transactions in quick succession."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:211
+msgid "The CVV provided is invalid. The CVV is between 3-4 digits long."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:212
+msgid ""
+"Please try again later. Ensure you have passed the correct CVV and address "
+"info for the buyer. If creating a recurring profile, please try again by "
+"passing a init amount of 0."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:213;214
+msgid ""
+"Transaction is not compliant due to missing or invalid 3-D Secure "
+"authentication values. Check ECI, ECI3DS, CAVV, XID fields."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:215
+msgid ""
+"The transaction was rejected by the payment gateway because of excessive "
+"failures over a short period of time for this credit card."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:216
+msgid "The transaction was declined by payment gateway."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:217
+msgid ""
+"The transaction was declined because the merchant does not have a valid "
+"commercial entity agreement on file with the payment gateway."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:218
+msgid ""
+"The transaction was declined because the CVV entered does not match the "
+"credit card."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:221
+msgid ""
+"The transaction was declined by the issuing bank because of an expired "
+"credit card. The merchant should attempt another card."
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:55
+#: /Plugin/Utils/View/Emails/html/error_notification.ctp:1;5;6;7;11;16;21;28;35;42
+#: /Plugin/Utils/View/Emails/text/error_notification.ctp:3;4;5
+msgid "utils"
+msgstr ""
+
+#: /View/Agencies/view.ctp:8
+msgid "Agency Details"
+msgstr ""
+
+#: /View/Agencies/view.ctp:47 /View/Agents/view.ctp:47
+msgid "Information"
+msgstr ""
+
+#: /View/Agencies/view.ctp:55;82 /View/Agents/view.ctp:54;82
+#: /View/Properties/sendbymail.ctp:9 /View/Properties/view.ctp:205
+msgid "E-mail"
+msgstr ""
+
+#: /View/Agencies/view.ctp:56 /View/Agents/view.ctp:55
+msgid "Skype"
+msgstr ""
+
+#: /View/Agencies/view.ctp:62
+msgid "About Agency"
+msgstr ""
+
+#: /View/Agencies/view.ctp:70
+msgid "Contact Agency"
+msgstr ""
+
+#: /View/Agencies/view.ctp:103 /View/Agents/view.ctp:95
+msgid "Please keep your message as simple as possible."
+msgstr ""
+
+#: /View/Agencies/view.ctp:109 /View/Agents/view.ctp:101
+#: /View/Properties/view.ctp:225
+msgid "Send Message"
+msgstr ""
+
+#: /View/Agencies/view.ctp:116
+msgid "Agency Assigned Properties"
+msgstr ""
+
+#: /View/Agencies/view.ctp:122 /View/Agents/view.ctp:114
+msgid "Recent Properties"
+msgstr ""
+
+#: /View/Agents/index.ctp:45
+msgid "properties in catalogue"
+msgstr ""
+
+#: /View/Agents/view.ctp:8
+msgid "Agent Details"
+msgstr ""
+
+#: /View/Agents/view.ctp:61
+msgid "About Agent"
+msgstr ""
+
+#: /View/Agents/view.ctp:69
+msgid "Contact Agent"
+msgstr ""
+
+#: /View/Agents/view.ctp:108
+msgid "Agent Assigned Properties"
+msgstr ""
+
+#: /View/Clients/login.ctp:21;25
+msgid "Email Id"
+msgstr ""
+
+#: /View/Clients/login.ctp:46
+msgid "New User? Create Account"
+msgstr ""
+
+#: /View/Clients/login.ctp:49 /View/Emailverifications/index.ctp:32
+#: /View/Emailverifications/resend.ctp:8
+msgid "Re-Send Email Verification"
+msgstr ""
+
+#: /View/Compareproperties/index.ctp:14
+msgid "Compare"
+msgstr ""
+
+#: /View/Compareproperties/index.ctp:33 /View/Properties/view.ctp:64
+msgid "Bedrooms"
+msgstr ""
+
+#: /View/Compareproperties/index.ctp:34 /View/Properties/view.ctp:65
+msgid "Bathrooms"
+msgstr ""
+
+#: /View/Compareproperties/index.ctp:65 /View/Helper/FunctionHelper.php:198
+msgid "View detail"
+msgstr ""
+
+#: /View/Completes/index.ctp:9
+msgid "Installation Complete"
+msgstr ""
+
+#: /View/Completes/index.ctp:46
+msgid "Aho! The System is installed  successfully"
+msgstr ""
+
+#: /View/Completes/index.ctp:50;51
+msgid "Admin"
+msgstr ""
+
+#: /View/Completes/index.ctp:54
+msgid "Go to Admin Interface"
+msgstr ""
+
+#: /View/Completes/index.ctp:55
+msgid "Go to Front End/Client Interface"
+msgstr ""
+
+#: /View/Completes/index.ctp:77 /View/Installers/index.ctp:164
+#: /View/Installers/step1.ctp:93 /View/Installers/step2.ctp:114
+#: /View/Installers/step3.ctp:113
+msgid "Visit our website"
+msgstr ""
+
+#: /View/Completes/index.ctp:77 /View/Installers/index.ctp:164
+#: /View/Installers/step1.ctp:93 /View/Installers/step2.ctp:114
+#: /View/Installers/step3.ctp:113
+msgid "for documentation and support"
+msgstr ""
+
+#: /View/Contacts/index.ctp:18
+msgid "Contact Us"
+msgstr ""
+
+#: /View/Contacts/index.ctp:29
+msgid "Your name"
+msgstr ""
+
+#: /View/Contacts/index.ctp:42
+msgid "phone/Mobile"
+msgstr ""
+
+#: /View/Contacts/index.ctp:54
+msgid "Write you message here..."
+msgstr ""
+
+#: /View/Contacts/index.ctp:56
+msgid "Send message"
+msgstr ""
+
+#: /View/Dashboards/index.ctp:10
+msgid "Receipt No."
+msgstr ""
+
+#: /View/Elements/flash.ctp:3
+msgid "Something went wrong"
+msgstr ""
+
+#: /View/Elements/pagination.ctp:13
+msgid "Show"
+msgstr ""
+
+#: /View/Elements/pagination.ctp:15
+msgid "entries"
+msgstr ""
+
+#: /View/Elements/pagination.ctp:24
+msgid "Prev"
+msgstr ""
+
+#: /View/Elements/pagination.ctp:26
+msgid "Next"
+msgstr ""
+
+#: /View/Elements/pagination.ctp:30
+msgid "Showing {:start} to {:current} of {:count} entries"
+msgstr ""
+
+#: /View/Emails/html/mailinvoice.ctp:17
+msgid "bearing no"
+msgstr ""
+
+#: /View/Emails/html/mailinvoice.ctp:18
+msgid "to be / being constructed on the property being"
+msgstr ""
+
+#: /View/Emails/html/mailinvoice.ctp:28
+msgid "from the date of receipt of this letter. The interest would be charged"
+msgstr ""
+
+#: /View/Emailverifications/index.ctp:8
+msgid "Email Verification"
+msgstr ""
+
+#: /View/Emailverifications/index.ctp:25 /View/Forgots/presetcode.ctp:25
+msgid "Please Enter Verification Code in the Text Box"
+msgstr ""
+
+#: /View/Emailverifications/resend.ctp:24
+msgid ""
+"Please Enter Email Id in the Text Box which you enter at the time of "
+"registration"
+msgstr ""
+
+#: /View/Favouriteproperties/index.ctp:18
+msgid "Favourite"
+msgstr ""
+
+#: /View/Fronts/home.ctp:25
+msgid "Most Viewed Property"
+msgstr ""
+
+#: /View/Fronts/home.ctp:42
+msgid "Featured Properties"
+msgstr ""
+
+#: /View/Fronts/home.ctp:62
+msgid "Popular Property Categories"
+msgstr ""
+
+#: /View/Fronts/home.ctp:64
+msgid "Check the best property categories avaialable in our directory."
+msgstr ""
+
+#: /View/Fronts/home.ctp:77
+msgid "submissions in directory"
+msgstr ""
+
+#: /View/Fronts/home.ctp:78
+msgid "View List"
+msgstr ""
+
+#: /View/Helper/CaptchaHelper.php:15
+msgid "Can't read? Reload"
+msgstr ""
+
+#: /View/Helper/CaptchaHelper.php:16;32
+msgid "Enter security code shown above"
+msgstr ""
+
+#: /View/Helper/CaptchaHelper.php:31
+msgid "Answer simple math"
+msgstr ""
+
+#: /View/Helper/FunctionHelper.php:51
+msgid "Mins"
+msgstr ""
+
+#: /View/Helper/FunctionHelper.php:57;59
+msgid "Sec"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:27
+msgid "ten"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:31
+msgid "eleven"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:35
+msgid "twelve"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:39
+msgid "thirteen"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:43
+msgid "fourteen"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:47
+msgid "fiveteen"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:51
+msgid "sixteen"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:55
+msgid "seventeen"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:59
+msgid "eighteen"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:63
+msgid "nineteen"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:67;105;150 /View/Errors/error400.ctp:21
+#: /View/Errors/error500.ctp:21 /View/Errors/missing_controller.ctp:21
+#: /View/Errors/missing_datasource_config.ctp:21
+msgid "Error"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:73
+msgid "twenty"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:77
+msgid "thirty"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:81
+msgid "forty"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:85
+msgid "fifty"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:89
+msgid "sixty"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:93
+msgid "seventy"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:97
+msgid "eighty"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:101
+msgid "ninety"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:115
+msgid "one"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:118
+msgid "two"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:122
+msgid "three"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:126
+msgid "four"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:130
+msgid "five"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:134
+msgid "six"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:138
+msgid "seven"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:142
+msgid "eight"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:146
+msgid "nine"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:168;197;221
+msgid " hundred "
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:175;209
+msgid " thousand "
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:185
+msgid " lakh "
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:232
+msgid "morethan7"
+msgstr ""
+
+#: /View/Helper/NumToWordHelper.php:269
+msgid " Rupees "
+msgstr ""
+
+#: /View/Installers/index.ctp:9 /View/Installers/step2.ctp:9
+#: /View/Installers/step3.ctp:9
+msgid "Installation"
+msgstr ""
+
+#: /View/Installers/index.ctp:37
+msgid "Step 1 of 4"
+msgstr ""
+
+#: /View/Installers/index.ctp:38
+msgid "Server Configuration & Setup Requirements"
+msgstr ""
+
+#: /View/Installers/index.ctp:42
+msgid "Setup Requirements"
+msgstr ""
+
+#: /View/Installers/index.ctp:44
+msgid ""
+"Installing this software require certain server side extension and capability"
+msgstr ""
+
+#: /View/Installers/index.ctp:45
+msgid ""
+"please check below and compare with your server current statues on the "
+"right. You can click on the icon next to each technology for details."
+msgstr ""
+
+#: /View/Installers/index.ctp:50;89
+msgid "Extensions &amp; Applications"
+msgstr ""
+
+#: /View/Installers/index.ctp:56
+msgid "HTTP Server. For example: Apache"
+msgstr ""
+
+#: /View/Installers/index.ctp:57;61;65;69
+msgid "Require"
+msgstr ""
+
+#: /View/Installers/index.ctp:60
+msgid "PHP 5.2.8 or greater"
+msgstr ""
+
+#: /View/Installers/index.ctp:64
+msgid "Database Engine MySQL (4 or greater)"
+msgstr ""
+
+#: /View/Installers/index.ctp:68;107
+msgid "PDO Extension"
+msgstr ""
+
+#: /View/Installers/index.ctp:72;111
+msgid "GD Extension"
+msgstr ""
+
+#: /View/Installers/index.ctp:73
+msgid "Mandatory"
+msgstr ""
+
+#: /View/Installers/index.ctp:83
+msgid "Server Status"
+msgstr ""
+
+#: /View/Installers/index.ctp:95
+msgid "Web Server"
+msgstr ""
+
+#: /View/Installers/index.ctp:99
+msgid "PHP Version"
+msgstr ""
+
+#: /View/Installers/index.ctp:103
+msgid "MYSQL Version"
+msgstr ""
+
+#: /View/Installers/index.ctp:108
+msgid "PDO Unavailable"
+msgstr ""
+
+#: /View/Installers/index.ctp:108
+msgid "PDO Available"
+msgstr ""
+
+#: /View/Installers/index.ctp:112
+msgid "GD Availiable"
+msgstr ""
+
+#: /View/Installers/index.ctp:112
+msgid "GD Unavailiable"
+msgstr ""
+
+#: /View/Installers/index.ctp:124
+msgid "Directory &amp; File Permission"
+msgstr ""
+
+#: /View/Installers/index.ctp:126
+msgid "These Folders of Files need to be"
+msgstr ""
+
+#: /View/Installers/index.ctp:126
+msgid "for application to be installed."
+msgstr ""
+
+#: /View/Installers/index.ctp:131
+msgid "Folders or Files"
+msgstr ""
+
+#: /View/Installers/index.ctp:137
+msgid "app/tmp/"
+msgstr ""
+
+#: /View/Installers/index.ctp:141
+msgid "app/Config/database.php"
+msgstr ""
+
+#: /View/Installers/index.ctp:152
+msgid "Refresh"
+msgstr ""
+
+#: /View/Installers/index.ctp:153
+msgid "Let's Start"
+msgstr ""
+
+#: /View/Installers/step1.ctp:46
+msgid "Step 2 of 4"
+msgstr ""
+
+#: /View/Installers/step1.ctp:48
+msgid "Installation Agreement"
+msgstr ""
+
+#: /View/Installers/step1.ctp:81
+msgid "I Accept to Proceed"
+msgstr ""
+
+#: /View/Installers/step2.ctp:46
+msgid "Step 3 of 4"
+msgstr ""
+
+#: /View/Installers/step2.ctp:47
+msgid "Database Connection Settings"
+msgstr ""
+
+#: /View/Installers/step2.ctp:49
+msgid "Host Name"
+msgstr ""
+
+#: /View/Installers/step2.ctp:52
+msgid "Usually localhost"
+msgstr ""
+
+#: /View/Installers/step2.ctp:58;61
+msgid "Database Name"
+msgstr ""
+
+#: /View/Installers/step2.ctp:67
+msgid "Database User"
+msgstr ""
+
+#: /View/Installers/step2.ctp:70
+msgid "Database User Name"
+msgstr ""
+
+#: /View/Installers/step2.ctp:76
+msgid "Database Password"
+msgstr ""
+
+#: /View/Installers/step2.ctp:79
+msgid "Database User Password"
+msgstr ""
+
+#: /View/Installers/step2.ctp:84
+msgid "Database Type"
+msgstr ""
+
+#: /View/Installers/step2.ctp:101
+msgid "Test Connection"
+msgstr ""
+
+#: /View/Installers/step3.ctp:46
+msgid "Step 4 of 4"
+msgstr ""
+
+#: /View/Installers/step3.ctp:50
+msgid "Name of Your Website"
+msgstr ""
+
+#: /View/Installers/step3.ctp:56
+msgid "http://yourdomain.com"
+msgstr ""
+
+#: /View/Installers/step3.ctp:60
+msgid "Meta Keyword"
+msgstr ""
+
+#: /View/Installers/step3.ctp:62
+msgid "Useful for SEO"
+msgstr ""
+
+#: /View/Installers/step3.ctp:68
+msgid "Meta Content for SEO"
+msgstr ""
+
+#: /View/Installers/step3.ctp:74
+msgid "Please Select Timezone"
+msgstr ""
+
+#: /View/Installers/step3.ctp:80
+msgid "Name of Your Organization/Company"
+msgstr ""
+
+#: /View/Installers/step3.ctp:86
+msgid "Default Admin Email"
+msgstr ""
+
+#: /View/Installers/step3.ctp:90
+msgid "Install Sample Data With Dummy Entries"
+msgstr ""
+
+#: /View/Installers/step3.ctp:100
+msgid "Install"
+msgstr ""
+
+#: /View/Layouts/default.ctp:188;267
+msgid "Register"
+msgstr ""
+
+#: /View/Layouts/default.ctp:191;270
+msgid "Compare Properties"
+msgstr ""
+
+#: /View/Layouts/default.ctp:208
+msgid "Ask Us Anything"
+msgstr ""
+
+#: /View/Layouts/default.ctp:217
+msgid "Call Us Monday To Friday"
+msgstr ""
+
+#: /View/Layouts/default.ctp:317
+msgid "Time"
+msgstr ""
+
+#: /View/MyDeals/index.ctp:3 /View/MyPayments/index.ctp:3
+#: /View/MyProfiles/index.ctp:3
+msgid "My"
+msgstr ""
+
+#: /View/MyDeals/index.ctp:14
+msgid "Invoice Total"
+msgstr ""
+
+#: /View/MyDeals/view.ctp:6
+msgid "My Deal"
+msgstr ""
+
+#: /View/MyDeals/view.ctp:23
+msgid "Flat/Plot"
+msgstr ""
+
+#: /View/MyInvpastdues/index.ctp:14
+msgid "Flat/Plot No."
+msgstr ""
+
+#: /View/MyPayments/index.ctp:11
+msgid "Receipt No"
+msgstr ""
+
+#: /View/MyPayments/index.ctp:30
+msgid "Receipt"
+msgstr ""
+
+#: /View/MyPayments/printreceipt.ctp:5
+msgid "Payment Receipt"
+msgstr ""
+
+#: /View/MyPayments/printreceipt.ctp:31
+msgid "ReceiptNo"
+msgstr ""
+
+#: /View/MyPayments/printreceipt.ctp:33
+msgid "Dear  Mr./Mrs./Ms"
+msgstr ""
+
+#: /View/MyPayments/printreceipt.ctp:34
+msgid "Thank you for your payment against the following details"
+msgstr ""
+
+#: /View/MyPayments/printreceipt.ctp:67
+msgid "Subject to Realisation of Cheque"
+msgstr ""
+
+#: /View/MyProfiles/index.ctp:23
+msgid "Last Login"
+msgstr ""
+
+#: /View/Myproperties/documentview.ctp:9
+msgid "Back To Documents"
+msgstr ""
+
+#: /View/Myproperties/index.ctp:20
+msgid "/Monthly"
+msgstr ""
+
+#: /View/Myproperties/index.ctp:33
+msgid "Area/Specification"
+msgstr ""
+
+#: /View/Myproperties/photoview.ctp:9
+msgid "Back To Photos"
+msgstr ""
+
+#: /View/Properties/calculator.ctp:5 /View/Properties/view.ctp:186
+msgid "Calculator"
+msgstr ""
+
+#: /View/Properties/calculator.ctp:15
+msgid "Interest Rate"
+msgstr ""
+
+#: /View/Properties/calculator.ctp:19
+msgid "per annum"
+msgstr ""
+
+#: /View/Properties/calculator.ctp:22
+msgid "Term"
+msgstr ""
+
+#: /View/Properties/calculator.ctp:26
+msgid "years"
+msgstr ""
+
+#: /View/Properties/calculator.ctp:29
+msgid "Frequency"
+msgstr ""
+
+#: /View/Properties/calculator.ctp:35
+msgid "Loan Type"
+msgstr ""
+
+#: /View/Properties/calculator.ctp:42
+msgid "Calculate"
+msgstr ""
+
+#: /View/Properties/calculator.ctp:47
+msgid "Repayment"
+msgstr ""
+
+#: /View/Properties/index.ctp:34;117
+msgid "Sort By"
+msgstr ""
+
+#: /View/Properties/index.ctp:36;119
+msgid "Date Added"
+msgstr ""
+
+#: /View/Properties/index.ctp:54
+msgid "Quick Search"
+msgstr ""
+
+#: /View/Properties/index.ctp:75
+msgid "Price From"
+msgstr ""
+
+#: /View/Properties/index.ctp:78
+msgid "Price To"
+msgstr ""
+
+#: /View/Properties/index.ctp:81
+msgid "Beds"
+msgstr ""
+
+#: /View/Properties/index.ctp:84
+msgid "Baths"
+msgstr ""
+
+#: /View/Properties/sendbymail.ctp:4
+msgid "Send By"
+msgstr ""
+
+#: /View/Properties/sendbymail.ctp:11
+msgid "Multiple E-Mails seprated by comaa(,)"
+msgstr ""
+
+#: /View/Properties/view.ctp:57
+msgid "Property Attributes"
+msgstr ""
+
+#: /View/Properties/view.ctp:67
+msgid "Views"
+msgstr ""
+
+#: /View/Properties/view.ctp:81
+msgid "Amenities"
+msgstr ""
+
+#: /View/Properties/view.ctp:98
+msgid "Map"
+msgstr ""
+
+#: /View/Properties/view.ctp:121
+msgid "Your Rating"
+msgstr ""
+
+#: /View/Properties/view.ctp:130
+msgid "Overall Rating"
+msgstr ""
+
+#: /View/Properties/view.ctp:137
+msgid "Video Presentation"
+msgstr ""
+
+#: /View/Properties/view.ctp:142
+msgid "Comments"
+msgstr ""
+
+#: /View/Properties/view.ctp:162
+msgid "Share Property"
+msgstr ""
+
+#: /View/Properties/view.ctp:174
+msgid "Send By E-mail"
+msgstr ""
+
+#: /View/Properties/view.ctp:178
+msgid "View Agency Detail"
+msgstr ""
+
+#: /View/Properties/view.ctp:189
+msgid "Download Document"
+msgstr ""
+
+#: /View/Properties/view.ctp:197
+msgid "Inquiry Form"
+msgstr ""
+
+#: /View/Properties/view.ctp:200
+msgid "Full Name"
+msgstr ""
+
+#: /View/Properties/view.ctp:210
+msgid "Mobile Number"
+msgstr ""
+
+#: /View/Properties/view.ctp:279
+msgid "Share Properties"
+msgstr ""
+
+#: /View/Properties/view.ctp:297
+msgid "Download Documents"
+msgstr ""
+
+#: /View/Registers/index.ctp:9;60
+msgid "Create Account"
+msgstr ""
+
+#: /View/Registers/index.ctp:50
+msgid "Security Code"
+msgstr ""
+
+#: /View/Registers/index.ctp:65
+msgid "I already have an account"
+msgstr ""
+
+#: /View/Errors/error400.ctp:23 /View/Errors/missing_controller.ctp:23
+msgid "The requested address %s was not found on this server."
+msgstr ""
+
+#: /View/Errors/error500.ctp:22
+msgid "An Internal Error Has Occurred."
+msgstr ""
+
+#: /View/Errors/missing_datasource_config.ctp:22
+msgid "datasource configuration was not found"
+msgstr ""
+
+#: /Plugin/Utils/Test/Case/View/Helper/PlaceHelperTest.php:235
+#: /Plugin/Utils/View/Helper/PlaceHelper.php:158
+msgid "Server lipsum.com returns error code %s."
+msgstr ""
+
+#: /Plugin/Utils/Test/Case/View/Helper/PlaceHelperTest.php:249;255
+#: /Plugin/Utils/View/Helper/PlaceHelper.php:170
+msgid "Response from lipsum.com is empty or could not be decoded."
+msgstr ""
+
+#: /Plugin/Utils/Test/Case/View/Helper/PlaceHelperTest.php:290
+#: /Plugin/Utils/View/Helper/PlaceHelper.php:196
+msgid "Connection to server lipsum.com failed. %s."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:260
+msgid "An error occured while getting the status of your account."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:313;361
+msgid "There was an error while connecting to Paypal"
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:316
+msgid "There was a problem initiating the transaction, please try again."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:364
+msgid "There was a problem getting your details, please try again."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:418
+msgid "There was an error completing the payment"
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:421
+msgid "There was a problem processing the transaction, please try again."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:455
+msgid "There was an error processing the card payment"
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:458
+msgid "There was a problem processing your card, please try again."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:492
+msgid "There was an error processing the the refund"
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:495
+msgid "A problem occurred during the refund process, please try again."
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:538;582;617
+msgid "There was an problem communicating with the payment gateway"
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:601
+msgid "Missing client id/secret"
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:644;733
+msgid "Must specify an expiry date"
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:649;738
+msgid "Must include a M and Y in expiry date"
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:657
+msgid "Invalid expiry date"
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:663
+msgid "Invalid card number"
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:667
+msgid "Invalid CVV2 number"
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:673
+msgid "Invalid card type"
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:715
+msgid "Could not detect client IP address"
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:719
+msgid "Not a valid credit card number"
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:724
+msgid "You must include the 3 digit security number"
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:729
+msgid "Must specify an \"amount\" to charge"
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:777
+msgid "You must pass a valid order array"
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:780
+msgid "Valid \"return\" and \"cancel\" urls must be provided"
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:783
+msgid "You must provide a currency code"
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:836
+msgid "Original PayPal Transaction ID is required"
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:841
+msgid "Must specify an \"amount\" to refund"
+msgstr ""
+
+#: /Plugin/Paypal/Lib/Paypal.php:845
+msgid "You must specify a refund type, such as Full or Partial"
+msgstr ""
+
+#: /Plugin/search-master/Controller/Component/PrgComponent.php:402
+msgid "Please correct the errors below."
+msgstr ""
+
+#: /Plugin/Upload/Model/Behavior/UploadBehavior.php:301
+msgid "File was not downloaded."
+msgstr ""
+
+#: /Plugin/Utils/Controller/Component/ArchiveComponent.php:156
+msgid "No %s found for that date range"
+msgstr ""
+
+#: /Plugin/Utils/Controller/Component/FormPreserverComponent.php:77
+msgid "Your form data is preserved you'll be redirected to it after login."
+msgstr ""
+
+#: /Plugin/Utils/Error/EmailErrorHandler.php:117
+msgid "Error notification from %s"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:59
+msgid "Afghanistan"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:60
+msgid "Albania"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:61
+msgid "Algeria"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:62
+msgid "American Samoa"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:63
+msgid "Andorra"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:64
+msgid "Angola"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:65
+msgid "Anguilla"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:66
+msgid "Antarctica"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:67
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:68
+msgid "Argentina"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:69
+msgid "Armenia"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:70
+msgid "Aruba"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:71
+msgid "Australia"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:72
+msgid "Austria"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:73
+msgid "Azerbaijan"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:74
+msgid "Bahamas"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:75
+msgid "Bahrain"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:76
+msgid "Bangladesh"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:77
+msgid "Barbados"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:78
+msgid "Belarus"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:79
+msgid "Belgium"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:80
+msgid "Belize"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:81
+msgid "Benin"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:82
+msgid "Bermuda"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:83
+msgid "Bhutan"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:84
+msgid "Bolivia"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:85
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:86
+msgid "Botswana"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:87
+msgid "Bouvet Island"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:88
+msgid "Brazil"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:89
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:90
+msgid "Brunei Darussalam"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:91
+msgid "Bulgaria"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:92
+msgid "Burkina Faso"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:93
+msgid "Burundi"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:94
+msgid "Cambodia"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:95
+msgid "Cameroon"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:96
+msgid "Canada"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:97
+msgid "Cape Verde"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:98
+msgid "Cayman Islands"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:99
+msgid "Central African Republic"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:100
+msgid "Chad"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:101
+msgid "Chile"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:102
+msgid "China"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:103
+msgid "Christmas Island"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:104
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:105
+msgid "Colombia"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:106
+msgid "Comoros"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:107
+msgid "Congo"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:108
+msgid "Congo, the Democratic Republic of the"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:109
+msgid "Cook Islands"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:110
+msgid "Costa Rica"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:111
+msgid "Cote D'Ivoire"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:112
+msgid "Croatia"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:113
+msgid "Cuba"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:114
+msgid "Cyprus"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:115
+msgid "Czech Republic"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:116
+msgid "Denmark"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:117
+msgid "Djibouti"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:118
+msgid "Dominica"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:119
+msgid "Dominican Republic"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:120
+msgid "Ecuador"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:121
+msgid "Egypt"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:122
+msgid "El Salvador"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:123
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:124
+msgid "Eritrea"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:125
+msgid "Estonia"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:126
+msgid "Ethiopia"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:127
+msgid "Falkland Islands (Malvinas)"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:128
+msgid "Faroe Islands"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:129
+msgid "Fiji"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:130
+msgid "Finland"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:131
+msgid "France"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:132
+msgid "French Guiana"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:133
+msgid "French Polynesia"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:134
+msgid "French Southern Territories"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:135
+msgid "Gabon"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:136
+msgid "Gambia"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:137
+msgid "Georgia"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:138
+msgid "Germany"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:139
+msgid "Ghana"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:140
+msgid "Gibraltar"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:141
+msgid "Greece"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:142
+msgid "Greenland"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:143
+msgid "Grenada"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:144
+msgid "Guadeloupe"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:145
+msgid "Guam"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:146
+msgid "Guatemala"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:147
+msgid "Guinea"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:148
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:149
+msgid "Guyana"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:150
+msgid "Haiti"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:151
+msgid "Heard Island and Mcdonald Islands"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:152
+msgid "Holy See (Vatican City State)"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:153
+msgid "Honduras"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:154
+msgid "Hong Kong"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:155
+msgid "Hungary"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:156
+msgid "Iceland"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:157
+msgid "India"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:158
+msgid "Indonesia"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:159
+msgid "Iran, Islamic Republic of"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:160
+msgid "Iraq"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:161
+msgid "Ireland"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:162
+msgid "Israel"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:163
+msgid "Italy"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:164
+msgid "Jamaica"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:165
+msgid "Japan"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:166
+msgid "Jordan"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:167
+msgid "Kazakhstan"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:168
+msgid "Kenya"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:169
+msgid "Kiribati"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:170
+msgid "Korea, Democratic People's Republic of"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:171
+msgid "Korea, Republic of"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:172
+msgid "Kuwait"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:173
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:174
+msgid "Lao People's Democratic Republic"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:175
+msgid "Latvia"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:176
+msgid "Lebanon"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:177
+msgid "Lesotho"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:178
+msgid "Liberia"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:179
+msgid "Libyan Arab Jamahiriya"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:180
+msgid "Liechtenstein"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:181
+msgid "Lithuania"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:182
+msgid "Luxembourg"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:183
+msgid "Macao"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:184
+msgid "Macedonia, the Former Yugoslav Republic of"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:185
+msgid "Madagascar"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:186
+msgid "Malawi"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:187
+msgid "Malaysia"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:188
+msgid "Maldives"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:189
+msgid "Mali"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:190
+msgid "Malta"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:191
+msgid "Marshall Islands"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:192
+msgid "Martinique"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:193
+msgid "Mauritania"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:194
+msgid "Mauritius"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:195
+msgid "Mayotte"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:196
+msgid "Mexico"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:197
+msgid "Micronesia, Federated States of"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:198
+msgid "Moldova, Republic of"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:199
+msgid "Monaco"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:200
+msgid "Mongolia"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:201
+msgid "Montserrat"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:202
+msgid "Morocco"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:203
+msgid "Mozambique"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:204
+msgid "Myanmar"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:205
+msgid "Namibia"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:206
+msgid "Nauru"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:207
+msgid "Nepal"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:208
+msgid "Netherlands"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:209
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:210
+msgid "New Caledonia"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:211
+msgid "New Zealand"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:212
+msgid "Nicaragua"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:213
+msgid "Niger"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:214
+msgid "Nigeria"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:215
+msgid "Niue"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:216
+msgid "Norfolk Island"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:217
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:218
+msgid "Norway"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:219
+msgid "Oman"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:220
+msgid "Pakistan"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:221
+msgid "Palau"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:222
+msgid "Palestinian Territory, Occupied"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:223
+msgid "Panama"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:224
+msgid "Papua New Guinea"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:225
+msgid "Paraguay"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:226
+msgid "Peru"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:227
+msgid "Philippines"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:228
+msgid "Pitcairn"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:229
+msgid "Poland"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:230
+msgid "Portugal"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:231
+msgid "Puerto Rico"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:232
+msgid "Qatar"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:233
+msgid "Reunion"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:234
+msgid "Romania"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:235
+msgid "Russian Federation"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:236
+msgid "Rwanda"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:237
+msgid "Saint Helena"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:238
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:239
+msgid "Saint Lucia"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:240
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:241
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:242
+msgid "Samoa"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:243
+msgid "San Marino"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:244
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:245
+msgid "Saudi Arabia"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:246
+msgid "Senegal"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:247
+msgid "Serbia and Montenegro"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:248
+msgid "Seychelles"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:249
+msgid "Sierra Leone"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:250
+msgid "Singapore"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:251
+msgid "Slovakia"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:252
+msgid "Slovenia"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:253
+msgid "Solomon Islands"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:254
+msgid "Somalia"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:255
+msgid "South Africa"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:256
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:257
+msgid "Spain"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:258
+msgid "Sri Lanka"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:259
+msgid "Sudan"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:260
+msgid "Suriname"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:261
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:262
+msgid "Swaziland"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:263
+msgid "Sweden"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:264
+msgid "Switzerland"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:265
+msgid "Syrian Arab Republic"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:266
+msgid "Taiwan, Province of China"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:267
+msgid "Tajikistan"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:268
+msgid "Tanzania, United Republic of"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:269
+msgid "Thailand"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:270
+msgid "Timor-Leste"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:271
+msgid "Togo"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:272
+msgid "Tokelau"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:273
+msgid "Tonga"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:274
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:275
+msgid "Tunisia"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:276
+msgid "Turkey"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:277
+msgid "Turkmenistan"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:278
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:279
+msgid "Tuvalu"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:280
+msgid "Uganda"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:281
+msgid "Ukraine"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:282
+msgid "United Arab Emirates"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:283
+msgid "United Kingdom"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:284
+msgid "United States"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:285
+msgid "Uruguay"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:286
+msgid "Uzbekistan"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:287
+msgid "Vanuatu"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:288
+msgid "Venezuela"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:289
+msgid "Viet Nam"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:290
+msgid "Virgin Islands, British"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:291
+msgid "Virgin Islands, U.s."
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:292
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:293
+msgid "Western Sahara"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:294
+msgid "Yemen"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:295
+msgid "Zambia"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:296
+msgid "Zimbabwe"
+msgstr ""
+
+#: /Plugin/Utils/Lib/I18nCountry.php:342
+msgid "Invalid argument #1: %s is not a valid %s identifyer."
+msgstr ""
+
+#: /Plugin/Utils/Model/Behavior/CsvImportBehavior.php:171
+msgid "%s for Row %d failed to save."
+msgstr ""
+
+#: /Plugin/Utils/Model/Behavior/ToggleableBehavior.php:48
+msgid "You need to define at least one field to be toggleable."
+msgstr ""
+
+#: /Plugin/Utils/Model/Behavior/ToggleableBehavior.php:69
+msgid "The field %s is not in the list of toggleable fields."
+msgstr ""
+
+#: /Plugin/Utils/Model/Behavior/ToggleableBehavior.php:73
+msgid "The field %s does not have two toggleable states defined."
+msgstr ""
+
+#: /Plugin/Utils/Model/Behavior/ToggleableBehavior.php:93
+msgid "Invalid record"
+msgstr ""
+
+#: /Plugin/Utils/Model/Behavior/ToggleableBehavior.php:93
+msgid "Calendar Schedules"
+msgstr "Takvim Programları"
+
+#: /Plugin/Utils/Model/Behavior/ToggleableBehavior.php:93
+msgid "Invoices"
+msgstr "Faturalar"
+
+#: /Plugin/Utils/Model/Behavior/ToggleableBehavior.php:93
+msgid "Reports"
+msgstr "Raporlar"
+
+#: /Plugin/Utils/Model/Behavior/ToggleableBehavior.php:93
+msgid "Email & SMS"
+msgstr "E-posta ve SMS"
+
+#: /Plugin/Utils/Model/Behavior/ToggleableBehavior.php:93
+msgid "SMS Setting"
+msgstr "SMS Ayarı"
+
+#: /Plugin/Utils/Model/Behavior/ToggleableBehavior.php:93
+msgid "Expense / Inventory"
+msgstr "Gider / Envanter"
+
+#: /Plugin/Utils/Model/Behavior/ToggleableBehavior.php:93
+msgid "Inventory"
+msgstr "Envanter"
+
+#: /Plugin/Utils/Model/Behavior/ToggleableBehavior.php:93
+msgid "System User"
+msgstr "Sistem Kullanıcısı"
+
+#: /Plugin/Utils/Model/Behavior/ToggleableBehavior.php:93
+msgid "Contents"
+msgstr "İçindekiler"
+
+#: /Plugin/Utils/Model/Behavior/ToggleableBehavior.php:93
+msgid "Configurations"
+msgstr "Yapılandırmalar"
+
+#: /Plugin/Utils/Model/Behavior/ToggleableBehavior.php:93
+msgid "Feature"
+msgstr "Özellik"
+
+#: /Plugin/Utils/Model/Behavior/ToggleableBehavior.php:93
+msgid "Load Editor"
+msgstr "yük Editör"
+
+#: /Utility/CakeTime.php:1
+msgid "Jan"
+msgstr "ocak"
+
+#: /Utility/CakeTime.php:1
+msgid "Feb"
+msgstr "şubat"
+
+#: /Utility/CakeTime.php:1
+msgid "Mar"
+msgstr "mart"
+
+#: /Utility/CakeTime.php:1
+msgid "Apr"
+msgstr "nisan"
+
+#: /Utility/CakeTime.php:1
+msgid "Jun"
+msgstr "haziran"
+
+#: /Utility/CakeTime.php:1
+msgid "Jul"
+msgstr "temmuz"
+
+#: /Utility/CakeTime.php:1
+msgid "Aug"
+msgstr "ağustos"
+
+#: /Utility/CakeTime.php:1
+msgid "Sep"
+msgstr "eylül"
+
+#: /Utility/CakeTime.php:1
+msgid "Oct"
+msgstr "ekim"
+
+#: /Utility/CakeTime.php:1
+msgid "Nov"
+msgstr "kasım"
+
+#: /Utility/CakeTime.php:1
+msgid "Dec"
+msgstr "aralık"
+
+#: View/Widget/DateTimeWidget.php:530
+msgid "January"
+msgstr "Ocak ayı"
+
+#: View/Widget/DateTimeWidget.php:531
+msgid "February"
+msgstr "Mart"
+
+#: View/Widget/DateTimeWidget.php:532
+msgid "March"
+msgstr "Mart"
+
+#: View/Widget/DateTimeWidget.php:533
+msgid "April"
+msgstr "Nisan"
+
+#: View/Widget/DateTimeWidget.php:534
+msgid "May"
+msgstr "mayıs \t"
+
+#: View/Widget/DateTimeWidget.php:535
+msgid "June"
+msgstr "Haziran"
+
+#: View/Widget/DateTimeWidget.php:536
+msgid "July"
+msgstr "Temmuz"
+
+#: View/Widget/DateTimeWidget.php:537
+msgid "August"
+msgstr "Ağustos"
+
+#: View/Widget/DateTimeWidget.php:538
+msgid "September"
+msgstr "Eylül"
+
+#: View/Widget/DateTimeWidget.php:539
+msgid "October"
+msgstr "Ekim"
+
+#: View/Widget/DateTimeWidget.php:540
+msgid "November"
+msgstr "Kasım"
+
+#: View/Widget/DateTimeWidget.php:541
+msgid "December"
+msgstr "Aralık"
+
+#: View/Widget/DateTimeWidget.php:541
+msgid "Paid"
+msgstr "ÖDENEN"
+
+#: View/Widget/DateTimeWidget.php:541
+msgid "Partial"
+msgstr "Kısmi"

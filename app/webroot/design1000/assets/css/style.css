@@ -1,0 +1,18 @@
+.property-detail-map-wrapper {position: relative;height: 340px;}
+.property-detail-map-wrapper .property-detail-map {height: 100%;position: absolute;right: 0;width: 100%;}
+.property-detail-map {width: 100% !important;}
+#submit-map {margin-bottom: 20px;}
+#submit-map {height: 320px;width: 100%;}
+.social-space{height: 23px;line-height: 26px;}
+.listing-compare-col {
+    padding: 2px 20px;
+}
+.listing-compare-list li {
+    padding: 12.45px 0;
+}
+.header-top {
+    padding: 0px 1000px;
+}
+.form-control {
+    font-size: 12px;
+}

@@ -1,0 +1,116 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2017-01-03 20:07+0530\n"
+"PO-Revision-Date: 2017-01-03 20:10+0530\n"
+"Language-Team: EMAIL@ADDRESS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.7\n"
+"Last-Translator: \n"
+"Language: tr\n"
+
+#: Config/elfinder.php:4
+msgid "File Manager"
+msgstr "Dosya yöneticisi"
+
+#: app/plugin/admin/model/Agent.php:6
+msgid "Only letters and numbers allowed"
+msgstr "izin verilen tek harfler ve rakamlar"
+
+#: app/plugin/admin/model/Agent.php:7
+msgid "Address Required."
+msgstr "Adres Gerekli."
+
+#: app/plugin/admin/model/Agent.php:9 app/plugin/admin/model/Etcpayment.php:9
+msgid "Only numbers allowed"
+msgstr "Sadece numaralar izin"
+
+#: app/plugin/admin/model/Agent.php:11
+msgid "Please select"
+msgstr "Lütfen seçin"
+
+#: app/plugin/admin/model/Agent.php:12
+msgid "Only Alphabets"
+msgstr "sadece alfabe"
+
+#: app/plugin/admin/model/Client.php:15
+msgid "Only Number"
+msgstr "Sadece Sayı"
+
+#: app/plugin/admin/model/Client.php:18
+msgid "Only Date"
+msgstr "Sadece Tarih"
+
+#: app/plugin/admin/model/Client.php:20
+msgid "Enter a valid email"
+msgstr "Geçerli bir e-posta girin"
+
+#: app/plugin/admin/model/Client.php:21
+msgid "This Email has already been exist! try new one"
+msgstr "Bu e-posta zaten mevcut olmuştur! Yeni bir deneyin"
+
+#: app/plugin/admin/model/Client.php:23
+msgid "This Mobile has already been exist! try new one"
+msgstr "Bu Mobil zaten var! Yenisini denemek"
+
+#: app/plugin/admin/model/Client.php:24
+msgid "File does not have a valid extension"
+msgstr "Dosya geçerli bir uzantısı yok"
+
+#: app/plugin/admin/model/Client.php:25
+msgid "You must supply a JPG, GIF  or PNG File."
+msgstr "Bir JPG, GIF veya PNG dosyası sağlamanız gerekir."
+
+#: app/plugin/admin/model/Configuration.php:8
+msgid "Only URL allowed"
+msgstr "Yalnızca URL'ye izin verilir"
+
+#: app/plugin/admin/model/Currency.php:16
+msgid "You must supply image height is less than 50px"
+msgstr "Görüntü yüksekliği 50px daha az sağlamanız gerekir"
+
+#: app/plugin/admin/model/Currency.php:17
+msgid "You must supply image width is less than 50px"
+msgstr "Sen 50px daha az görüntü genişliği sağlamalısınız"
+
+#: app/plugin/admin/model/Deal.php:9
+msgid "This Invoice No. has already been taken."
+msgstr "Bu Fatura Numarası zaten alınmıştır."
+
+#: app/plugin/admin/model/Deal.php:12 app/plugin/admin/model/Purchase.php:13
+msgid "Please Select an item in the list"
+msgstr "Lütfen listeden bir öğe seçin"
+
+#: app/plugin/admin/model/Emailsetting.php:8
+msgid "Password required"
+msgstr "şifre gerekli"
+
+#: app/plugin/admin/model/Etcpayment.php:8
+msgid "short Required."
+msgstr "Kısa Gerekli."
+
+#: app/plugin/admin/model/Lead.php:12
+msgid "Only Date & Time"
+msgstr "Sadece Tarih ve Saat"
+
+#: app/plugin/admin/model/Planspayment.php:12
+msgid "This Deal has already been set plan payment! please edit it"
+msgstr "Bu Fırsat zaten plan ödeme yapılmadı! Lütfen düzenle"
+
+#: app/plugin/admin/model/PropertiesFlat.php:8
+msgid "Please select one of these options."
+msgstr "Lütfen bu seçeneklerden birini seçin."
+
+#: app/plugin/admin/model/User.php:7
+msgid "This Username has already been taken."
+msgstr "Bu Kullanıcı adı zaten alındı."
+
+#: app/plugin/admin/model/Weblogo.php:17
+msgid "You must supply image height is less than 220px"
+msgstr "Görüntü yüksekliğini girmelisiniz az 220px olduğunu"
